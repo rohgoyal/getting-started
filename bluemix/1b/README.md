@@ -103,16 +103,20 @@ _We'll visit security with API Keys in the next tutorial_
 
 14. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the right target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.  
  A. First, delete the **invoke** policy that may already be added to the _canvas_.  
+ 
  B. Then, from the _palette_, drag the **Operation Switch** and drop it on the canvas.  
     - To **case 0**, assign the **get /current** operation.
     - Add a new Case -- **case 1**.
     - To **case 1**, assign the **get /today** operation.  
+    
  C. The **Operation Switch**  provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked.  
+ 
  D. Drag the **invoke** policy from the _palette_ and drop it on the canvas. Drop one in the **/get current** path, and one in the **/get today** path.  
     - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".
     - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode={zipcode}.
     - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".
     - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}.  
+    
  E. Save your API.  
 
 ##! screenshot
@@ -122,15 +126,15 @@ _We'll visit security with API Keys in the next tutorial_
 ### Test your API proxy
 1. In the **Assemble** tab, click **More Actions > Generate a default product**.
 
-2. Accept the default options in the **New Product** dialog popup, and click **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog
+2. Accept the default options in the **New Product** dialog popup, and click **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog.
   - _In API Connect, **Products** provide a mechanism to group APIs that intended for a particular use. Products are published to a **Catalog**. [Reference: API Connect glossary]_
 
 3. Save and click ► to test the API service. 
 
-4. Choose the newly created default product, and the **get /current** operation
+4. Choose the newly created default product, and the **get /current** operation.
   - Zipcode is a required parameter for this operation, so enter a valid US zip (e.g. 90210).
-  - Click **invoke**, and verify that you see:
-    - 200 OK response
-    - current weather data for 90210
+  - Click **invoke** and verify that you see:
+    - 200 OK response.
+    - Current weather data for 90210.
 
 ##! screenshot
