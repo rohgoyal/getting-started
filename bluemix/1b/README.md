@@ -43,8 +43,8 @@ _The Name and Base Path are auto-populated_
 
 7. Once your API is created, you are taken to the **Design** tab.
 - Scroll down to the **Host** panel, and note the value that's filled in: ```$(catalog.host)```.
-- In the **Base Path** panel, note the auto-populated value: ```/weather-provider-api```
-- Your API's target URL will be created from these values
+- In the **Base Path** panel, note the auto-populated value: ```/weather-provider-api```.
+- Your API's target URL will be created from these values.
 
 8. Scroll down to the **Security** tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated. 
 _We'll visit security with API Keys in the next tutorial_  
