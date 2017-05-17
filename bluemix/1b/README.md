@@ -101,9 +101,9 @@ _We'll visit security with API Keys in the next tutorial_
 
 ##! screenshot
 
-14. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the right target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.
-  a. First, delete the **invoke** policy that may already be added to the _canvas_.
-  b. Then, from the _palette_, drag the **Operation Switch** and drop it on the canvas.
+14. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the right target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.  
+  a. First, delete the **invoke** policy that may already be added to the _canvas_.  
+  b. Then, from the _palette_, drag the **Operation Switch** and drop it on the canvas.  
     - To **case 0**, assign the **get /current** operation.
     - Add a new Case -- **case 1**.
     - To **case 1**, assign the **get /today** operation.
