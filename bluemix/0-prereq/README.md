@@ -18,21 +18,22 @@
 
 
 - Sign up for your **IBMid** and create your **Bluemix** account: https://console.ng.bluemix.net/registration/
+
 - _Already have an IBMid? Then skip the registration, and just create your free Bluemix account:_ _https://console.ng.bluemix.net/_  
 
 
-- Create your **API Connect** instance:
+- Once you have your IBMid and Bluemix account, Create your **API Connect** instance:
   - Log in to **Bluemix** — IBM’s cloud platform: https://new-console.ng.bluemix.net/login  
-  ![](bluemix/0-prereq/images/prereqs-1.png)  
+  ![](images/prereqs-1.png)  
 
   - Create your _organization_ in **Bluemix** (you will be prompted to do the first time you log in)  
-  ![](bluemix/0-prereq/images/prereqs-2.png)
+  ![](images/prereqs-2.png)
   - Create your _space_  
-  ![](bluemix/0-prereq/images/prereqs-3.png)
+  ![](images/prereqs-3.png)
   - Go to   https://console.ng.bluemix.net/catalog/services/api-connect  
-  ![](bluemix/0-prereq/images/prereqs-4.png)  
+  ![](images/prereqs-4.png)  
 
   - Select the _Essentials_ pricing plan (free), and click **Create** to get started  
-  ![](bluemix/0-prereq/images/prereqs-5.png)  
+  ![](images/prereqs-5.png)  
 
   
