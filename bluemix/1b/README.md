@@ -72,13 +72,13 @@ _We'll visit security with API Keys in the next tutorial_
 
  ##! screenshot
 
-10. Scroll back up to the **Paths** panel.
+11. Scroll back up to the **Paths** panel.
 - Open the **GET /current** operation, and scroll to the **Responses** section.
 - Change the schema of the 200OK response from "object" to "**Current**".
 - Save your API.
 - The path and operation you created was to get the current weather data. Next you'll need to create the same to get today's weather data.  
 
-11. Create a new path: **/today**.
+12. Create a new path: **/today**.
     - Add a new Parameter under the **GET /today** operation
       - Parameter Name: zipcode
       - Located in: Query
@@ -87,7 +87,7 @@ _We'll visit security with API Keys in the next tutorial_
 
 ##! screenshot
 
-12. Create a new definition: **Today**
+13. Create a new definition: **Today**
 - Add new properties for the **Today** definition
   - Name: zip / Type: string
   - Name: hi / Type: integer
@@ -101,7 +101,7 @@ _We'll visit security with API Keys in the next tutorial_
 
 ##! screenshot
 
-13. Switch over to the **Assemble** tab.
+14. Switch over to the **Assemble** tab.
   -  You've got two operations so far: **GET /current** and **GET /today**. To ensure the right target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.
   a. First, delete the **invoke** policy that may already be added to the _canvas_
   b. Then, from the _palette_, drag the **Operation Switch** and drop it on the canvas
