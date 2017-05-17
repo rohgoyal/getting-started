@@ -1,6 +1,6 @@
 # Add a new API spec and invoke an existing REST service
-Duration: 10 mins  
-Skill level: Beginner  
+**Duration**: 10 mins  
+**Skill level**: Beginner  
 
 
 ### Objective
