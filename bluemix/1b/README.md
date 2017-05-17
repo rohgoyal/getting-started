@@ -3,13 +3,13 @@ Duration: 5 mins
 Skill level: Beginner  
 
 
-#### Objective
+### Objective
 This tutorial is to help you get started quickly with **API Connect**. We'll start by creating a new OpenAPI spec, and then proxy existing REST services used by the sample weather app.
 
 ---
 
 
-#### Explore the sample app, and test the target endpoints
+### Explore the sample app, and test the target endpoints
 A sample _weather provider_ app has been created for this tutorial
 - Explore this app here: http://gettingstartedweatherapp.mybluemix.net/
 - Enter a valid 5-digit US zipcode to get the _**current weather**_ and _**today's forecast**_  
@@ -27,7 +27,7 @@ A sample _weather provider_ app has been created for this tutorial
 
 ---
 
-#### Add a new OpenAPI spec and invoke an existing REST service
+### Add a new OpenAPI spec and invoke an existing REST service
 - Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login
 - In the Bluemix navigation panel (left hand), select **Services** and click **Dashboard**
 - Launch the API Connect service
@@ -123,7 +123,7 @@ _We'll visit security with API Keys in the next tutorial_
 
 ---
 
-#### Test your API proxy
+### Test your API proxy
 - In the **Assemble** tab, click **More Actions > Generate a default product**
   - Accept the default options in the **New Product** dialog popup, and click **Create Product**
   - The **Weather Provider API product** is created and published to the Sandbox catalog
@@ -134,4 +134,5 @@ _We'll visit security with API Keys in the next tutorial_
   - Click **invoke**, and verify that you see:
     - 200 OK response
     - current weather data for 90210
+
 ##! screenshot
