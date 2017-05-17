@@ -106,17 +106,17 @@ _We'll visit security with API Keys in the next tutorial_
  A. First, delete the **invoke** policy that may already be added to the _canvas_.  
  
  B. Then, from the _palette_, drag the **Operation Switch** and drop it on the canvas.  
-    - To **case 0**, assign the **get /current** operation.  
-    - Add a new Case -- **case 1**.  
-    - To **case 1**, assign the **get /today** operation.  
+   - To **case 0**, assign the **get /current** operation.  
+   - Add a new Case -- **case 1**.  
+   - To **case 1**, assign the **get /today** operation.  
     
  C. The **Operation Switch**  provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked.  
  
  D. Drag the **invoke** policy from the _palette_ and drop it on the canvas. Drop one in the **/get current** path, and one in the **/get today** path.  
-    - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
-    - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode={zipcode}.  
-    - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
-    - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}.  
+   - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
+   - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode={zipcode}.  
+   - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
+   - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}.  
     
  E. Save your API.  
 
