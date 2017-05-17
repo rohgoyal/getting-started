@@ -1,5 +1,5 @@
 # Add a new API spec and invoke an existing REST service
-Duration: 5 mins  
+Duration: 10 mins  
 Skill level: Beginner  
 
 
