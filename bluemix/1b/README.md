@@ -112,7 +112,7 @@ _We'll visit security with API Keys in the next tutorial_
     - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".
     - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode={zipcode}.
     - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".
-    - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}.
+    - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}.  
   E. Save your API.  
 
 ##! screenshot
