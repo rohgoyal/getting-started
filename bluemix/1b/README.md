@@ -79,11 +79,11 @@ _We'll visit security with API Keys in the next tutorial_
 - The path and operation you created was to get the current weather data. Next you'll need to create the same to get today's weather data.  
 
 12. Create a new path: **/today**.
-    - Add a new Parameter under the **GET /today** operation
-      - Parameter Name: zipcode
-      - Located in: Query
-      - Required: Yes (check mark)
-      - Type: string  
+ - Add a new Parameter under the **GET /today** operation
+  - Parameter Name: zipcode
+  - Located in: Query
+  - Required: Yes (check mark)
+  - Type: string  
 
 ##! screenshot
 
