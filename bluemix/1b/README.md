@@ -71,27 +71,27 @@ _(We'll visit security with API Keys in the next tutorial)_
 
 
 10. Scroll back up to the **Paths** panel.
-    - Open the **GET /current** operation, and scroll to the **Responses** section.
-    - Change the schema of the 200OK response from "object" to "**Current**".
-    - Save your API.
-    - The path and operation you created was to get the current weather data. Next you'll need to create the same to get today's weather data.  
+  - Open the **GET /current** operation, and scroll to the **Responses** section.
+  - Change the schema of the 200OK response from "object" to "**Current**".
+  - Save your API.
+  - The path and operation you created was to get the current weather data. Next you'll need to create the same to get today's weather data.  
 
 11. Create a new path: **/today**.
-    - Add a new Parameter under the **GET /today** operation.
-      - Parameter Name: zipcode
-      - Located in: Query
-      - Required: Yes (check mark)
-      - Type: string  
+  - Add a new Parameter under the **GET /today** operation.
+    - Parameter Name: zipcode
+    - Located in: Query
+    - Required: Yes (check mark)
+    - Type: string  
 
 12. Create a new definition: **Today**.
-    - Add new properties for the **Today** definition.
-      - Name: zip / Type: string
-      - Name: hi / Type: integer
-      - Name: lo / Type: integer
-      - Name: nightHumidity / Type: integer
-      - Name: dayHumidity / Type: integer
-      - Name: city / Type: string
-      - Name: state / Type: string
+  - Add new properties for the **Today** definition.
+    - Name: zip / Type: string
+    - Name: hi / Type: integer
+    - Name: lo / Type: integer
+    - Name: nightHumidity / Type: integer
+    - Name: dayHumidity / Type: integer
+    - Name: city / Type: string
+    - Name: state / Type: string
   - Update the response schema in the **GET /today** section to "Today".
   - Save your API.
 
@@ -118,7 +118,7 @@ D. Save your API.
 ---
 
 #### Test your API proxy
-1, In the **Assemble** tab, select **More Actions > Generate a default product**.
+1. In the **Assemble** tab, select **More Actions > Generate a default product**.
 
 2. Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog.
   - _In API Connect, **Products** provide a mechanism to  group APIs that intended for a particular use. Products are published to a **Catalog**.  [Reference: API Connect glossary]_
