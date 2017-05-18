@@ -44,7 +44,7 @@ _The Name and Base Path are auto-populated_
 
 
 7. Scroll down to the **Security** tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.  
-_(We'll visit security with API Keys in the next tutorial)_  
+_(We'll visit security with API Keys in the next tutorial.)_  
 
 
 8. In the **Paths** panel, create a new path.
