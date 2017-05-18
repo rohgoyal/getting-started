@@ -3,13 +3,13 @@
 **Skill level**: Beginner  
 
 
-#### Objective
+### Objective
 This tutorial is to help you get started quickly with **API Connect**. We'll start by creating a new OpenAPI spec, and then proxy existing REST services used by the sample weather app.
 
 ---
 
 
-#### Explore the sample app and test the target endpoints
+### Explore the sample app and test the target endpoints
 A sample _weather provider_ app has been created for this tutorial.
 1. Explore this app here: http://gettingstartedweatherapp.mybluemix.net/.
 2. Enter a valid 5-digit US zipcode to get the _**current weather**_ and _**today's forecast**_. 
@@ -27,7 +27,7 @@ A sample _weather provider_ app has been created for this tutorial.
 
 ---
 
-#### Add a new OpenAPI spec and invoke an existing REST service
+### Add a new OpenAPI spec and invoke an existing REST service
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
 2. In the Bluemix navigation panel on the left hand, select **Services** and click **Dashboard**. Launch the API Connect service.
 3. In API Connect, select **Drafts > APIs**.
@@ -100,24 +100,24 @@ _(We'll visit security with API Keys in the next tutorial)_
 A. First, delete the **invoke** policy that may already be added to the _canvas_.  
 
 B. Then, from the _palette_, drag the **Operation Switch** and drop it on the canvas.  
-  - To **case 0**, assign the **get /current** operation
-  - Add a new Case -- **case 1**
-  - To **case 1**, assign the **get /today** operation
+  - To **case 0**, assign the **get /current** operation.
+  - Add a new Case: **case 1**.
+  - Assign the **get /today** operation to **case 1**.
     ![](images/assemble-1.png)
-  - The **Operation Switch**  provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked.
+  - The **Operation Switch** provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked.
 
 C. Drag the **invoke** policy from the _palette_ and drop it on the canvas. Drop one in the **/get current** path, and one in the **/get today** path.
-  - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**"
-  - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode={zipcode}  
-  - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**"
-  - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}  
+  - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
+  - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode={zipcode}.  
+  - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
+  - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}.  
 
 D. Save your API.
 ![](images/assemble-1.png)
 
 ---
 
-#### Test your API proxy
+### Test your API proxy
 1. In the **Assemble** tab, select **More Actions > Generate a default product**.
 
 2. Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog.
