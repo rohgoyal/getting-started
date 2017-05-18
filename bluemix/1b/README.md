@@ -29,7 +29,7 @@ A sample _weather provider_ app has been created for this tutorial.
 
 ### Add a new OpenAPI spec and invoke an existing REST service
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
-2. In the Bluemix navigation panel on the left hand, select **Services** and click **Dashboard**. Launch the API Connect service.
+2. In the Bluemix navigation panel on the left hand, select **Services** and select the **Dashboard**. Launch the API Connect service.
 3. In API Connect, select **Drafts > APIs**.
   ![](images/create-new-1.png)
 4. In the New API pop-up, enter "Weather Provider API" for the title.
