@@ -42,7 +42,7 @@ Completed Part 1: Import your API and proxy an existing service
 
   
 
-##Test the changes made to your API##
+## Test the changes made to your API
 
 1. In the Assemble tab, click the ► button to test your changes
 
@@ -66,7 +66,7 @@ Completed Part 1: Import your API and proxy an existing service
 
 
 
-##Call your API using the Client ID and Client Secret (optional)##
+## Call your API using the Client ID and Client Secret (optional)
 
 The security settings can also be tested using the Explore tool that explicitly calls the proxy endpoint, and passes the Client ID and Client Secret keys as header values.
 
