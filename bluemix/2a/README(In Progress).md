@@ -12,7 +12,7 @@ This tutorial is to guide you through securing your API with the keys so that an
 
 ## Prerequisites
 
-Completed Part 1: Import your API and proxy an existing service
+Completed Part 1a: Import your API spec, and proxy an existing REST service
 
 
 ## Set the identification mechanism of your API
@@ -26,7 +26,6 @@ Completed Part 1: Import your API and proxy an existing service
 4. Name: Client ID;  Parameter name: X-IBM-Client-ID
 
 5. Name: Client Secret;  Parameter name: X-IBM-Client-Secret
-![](https://ibm.box.com/shared/static/uyv23n7zl4itu091knjwfczhqjvocmbp.jpg)
 
 6. For both new keys, ensure that the "Located In" field is set to "Header"
 
@@ -35,10 +34,7 @@ Completed Part 1: Import your API and proxy an existing service
 8. Select the newly created Client ID and Client Secret keys
 
 9. Save your API, and switch over to the Assemble tab
-![](https://ibm.box.com/shared/static/oogendl4fe9rnwbe04luey9gwgx9lkdk.jpg)
 
-> < screenshots > create from screen recording  
-> < screen recording https://ibm.box.com/s/t8btx2uwe68cmhhayyrya9hloybnzi14 > only for internal use
 
   
 
@@ -61,8 +57,6 @@ Completed Part 1: Import your API and proxy an existing service
 7. Rerun the test by clicking invoke
 
 8. You'll see a 401 Unauthorized response, along with details: "Client ID not registered"
-![](https://ibm.box.com/shared/static/53njkbxo6kllqdh2ukdg0v7rjtfjn0nn.jpg)
-
 
 
 
