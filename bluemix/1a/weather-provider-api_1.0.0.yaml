@@ -1,80 +1,116 @@
----
-swagger: "2.0"
+swagger: '2.0'
 info:
-  title: "Weather Provider API"
-  version: "1.0.0"
-  x-ibm-name: "weather-provider-api"
-host: "myweatherprovider.mybluemix.net"
+  title: Weather Provider API
+  version: 1.0.0
+  x-ibm-name: weather-provider-api
+host: myweatherprovider.mybluemix.net
 schemes:
-- "https"
-basePath: "/"
+  - https
+basePath: /
 produces:
-- "application/json"
+  - application/json
 paths:
   /current:
     get:
-      summary: "Current Weather"
+      summary: Current Weather
       parameters:
-      - name: "zipcode"
-        in: "query"
-        description: "A valid 5-digit US zip code"
-        required: true
-        type: "string"
+        - name: zipcode
+          in: query
+          description: A valid 5-digit US zip code
+          required: true
+          type: string
       responses:
-        200:
-          description: "Success"
+        '200':
+          description: Success
           schema:
-            $ref: "#/definitions/Current"
+            $ref: '#/definitions/Current'
   /today:
     get:
       summary: "Today's Weather"
       parameters:
-      - name: "zipcode"
-        in: "query"
-        description: "A valid 5-digit US zip code"
-        required: true
-        type: "string"
+        - name: zipcode
+          in: query
+          description: A valid 5-digit US zip code
+          required: true
+          type: string
       responses:
-        200:
-          description: "Profile information for a user"
+        '200':
+          description: Profile information for a user
           schema:
-            $ref: "#/definitions/Today"
+            $ref: '#/definitions/Today'
 definitions:
   Today:
-    type: "object"
+    type: object
     properties:
       zip:
-        type: "string"
+        type: string
       hi:
-        type: "integer"
+        type: integer
       lo:
-        type: "integer"
+        type: integer
       nightHumidity:
-        type: "integer"
+        type: integer
       city:
-        type: "string"
+        type: string
       state:
-        type: "string"
+        type: string
       dayHumidity:
-        type: "integer"
+        type: integer
   Current:
-    type: "object"
+    type: object
     properties:
       zip:
-        type: "string"
+        type: string
       temperature:
-        type: "integer"
+        type: integer
       humidity:
-        type: "integer"
+        type: integer
       city:
-        type: "string"
+        type: string
       state:
-        type: "string"
+        type: string
 x-ibm-configuration:
   enforced: true
   testable: true
-  phase: "realized"
+  phase: realized
   cors:
     enabled: true
+  assembly:
+    execute:
+      - operation-switch:
+          title: operation-switch
+          case:
+            - operations:
+                - verb: get
+                  path: /current
+              execute:
+                - invoke:
+                    title: invoke-current
+                    timeout: 60
+                    verb: GET
+                    cache-response: protocol
+                    cache-ttl: 900
+                    stop-on-error:
+                      - null
+                    version: 1.0.0
+                    target-url: 'https://myweatherprovider.mybluemix.net/current?zipcode={zipcode}'
+            - operations:
+                - verb: get
+                  path: /today
+              execute:
+                - invoke:
+                    title: invoke-today
+                    timeout: 60
+                    verb: GET
+                    cache-response: protocol
+                    cache-ttl: 900
+                    stop-on-error:
+                      - null
+                    version: 1.0.0
+                    description: ''
+                    target-url: 'https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}'
+          otherwise: []
+          version: 1.0.0
+    catch: []
 consumes:
-- "application/json"
+  - application/json
