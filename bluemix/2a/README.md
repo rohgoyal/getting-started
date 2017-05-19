@@ -45,12 +45,10 @@ Completed Part 1a: Import your API spec, and proxy an existing REST service
 2. In the Test / Setup, choose to Republish the product to pickup the changes. This option updates your API product, and also publishes it to the catalog
 
 3. Scroll down in the Test panel, and notice that the Client ID and Client Secret values have already been populated. These are test values that are generated for your sandbox, and represent the keys of the application that will be using your API. [ Note: The Client ID and Client Secret keys can also be found under  Dashboard > Catalog > Settings > Endpoints ]
-![](https://ibm.box.com/shared/static/lleen2lw1vo4bgdwobumk2s5bznp0izw.jpg)
 
 4. Scroll further down, and click invoke
 
 5. You should get a 200 OK response, along with the message body returning the branch details
-![](https://ibm.box.com/shared/static/tr85ot2eynvgye7f3jg6btvcwrsr14tk.jpg)
 
 6. Now scroll back up to the Client ID field, and replace the value with a random one
 
