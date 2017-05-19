@@ -46,9 +46,9 @@ Completed Part 1a: Import your API spec, and proxy an existing REST service
 
 3. Scroll down in the Test panel, and notice that the Client ID and Client Secret values have already been populated. These are test values that are generated for your sandbox, and represent the keys of the application that will be using your API. [ Note: The Client ID and Client Secret keys can also be found under  Dashboard > Catalog > Settings > Endpoints ]
 
-4. Scroll further down, and click invoke
+4. Scroll further down, enter an example zip code, and click invoke
 
-5. You should get a 200 OK response, along with the message body returning the branch details
+5. You should get a 200 OK response, along with the message body returning the weather information
 
 6. Now scroll back up to the Client ID field, and replace the value with a random one
 
@@ -64,7 +64,7 @@ The security settings can also be tested using the Explore tool that explicitly 
 
 1. Click Explore > Sandbox
 
-2. Click on the GET /branches operation from the list
+2. Click on the GET /current operation from the list
 
 3. In the right-hand column, use the Call Operation button to rerun the test
 
