@@ -49,18 +49,18 @@
 - Currenly, only "header" security is available.  We will be adding *Query* support soon.  
 
 - Select *API Key* or *API Key and Secret*  You can also customize the parameters from *X-IBM-Client-ID* to anything you want - X-My-API-Key for example.
-    ![API Key Image](images/2 Security.jpeg)
+    ![API Key Image](images/2%20Security.jpeg)
 - When you involk you API, your header "key" will be your Key/Secret name (*X-IBM-Client-ID* for example) and the "Value" will be the API key or secret (will create it in a few seconds)
 
 #### Adding Rate Limiting
 - Rate limiting is an important part of API Security and Control.  It limits the API involcations on a "Per API Key" basis, so no one user can overwhelm your underlying resources. 
 - Select the number of API Calls and the Unit (Per second, minute, hour, day)
- ![API Key Image](images/3 rate limiting.jpeg)
+ ![API Key Image](images/3%20rate%20limiting.jpeg)
 
 #### Adding User Level Security (OAUTH 2.0 Social Login Authenticaiton)
 - Social login is becoming commmon place and we can use that same Token to validate your application's users
 - Select your Social Login providor (Facebook, Google, or Github)
-    ![API Key Image](images/4 OAUTH.jpeg)
+    ![API Key Image](images/4%20OAUTH.jpeg)
 - If you do not have OAUTH set up yet for your application visit
     - [Google](https://developers.google.com/identity/sign-in/web/sign-in)
     - [Facebook](https://developers.facebook.com/docs/facebook-login)
@@ -72,7 +72,7 @@
 
 #### Navigating the rest of the API Management tool
 - Navigating is easy
-![API Key Image](images/5 Menu bar.jpeg)
+![API Key Image](images/5%20Menu%20bar.jpeg)
     - **Summary** shows the basics of the API, including analytics and logs
     - **Definition** is how you can modify the API Definition
     - **API Explorer** is where you can test the API and see how it looks to outside users
@@ -89,18 +89,26 @@
 
 #### API Explorer
 - The API explorer is a handy tool used to quickly test your API 
-![API Explorer](images/6 API Explorer.jpeg)
+![API Explorer](images/6%20API%20Explorer.jpeg)
     - You can get code snipits by selecting a programing langauge in the drop down 
     - You can test by API by selecting *try it* 
         - Note: If you selected API key and secret and/or OAUTH security, you will need those keys (tokens) to test the API
 
 #### Analytics and logs
 - You can access API Analytics and Logs from the *Summary* tab
-![Analytics and Logs](images/8 - Anaylitcs and Logs.jpeg)   
+![Analytics and Logs](images/8%20-%20Anaylitcs%20and%20Logs.jpeg)   
     - Tip: Click the **Refresh** button in the UI, not your browser's refresh, to get the latest analytics and logs. 
     - Analytics include
         - **Responses**: Total number of responses and breakdown of the response codes.  Hover over the **i** to get a breakdown (200s, 300s, 400s, 500s)
         - **Average Response Time**: Average response time (in MS) for all API Calls. 
         - **API Calls Graph**: Shows API Key level breakdown of responses over the past hour.
     - Logs allow you to dig into errors quicly.  We hold the last 100 logs for 7 days.  
+
+
+
+    
+
+
+
+
 
