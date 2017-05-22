@@ -115,7 +115,8 @@
   - **Average Response Time**: Average response time (in MS) for all API Calls. 
   - **API Calls Graph**: Shows API Key level breakdown of responses over the past hour.
 <br />
- - **Logs** allow you to dig into errors quicly.  We hold the last 100 logs for 7 days.  
+
+- **Logs** allow you to dig into errors quicly.  We hold the last 100 logs for 7 days.  
 
 
 
