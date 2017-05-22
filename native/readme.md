@@ -25,12 +25,12 @@
 
 - Once you have your IBMid and Bluemix account, Go to **Cloud Foundry*** or **create/push a runtime to CF**:
   - Log in to **Bluemix** — IBM’s cloud platform: https://new-console.ng.bluemix.net/login  
-  ![](getting-started/bluemix/0-prereq/images/prereqs-1.png)  
+  ![](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/images/prereqs-1.png)  
 
   - Create your _organization_ in **Bluemix** (you will be prompted to do the first time you log in)  
-  ![](getting-started/bluemix/0-prereq/images/prereqs-2.png)
+  ![](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/images/prereqs-2.png)
   - Create your _space_  
-  ![](getting-started/bluemix/0-prereq/images/prereqs-3.png)
+  ![](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/images/prereqs-3.png)
    - Go to _cloud foundry_ in **Bluemix** and [create a new applicaiton](https://console.ng.bluemix.net/docs/cli/plugins/bluemix_admin/index.html#clicreupbuildpack) or [push and existing one]( https://console.ng.bluemix.net/docs/starters/install_cli.html)  
 
 ### Now the fun begins.  Let's add API Security and Ratelimiting to an App!
@@ -73,6 +73,8 @@
 #### Navigating the rest of the API Management tool
 - Navigating is easy
 ![API Key Image](images/5%20Menu%20bar.jpeg)
+
+
     - **Summary** shows the basics of the API, including analytics and logs
     - **Definition** is how you can modify the API Definition
     - **API Explorer** is where you can test the API and see how it looks to outside users
@@ -81,6 +83,8 @@
 #### Create API Keys and share the documentaiton
 - Creating and sharing API keys is as easy as a few clicks.  Additionally, you can quickly share documentation with external users (those outside of your bluemix organization).
 ![Sharing Image](images/Sharing.jpeg)
+
+
     - Enable Bluemix Sharing by checking the *Share API with all users in my Bluemix Organization*
         - This will make your API visible to all developers in your Bluemix Organization at the *space* level (ie, all develpers in *test* will see this API, and be able to try it, create an API Key, and read the documentation)
     - Create an API Key by clicking on **Create API Key** under *Sharing Outside my Bluemix Organization*
@@ -90,6 +94,8 @@
 #### API Explorer
 - The API explorer is a handy tool used to quickly test your API 
 ![API Explorer](images/6%20API%20Explorer.jpeg)
+
+
     - You can get code snipits by selecting a programing langauge in the drop down 
     - You can test by API by selecting *try it* 
         - Note: If you selected API key and secret and/or OAUTH security, you will need those keys (tokens) to test the API
@@ -97,18 +103,14 @@
 #### Analytics and logs
 - You can access API Analytics and Logs from the *Summary* tab
 ![Analytics and Logs](images/8%20-%20Anaylitcs%20and%20Logs.jpeg)   
+
+
     - Tip: Click the **Refresh** button in the UI, not your browser's refresh, to get the latest analytics and logs. 
     - Analytics include
         - **Responses**: Total number of responses and breakdown of the response codes.  Hover over the **i** to get a breakdown (200s, 300s, 400s, 500s)
         - **Average Response Time**: Average response time (in MS) for all API Calls. 
         - **API Calls Graph**: Shows API Key level breakdown of responses over the past hour.
     - Logs allow you to dig into errors quicly.  We hold the last 100 logs for 7 days.  
-
-
-
-    
-
-
 
 
 
