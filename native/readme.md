@@ -41,8 +41,9 @@
 
 ### The Basics (Naming - uploading swagger)
 - Name you API (optional: you can upload a swagger/OpenAPI Spec, if you have it) 
-<br /> 
+<br /> <br />
 ![API Name Image](images/1%20API%20Name.jpeg)
+<br /> <br /> 
 - Uploads must be *.json* or *.yaml* and must be complant with OpenAPI Specifications
  
 ### Adding Applicaiton level Security
