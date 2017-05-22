@@ -96,22 +96,25 @@
 
 ### API Explorer
 - The API explorer is a handy tool used to quickly test your API <br /> <br />
-![API Explorer](images/6%20API%20Explorer.jpeg) <br /> <br />
-    - You can get code snipits by selecting a programing langauge in the drop down 
-    - You can test by API by selecting *try it* 
-        - Note: If you selected API key and secret and/or OAUTH security, you will need those keys (tokens) to test the API
+![API Explorer](images/6%20API%20Explorer.jpeg) 
+
+<br /> <br />
+ - You can get code snipits by selecting a programing langauge in the drop down 
+ - You can test by API by selecting *try it* 
+ - *Note: If you selected API key and secret and/or OAUTH security, you will need those keys (tokens) to test the API*
 
 ### Analytics and logs
 - You can access API Analytics and Logs from the *Summary* tab
-<br />
+<br /> <br />
 ![Analytics and Logs](images/8%20-%20Anaylitcs%20and%20Logs.jpeg) 
+
 <br />  <br />
  - Tip: Click the **Refresh** button in the UI, not your browser's refresh, to get the latest analytics and logs. 
-    - Analytics include
-        - **Responses**: Total number of responses and breakdown of the response codes.  Hover over the **i** to get a breakdown (200s, 300s, 400s, 500s)
-        - **Average Response Time**: Average response time (in MS) for all API Calls. 
-        - **API Calls Graph**: Shows API Key level breakdown of responses over the past hour.
-    - Logs allow you to dig into errors quicly.  We hold the last 100 logs for 7 days.  
+ -Analytics include
+  - **Responses**: Total number of responses and breakdown of the response codes.  Hover over the **i** to get a breakdown (200s, 300s, 400s, 500s)
+  - **Average Response Time**: Average response time (in MS) for all API Calls. 
+  - **API Calls Graph**: Shows API Key level breakdown of responses over the past hour.
+ - Logs allow you to dig into errors quicly.  We hold the last 100 logs for 7 days.  
 
 
 
