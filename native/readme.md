@@ -17,7 +17,7 @@
     <b>Optional Swagger/OpenAPI Spec</b>: The most used API tooling in the world, if you have a spec, you can upload it 
     
   </table>  
----
+  
 - Sign up for your **IBMid** and create your **Bluemix** account: https://console.ng.bluemix.net/registration/
 
 - _Already have an IBMid? Then skip the registration, and just create your free Bluemix account:_ _https://console.ng.bluemix.net/_  
@@ -40,8 +40,9 @@
 
 
 ### The Basics (Naming - uploading swagger)
- - Name you API (optional: you can upload a swagger/OpenAPI Spec, if you have it)
-    ![API Name Image](images/1 API Name.jpeg)
+- Name you API (optional: you can upload a swagger/OpenAPI Spec, if you have it) 
+<br /> 
+![API Name Image](images/1%20API%20Name.jpeg)
 - Uploads must be *.json* or *.yaml* and must be complant with OpenAPI Specifications
  
 ### Adding Applicaiton level Security
@@ -49,7 +50,9 @@
 - Currenly, only "header" security is available.  We will be adding *Query* support soon.  
 
 - Select *API Key* or *API Key and Secret*  You can also customize the parameters from *X-IBM-Client-ID* to anything you want - X-My-API-Key for example.
-    ![API Key Image](images/2%20Security.jpeg)
+<br /> <br /> 
+![API Key Image](images/2%20Security.jpeg)
+<br /> <br /> 
 - When you involk you API, your header "key" will be your Key/Secret name (*X-IBM-Client-ID* for example) and the "Value" will be the API key or secret (will create it in a few seconds)
 
 ### Adding Rate Limiting
@@ -74,10 +77,8 @@
 
 ### Navigating the rest of the API Management tool
 - Navigating is easy
-<br /> <br />
-![API Key Image](images/5%20Menu%20bar.jpeg)
-
-
+<br /> <br /> 
+![API Key Image](images/5%20Menu%20bar.jpeg) <br /> <br />
     - **Summary** shows the basics of the API, including analytics and logs
     - **Definition** is how you can modify the API Definition
     - **API Explorer** is where you can test the API and see how it looks to outside users
@@ -87,8 +88,6 @@
 - Creating and sharing API keys is as easy as a few clicks.  Additionally, you can quickly share documentation with external users (those outside of your bluemix organization). 
 <br /> <br />
 ![Sharing Image](images/Sharing.jpeg) <br /> <br />
-
-
     - Enable Bluemix Sharing by checking the *Share API with all users in my Bluemix Organization*
         - This will make your API visible to all developers in your Bluemix Organization at the *space* level (ie, all develpers in *test* will see this API, and be able to try it, create an API Key, and read the documentation)
     - Create an API Key by clicking on **Create API Key** under *Sharing Outside my Bluemix Organization*
@@ -98,8 +97,6 @@
 ### API Explorer
 - The API explorer is a handy tool used to quickly test your API <br /> <br />
 ![API Explorer](images/6%20API%20Explorer.jpeg) <br /> <br />
-
-
     - You can get code snipits by selecting a programing langauge in the drop down 
     - You can test by API by selecting *try it* 
         - Note: If you selected API key and secret and/or OAUTH security, you will need those keys (tokens) to test the API
@@ -107,10 +104,9 @@
 ### Analytics and logs
 - You can access API Analytics and Logs from the *Summary* tab
 <br />
-![Analytics and Logs](images/8%20-%20Anaylitcs%20and%20Logs.jpeg) <br />  <br />
-
-
-    - Tip: Click the **Refresh** button in the UI, not your browser's refresh, to get the latest analytics and logs. 
+![Analytics and Logs](images/8%20-%20Anaylitcs%20and%20Logs.jpeg) 
+<br />  <br />
+ - Tip: Click the **Refresh** button in the UI, not your browser's refresh, to get the latest analytics and logs. 
     - Analytics include
         - **Responses**: Total number of responses and breakdown of the response codes.  Hover over the **i** to get a breakdown (200s, 300s, 400s, 500s)
         - **Average Response Time**: Average response time (in MS) for all API Calls. 
