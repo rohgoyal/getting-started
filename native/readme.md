@@ -111,9 +111,9 @@
 <br />  <br />
  - *Tip: Click the **Refresh** button in the UI, not your browser's refresh, to get the latest analytics and logs. *
  -**Analytics include**
-  - **Responses**: Total number of responses and breakdown of the response codes.  Hover over the **i** to get a breakdown (200s, 300s, 400s, 500s)
-  - **Average Response Time**: Average response time (in MS) for all API Calls. 
-  - **API Calls Graph**: Shows API Key level breakdown of responses over the past hour.
+    - **Responses**: Total number of responses and breakdown of the response codes.  Hover over the **i** to get a breakdown (200s, 300s, 400s, 500s)
+    - **Average Response Time**: Average response time (in MS) for all API Calls. 
+    - **API Calls Graph**: Shows API Key level breakdown of responses over the past hour.
 <br />
 
 - **Logs** allow you to dig into errors quicly.  We hold the last 100 logs for 7 days.  
