@@ -1,6 +1,5 @@
 # Getting Started with IBM API Connect
 
-
 ### Index: /bluemix
 - [0-prereqs: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
 
@@ -14,3 +13,4 @@
 ### Index: /toolkit
 - [0-prereqs: Install Node.js and API Connect on laptop] (/toolkit/0-prereq/README.md)
 
+### Glossary
