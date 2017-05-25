@@ -159,8 +159,7 @@ The center pane displays summary information about the endpoint, including its p
 6. To test the REST endpoints in the API Explore tool, on the right pane click **Try it**, and then scroll down to **Parameters** and click **Generate** to generate some dummy data. By default, the generated data includes the ```type```, ```phone```, and ```id``` properties.  The ```id``` property is created by LoopBack for a given model and the value is automatically generated.  Remove the ```id``` property from the sample data and then click **Call operation**.
 ![](images/explore-test-2.png)
 >![troubleshooting]
->If you see an error message due to an untrusted certificate for localhost, click the link provided in the error message in API Explore to accept the certificate, then proceed to call the operations in your web browser. The exact procedure depends on the web browser you are using.
-If you load the REST endpoints directly in your browser, you will see the message: {"name":"PreFlowError","message":"unable to process the request"}. You must use API Explore to test REST endpoints in your browser because it includes the requisite headers and other request parameters.
+>If you see an error message due to an untrusted certificate for localhost, click the link provided in the error message in API Explore to accept the certificate, then proceed to call the operations in your web browser. The exact procedure depends on the web browser you are using.  If you load the REST endpoints directly in your browser, you will see the message: {"name":"PreFlowError","message":"unable to process the request"}. You must use API Explore to test REST endpoints in your browser because it includes the requisite headers and other request parameters.
 >![troubleshooting]
 >If you get a response code of **422 - Unprocessable Entity** with the following payload:
 >![](images/explore-test-3.png)
@@ -169,6 +168,7 @@ If you load the REST endpoints directly in your browser, you will see the messag
 ![](images/explore-test-4.png)
 8. To confirm that the operation added a model instance, click **branch.find** then click **Call operation** to display all branch instances. For example (with three model instances):
 ![](images/explore-test-5.png)
+
 
 ---
 ### What you did in this tutorial
