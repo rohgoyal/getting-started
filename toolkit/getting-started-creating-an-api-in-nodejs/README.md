@@ -160,15 +160,17 @@ The center pane displays summary information about the endpoint, including its p
 ![](images/explore-test-2.png)
 >![troubleshooting]
 >If you see an error message due to an untrusted certificate for localhost, click the link provided in the error message in API Explore to accept the certificate, then proceed to call the operations in your web browser. The exact procedure depends on the web browser you are using.  If you load the REST endpoints directly in your browser, you will see the message: {"name":"PreFlowError","message":"unable to process the request"}. You must use API Explore to test REST endpoints in your browser because it includes the requisite headers and other request parameters.
+>
 >![troubleshooting]
 >If you get a response code of **422 - Unprocessable Entity** with the following payload:
 >![](images/explore-test-3.png)
+>
 >The above error will occur if the the ```id``` data element has not been removed from the generated data.  Remove the ```id``` data element and re-run the test.
 7. Edit the values in the JSON shown in the **data** section. Try changing the generated dummy data, then click **Call operation** again. You should see the request and response parameters, along with the JSON instance data that you entered.
 ![](images/explore-test-4.png)
 8. To confirm that the operation added a model instance, click **branch.find** then click **Call operation** to display all branch instances. For example (with three model instances):
 ![](images/explore-test-5.png)
-
+9. 
 
 ---
 ### What you did in this tutorial
