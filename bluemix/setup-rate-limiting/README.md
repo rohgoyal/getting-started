@@ -131,6 +131,6 @@ We are ready to test this behavior and observe what happens when the application
 - To validate that the rate-limit resets, wait a minute, try again and confirm that you receive a valid response.
 
 
-## Congratulations!
+## Conclusion
 
-You have successfully created a rate-limiting plan, associated it with your secure APIs, and verified that your API only responds to requests within the parameters you specified.
+Congratulations! You have successfully created a rate-limiting plan, associated it with your secure APIs, and verified that your API only responds to requests within the parameters you specified.
