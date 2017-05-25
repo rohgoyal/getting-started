@@ -168,7 +168,10 @@ The center pane displays summary information about the endpoint, including its p
 >The above error will occur if the the ```id``` data element has not been removed from the generated data.  Remove the ```id``` data element and re-run the test.
 7. Edit the values in the JSON shown in the **data** section. Try changing the generated dummy data, then click **Call operation** again. You should see the request and response parameters, along with the JSON instance data that you entered.
 ![](images/explore-test-4.png)
-8. To confirm that the operation added a model instance, click **branch.find** then click **Call operation** to display all branch instances. For example (with three model instances):
+8. To confirm that the operation added a model instance, click **branch.find** then click **Call operation** to display all branch instances.  For example (with three model instances):
+![](images/explore-test-5.png)
+
+9. To confirm that the operation added a model instance, click **branch.find** then click **Call operation** to display all branch instances. For example (with three model instances):
 ![](images/explore-test-5.png)
 9. 
 
