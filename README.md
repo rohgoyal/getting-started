@@ -12,6 +12,6 @@
 
 ### Index: /toolkit
 - [0-prereqs: Install Node.js and API Connect on laptop] (/toolkit/0-prereq/README.md)
-- [Getting Started Creating an API in Node.js] (/toolkit/getting-started-creating-an-api-in-nodejs)
+- [Getting Started Creating an API in Node.js] (toolkit/getting-started-creating-an-api-in-nodejs/README.md)
 
 ### Glossary
