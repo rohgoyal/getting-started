@@ -2,6 +2,8 @@
 
 # Getting Started with IBM API Connect
 
+Welcome to API Connect!
+
 ### Index: /bluemix
 - [0-prereqs: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
 - [1a: Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
