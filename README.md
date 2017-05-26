@@ -16,3 +16,4 @@
 - [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
 
 ### Glossary
+[Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
