@@ -11,7 +11,7 @@
 - [Set Up Rate Limiting](/bluemix/setup-rate-limiting/README.md)
 
 ### Index: /toolkit
-- [0-prereqs: Install Node.js and API Connect on laptop] (https://github.com/ibm-apiconnect/getting-started/blob/master/toolkit/0-Prereq/README.md)
-- [Getting Started Creating an API in Node.js] (toolkit/getting-started-creating-an-api-in-nodejs/README.md)
+- [0-prereqs: Install Node.js and API Connect on laptop](/toolkit/0-Prereq/README.md)
+- [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
 
 ### Glossary
