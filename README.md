@@ -7,7 +7,7 @@
 - [1b: Create new API definitions and proxy an existing REST service](bluemix/1b/README.md)
 - [2a: Secure an API with Client-ID and Client-Secret keys](bluemix/2a/README.md)
 - [2b: Secure an API with two-legged OAuth (Application flow)](bluemix/2b/README.md)
--  ...
+- [Exposing a SOAP Service as REST](/bluemix/exposing-a-soap-service-as-rest/README.md)
 -
 
 ### Index: /toolkit
