@@ -2,7 +2,7 @@
 
 # Getting Started with IBM API Connect
 
-Welcome to API Connect!
+Welcome to API Connect! Let's get started.
 
 ### Index: /bluemix
 - [0-prereqs: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
