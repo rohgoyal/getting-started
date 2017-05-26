@@ -23,6 +23,5 @@ Welcome to API Connect!
 - [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
 - Getting Started Discovering APIs
 - Secure an API with Client-ID and Client-Secret Keys
-- 
 
 ### [Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
