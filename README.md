@@ -15,5 +15,4 @@
 - [0-prereqs: Install Node.js and API Connect on laptop](/toolkit/0-Prereq/README.md)
 - [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
 
-### Glossary
-[Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
+### [Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
