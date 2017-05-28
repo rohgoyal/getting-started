@@ -35,7 +35,7 @@ A sample _weather provider_ app has been created for this tutorial
   - In the **API Designer** navigation panel (left hand), click on **Drafts > APIs**
   - In the **APIs** panel, click on **Add > Import API from a file or URL**
   - In the "Import OpenAPI (Swagger) dialog box that pops up, enter this URL:
-https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/1a/weather-provider-api_1.0.0.yaml
+https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/1a-import/weather-provider-api_1.0.0.yaml
   - Leave the _Add a product_ option **unchecked**, and click **IMPORT**  
     ![](images/screenshot_import-url.png)  
 
@@ -55,10 +55,12 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 ### Test your API proxy
 ###### Test with the _API Manager test tool_
 - Swith over to the **Assemble** tab,
-  - Start the local test server by clicking on **Start servers** icon
+  - Start the local test server by clicking on **Start servers** icon at the bottom of the screenshot_start-server-1
     ![](images/screenshot_start-server-1.png)
 
 - Click ► to test your API proxy's target invocation
+    ![](images/screenshot_test-0.png)
+
   - In the test panel, select the **get /current** operation.  
   - Zipcode is a required parameter for this operation, so enter a valid US zip (e.g. 90210).  
   - Click **invoke**, and verify that you see:
@@ -67,15 +69,10 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
     ![](images/screenshot_test-1.gif)  
 
 
-
-
-###### Test with the _Explore tool_
+###### Test with the _Explore tool_  
 - To test your API proxy endpoints
-  - Click the _Explore_ button, and select **Sandbox**
-    ![](images/test-explore-1.png)
+  - Click the _Explore_ button
   - Click on the **GET /current** operation from the palette
   - Enter a valid US zipcode (e.g. 90210) in the test box
-  - Click **Call operation** to see the response
-  ![](images/test-explore-2.png)
-
-    ![](images/test-explore-3.png)
+  - Click **Call operation** to see the response  
+  ![](images/screenshot_explore.png)

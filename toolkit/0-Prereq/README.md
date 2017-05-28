@@ -22,27 +22,17 @@
 
     _Installing node.js also installs **npm** (Node Package Manager)_
 
-2.  Update **npm**   
+2.  Once Node.js is downloaded and install, check to make sure it is in your _PATH_
+    ![](images/verify-path.png)  
+
+
+3. Update **npm**   
     In a command line, enter `npm install -g npm`   
 
 
-3. Check the installed version and path
-   ```
-   APIC DEMO> node -v
-   v6.10.3
+4. Check the installed version and path
+   ![](images/screenshot_install_apic-1.png)  
 
-   APIC DEMO> which node
-   /usr/local/bin/node
-
-   APIC DEMO> npm -v
-   4.5.0
-
-   APIC DEMO> which npm
-   /usr/local/bin/npm
-
-   APIC DEMO> echo $PATH
-   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/npm
-   ```  
 
 
 ### Install the API Connect toolkit
@@ -54,3 +44,11 @@
 
 3. Check the installed version  
     `apic -v`
+
+
+### Install the Microgateway
+_We'll use the Microgateway as a local test server for this tutorial_
+
+ In a command line, enter `npm install -g microgateway`  
+
+ 
