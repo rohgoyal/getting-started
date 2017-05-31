@@ -30,7 +30,7 @@ To create a LoopBack project using the APIC toolkit command line, complete the f
 	```
 	>![info]
 	>You will create a project called weather-data
-2.  At the prompt, enter ```acme-bank``` as the project name. Then, press **Enter**.
+2.  At the prompt, enter ```weather-data``` as the project name. Then, press **Enter**.
 	```bash
 	? What's the name of your application? weather-data
 	```
@@ -67,7 +67,7 @@ An empty LoopBack project contains the following directories:
 To add a new model and data source to a LoopBack project using the API Designer, complete the following steps:
 #### Adding a data source
 To add a new data source to a LoopBack project using the API Designer, complete the following steps:
-1. You must also create a LoopBack project (the "acme-bank" project) as described in ```Create a LoopBack project from the command line``` and make sure the current working directory is the project root directory:
+1. You must also create a LoopBack project (the "weather-data" project) as described in ```Create a LoopBack project from the command line``` and make sure the current working directory is the project root directory:
 	```bash
 	cd weather-data
 	```
@@ -81,7 +81,7 @@ To add a new data source to a LoopBack project using the API Designer, complete 
 	```
 	Then the API Designer opens in your default web browser, initially displaying the login page if you haven't logged in recently.  
 	>![info]
-	>You can login using your BlueMix account.
+	>You can login using your BlueMix account.we
 3. Click the **Data Sources** icon ![](images/datasource-icon.png).
 4. Click **Add**. The New LoopBack Data Source window opens.
 5. Enter ```weatherDS``` in the **Name** text field.
@@ -100,7 +100,7 @@ To add a new model to a LoopBack project using the API Designer, complete the fo
 1. Click the **Models** icon ![](images/models-icon.png).
 2. Click **Add**. The New LoopBack Model window opens.
 3. Enter ```weather``` in the **Name** text field, then click **New**.
-4. In the **Data Source** field, select **bankDS**.
+4. In the **Data Source** field, select **weatherDS**.
 	![](images/new-model-1.png)
 5. In the **Properties** section, click the **Add property** icon ![](images/add-icon.png).
 6. In the **Property Name** text field, enter ```zipcode```.
