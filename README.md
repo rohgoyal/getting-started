@@ -10,7 +10,7 @@ Welcome to API Connect! Let's get started.
 - [1b: Create new API definitions and proxy an existing REST service](bluemix/1b/README.md)
 - Getting Started Managing a SOAP Service
 - Getting Started Discovering APIs
-- [Exposing a SOAP Service as REST](/bluemix/exposing-a-soap-service-as-rest/README.md)
+- [Exposing a SOAP Service as REST API](/bluemix/exposing-a-soap-service-as-rest/README.md)
 - [Secure an API with Client-ID and Client-Secret Keys](bluemix/2a/README.md)
 - [Secure an API with two-legged OAuth (Application flow)](bluemix/2b/README.md)
 - [Set Up Rate Limiting](/bluemix/setup-rate-limiting/README.md)
