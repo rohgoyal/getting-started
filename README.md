@@ -27,7 +27,8 @@ Welcome to API Connect! Let's get started.
 - [Secure an API with two-legged OAuth (Application flow)](bluemix/2b/README.md)
 - [Set Up Rate Limiting](/bluemix/setup-rate-limiting/README.md)
 - Manage Lifecycle & Versioning
-- Set Up and Configure Your Developer Portal 
+- [Set Up and Configure Your Developer Portal](/bluemix/setup-config-customize-dev-portal) 
+- [Customize Your Developer Portal and Select a Theme](/bluemix/customize-dev-portal-select-theme)
 - Analytics Basics
 
 ### /toolkit
