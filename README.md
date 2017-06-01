@@ -8,9 +8,9 @@ Welcome to API Connect! Let's get started.
 
 ## Create an API in Node.js
 
-## Manage 
-**A REST Service**  
-**A SOAP Service**
+## Manage a REST Service
+
+## Manage a SOAP Service
 
 ## Discover APIs
 
