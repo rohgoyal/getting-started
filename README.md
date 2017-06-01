@@ -6,17 +6,17 @@ Welcome to API Connect! Let's get started.
 
 # Where would you like to begin?
 
-## Create an API in Node.js
+### Create an API in Node.js
 
-## Manage a REST Service
+### Manage a REST Service
 
-## Manage a SOAP Service
+### Manage a SOAP Service
 
-## Discover APIs
+### Discover APIs
 
 # All Tutorials
 
-## /bluemix
+### /bluemix
 - [0-prereqs: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
 - [1a: Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
 - [1b: Create new API definitions and proxy an existing REST service](bluemix/1b/README.md)
@@ -30,13 +30,13 @@ Welcome to API Connect! Let's get started.
 - Set Up and Configure Your Developer Portal 
 - Analytics Basics
 
-## /toolkit
+### /toolkit
 - [0-prereqs: Install Node.js and API Connect on laptop](/toolkit/0-Prereq/README.md)
 - Getting Started Managing a REST Service
 - [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
 - Getting Started Discovering APIs
 - Secure an API with Client-ID and Client-Secret Keys
 
-# [Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
+## [Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
 
 [Getting Started Box Folder](https://ibm.ent.box.com/folder/26921380422)
