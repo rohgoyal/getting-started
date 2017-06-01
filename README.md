@@ -6,16 +6,20 @@ Welcome to API Connect! Let's get started.
 
 # Where would you like to begin?
 
-[Create]
-## Getting started creating an API in Node.js
+## Create
+**Getting started creating an API in Node.js**
 
-[Manage]
-## Getting started managing a REST Service -OR- Getting started managing a SOAP Service
+## Manage 
+**Getting started managing a REST Service** 
+-OR- 
+**Getting started managing a SOAP Service**
 
-[Discover]
-## Getting started discovering APIs
+## Discover
+**Getting started discovering APIs**
 
-### Index: /bluemix
+# All Tutorials
+
+## /bluemix
 - [0-prereqs: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
 - [1a: Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
 - [1b: Create new API definitions and proxy an existing REST service](bluemix/1b/README.md)
@@ -29,7 +33,7 @@ Welcome to API Connect! Let's get started.
 - Set Up and Configure Your Developer Portal 
 - Analytics Basics
 
-### Index: /toolkit
+## /toolkit
 - [0-prereqs: Install Node.js and API Connect on laptop](/toolkit/0-Prereq/README.md)
 - Getting Started Managing a REST Service
 - [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
