@@ -14,6 +14,7 @@ Welcome to API Connect! Let's get started.
 - [Secure an API with Client-ID and Client-Secret Keys](bluemix/2a/README.md)
 - [Secure an API with two-legged OAuth (Application flow)](bluemix/2b/README.md)
 - [Set Up Rate Limiting](/bluemix/setup-rate-limiting/README.md)
+- Manage Lifecycle & Versioning
 - Set Up and Configure Your Developer Portal 
 - Analytics Basics
 
