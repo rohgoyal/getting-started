@@ -40,6 +40,6 @@ Welcome to API Connect! Let's get started.
 - Getting Started Discovering APIs
 - Secure an API with Client-ID and Client-Secret Keys
 
-### [Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
+# [Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
 
 [Getting Started Box Folder](https://ibm.ent.box.com/folder/26921380422)
