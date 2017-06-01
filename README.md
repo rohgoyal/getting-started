@@ -1,4 +1,4 @@
-** Note: These tutorials still need to be reviewed and tested, so please do not share yet.
+_** Note: These tutorials still need to be reviewed and tested, so please do not share yet._
 
 # Getting Started with IBM API Connect
 
