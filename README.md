@@ -6,15 +6,13 @@ Welcome to API Connect! Let's get started.
 
 # Where would you like to begin?
 
-## Create
-**Getting started creating an API in Node.js**
+## Create an API in Node.js
 
 ## Manage 
-**Getting started managing a REST Service**  
-**Getting started managing a SOAP Service**
+**A REST Service**  
+**A SOAP Service**
 
-## Discover
-**Getting started discovering APIs**
+## Discover APIs
 
 # All Tutorials
 
