@@ -17,9 +17,9 @@ Welcome to API Connect! Let's get started.
 # All Tutorials
 
 ### /bluemix
-- [0-prereqs: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
-- [1a: Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
-- [1b: Add a New API Spec and Invoke an Existing REST Service](bluemix/1b/README.md)
+- [PREREQUISITE: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
+- [Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
+- [Add a New API Spec and Invoke an Existing REST Service](bluemix/1b/README.md)
 - Getting Started Managing a SOAP Service
 - Getting Started Discovering APIs
 - [Exposing a SOAP Service as REST API](/bluemix/exposing-a-soap-service-as-rest/README.md)
@@ -31,7 +31,7 @@ Welcome to API Connect! Let's get started.
 - Analytics Basics
 
 ### /toolkit
-- [0-prereqs: Install Node.js and API Connect on laptop](/toolkit/0-Prereq/README.md)
+- [PREREQUISITE: Install Node.js and API Connect on laptop](/toolkit/0-Prereq/README.md)
 - [Import Your API Spec and Proxy an Existing REST service](/toolkit/1a-import)
 - [Add a New API Spec and Invoke an Existing REST Service](/toolkit/1b)
 - [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
