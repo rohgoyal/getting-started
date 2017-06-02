@@ -21,7 +21,7 @@ Welcome to API Connect! Let's get started.
 - [Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
 - [Add a New API Spec and Invoke an Existing REST Service](bluemix/1b/README.md)
 - Getting Started Managing a SOAP Service
-- Getting Started Discovering APIs
+- [Getting Started Discovering APIs](bluemix/getting-started-discovering-apis)
 - [Exposing a SOAP Service as REST API](/bluemix/exposing-a-soap-service-as-rest/README.md)
 - [Secure an API with Client-ID and Client-Secret Keys](bluemix/2a/README.md)
 - [Secure an API with two-legged OAuth (Application flow)](bluemix/2b/README.md)
