@@ -81,7 +81,7 @@ To add a new data source to a LoopBack project using the API Designer, complete 
 	```
 	Then the API Designer opens in your default web browser, initially displaying the login page if you haven't logged in recently.  
 	>![info]
-	>You can login using your BlueMix account.we
+	>You can login using your Bluemix account or create one.
 3. Click the **Data Sources** icon ![](images/datasource-icon.png).
 4. Click **Add**. The New LoopBack Data Source window opens.
 5. Enter ```weatherDS``` in the **Name** text field.
