@@ -1,5 +1,12 @@
+---
+ 
+copyright:
+years: 2017
+lastupdated: "2017-05-25"
+ 
+---
 # Exposing a SOAP service as REST
-**Duration**: 15 mins  
+**Duration**: 20 mins  
 **Skill level**: Beginner  
 
 ---
