@@ -1,4 +1,19 @@
----copyright:  years: 2017lastupdated: "2017-05-16"---{:new_window: target="_blank"}{:shortdesc: .shortdesc}{:screen: .screen}{:codeblock: .codeblock}{:pre: .pre}# Set Up and Configure Your Developer Portal
+---
+
+copyright:
+  years: 2017
+lastupdated: "2017-05-16"
+
+---
+
+
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:codeblock: .codeblock}
+{:pre: .pre}
+
+# Set Up and Configure Your Developer Portal
 **Duration**: 30 mins  
 **Skill level**: Beginner  
 
@@ -34,7 +49,7 @@ In this tutorial, you will create a developer portal for a catalog.
 
 ---
 
-### Explorer your developer portal
+### Explore your developer portal
 In this tutorial, you will get acquainted with the developer portal created above.
 
 1. After you configured the developer portal for your catalog above you will receive an email with a link to a one-time login. Select the link to launch the developer portal.
