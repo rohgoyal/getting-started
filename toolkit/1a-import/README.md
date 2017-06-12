@@ -15,11 +15,11 @@ A sample _weather provider_ app has been created for this tutorial
 - Enter a valid 5-digit US zipcode to get the _**current weather**_ and _**today's forecast**_  
 ![](/bluemix/1a/images/explore-weatherapp-1.png)
 
-  - Endpoint to get the **current** weather data is:     _**https:// myweatherprovider<span></span>.mybluemix.net/current?zipcode={zipcode}**_
+  - The above sample weather app has been built using APIs that provide the weather data.  The endpoint to get the **current** weather data is:     _**https:// myweatherprovider<span></span>.mybluemix.net/current?zipcode={zipcode}**_
   - Test it out by clicking: https://myweatherprovider.mybluemix.net/current?zipcode=90210  
   ![](/bluemix/1a/images/explore-weatherapp-2.png)
 
-  - Endpoint to get **today's** forecast data is:  
+  - Similarly, the endpoint to get **today's** forecast data is:  
    _**https:// myweatherprovider<span></span>.mybluemix.net/today?zipcode={zipcode}**_
   - Test it out by clicking: https://myweatherprovider.mybluemix.net/today?zipcode=90210  
   ![](/bluemix/1a/images/explore-weatherapp-3.png)
@@ -34,7 +34,7 @@ A sample _weather provider_ app has been created for this tutorial
     ![](images/screenshot_apic-edit_login.png)
   - In the **API Designer** navigation panel (left hand), click on **Drafts > APIs**
   - In the **APIs** panel, click on **Add > Import API from a file or URL**
-  - In the "Import OpenAPI (Swagger) dialog box that pops up, enter this URL:
+  - I have an OpenAPI 2.0 definition of the above weather API we will use for this tutorial.  In the "Import OpenAPI (Swagger) dialog box that pops up, enter this URL:
 https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/1a-import/weather-provider-api_1.0.0.yaml
   - Leave the _Add a product_ option **unchecked**, and click **IMPORT**  
     ![](images/screenshot_import-url.png)  
