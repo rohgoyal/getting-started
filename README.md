@@ -20,7 +20,7 @@ Welcome to API Connect! Let's get started.
 - [PREREQUISITE: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
 - [Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
 - [Add a New API Spec and Invoke an Existing REST Service](bluemix/1b/README.md)
-- Getting Started Managing a SOAP Service
+- [Getting Started Managing a SOAP Service](/bluemix/manage-soap-api/README.md)
 - [Getting Started Discovering APIs](bluemix/getting-started-discovering-apis)
 - [Exposing a SOAP Service as REST API](/bluemix/exposing-a-soap-service-as-rest/README.md)
 - [Secure an API with Client-ID and Client-Secret Keys](bluemix/2a/README.md)
@@ -36,8 +36,7 @@ Welcome to API Connect! Let's get started.
 - [Import Your API Spec and Proxy an Existing REST service](/toolkit/1a-import)
 - [Add a New API Spec and Invoke an Existing REST Service](/toolkit/1b)
 - [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
-- Getting Started Discovering APIs
-- Secure an API with Client-ID and Client-Secret Keys
+- [Secure an API with Client-ID and Client-Secret Keys](/toolkit/2a/README.md)
 
 ## [Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
 
