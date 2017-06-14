@@ -11,8 +11,8 @@ This tutorial is to help you get started quickly with **API Connect** by illustr
 
 
 ### Explore the sample app, and test the target endpoints
-A sample _weather provider_ app has been created for this tutorial
-- Explore this app here: http://gettingstartedweatherapp.mybluemix.net/
+A sample _weather provider_ app has been created for this tutorial; its corresponding API specification (Swagger 2.0) can be found ![here](https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml).
+- To explore the app, click: http://gettingstartedweatherapp.mybluemix.net/
 - Enter a valid 5-digit US zipcode to get the _**current weather**_ and _**today's forecast**_  
 ![](images/explore-weatherapp-1.png)
 
