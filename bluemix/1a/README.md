@@ -2,6 +2,7 @@
 Duration: 5 mins  
 Skill level: Beginner  
 
+<a href="https://github.com/ibm-apiconnect/getting-started/tree/master/bluemix/0-prereq" target="blank">Prerequisites</a>
 
 ### Objective
 This tutorial is to help you get started quickly with **API Connect** by illustrating how you can bring your existing API under management control. We'll start by importing an OpenAPI spec, and then create a passthrough API proxy for an existing REST service.
