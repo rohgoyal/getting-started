@@ -8,6 +8,13 @@ This tutorial is to help you get started quickly with customizing your **API Con
 
 ---
 
+### Prerequisite
+
+Before starting this tutorial you should have completed the [Set Up and Configure Your Developer Portal](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/setup-config-customize-dev-portal/README.md) tutorial and be logged in as the portal admin.
+
+---
+
+
 ### Customizing your developer portal
 After you have created your developer portal you can custimize its look and feel, in this tutorial you will learn how.
 
