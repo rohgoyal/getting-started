@@ -2,7 +2,7 @@
 **Duration**: 15 mins  
 **Skill level**: Beginner  
 
- ![Prerequisites](bluemix/0-prereq/README.md)
+ ![Prerequisites](/bluemix/0-prereq/README.md)
 
 ### Objective
 This tutorial is to help you get started quickly with **API Connect**. We'll start by creating a new OpenAPI spec, and then proxy existing REST services used by the sample weather app.
