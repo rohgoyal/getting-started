@@ -60,8 +60,8 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 
   _In API Connect, **Products** provide a mechanism to  group APIs that intended for a particular use. Products are published to a **Catalog**.  [Reference: API Connect glossary]_
 
-- Click ► to test your API proxy's target invocation
-  - Choose the newly created default product, and the **get /current** operation.  
+- On the Assemble tab, click ► to test your API proxy's target invocation
+  - Choose the **get /current** operation.  
   - Zipcode is a required parameter for this operation, so enter a valid US zip (e.g. 90210).  
   - Click **invoke**, and verify that you see:
     - 200 OK response
