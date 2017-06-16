@@ -2,6 +2,7 @@
 Duration: 5 mins  
 Skill level: Beginner  
 
+<a href="https://github.com/ibm-apiconnect/getting-started/tree/master/bluemix/0-prereq" target="blank">Prerequisites</a>
 
 ### Objective
 This tutorial is to help you get started quickly with **API Connect** by illustrating how you can bring your existing API under management control. We'll start by importing an OpenAPI spec, and then create a passthrough API proxy for an existing REST service.
@@ -10,8 +11,8 @@ This tutorial is to help you get started quickly with **API Connect** by illustr
 
 
 ### Explore the sample app, and test the target endpoints
-A sample _weather provider_ app has been created for this tutorial
-- Explore this app here: http://gettingstartedweatherapp.mybluemix.net/
+A sample _weather provider_ app has been created for this tutorial; its corresponding API specification (Swagger 2.0) can be found ![here](https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml).
+- To explore the app, click: http://gettingstartedweatherapp.mybluemix.net/
 - Enter a valid 5-digit US zipcode to get the _**current weather**_ and _**today's forecast**_  
 ![](images/explore-weatherapp-1.png)
 
@@ -30,18 +31,19 @@ A sample _weather provider_ app has been created for this tutorial
 ### Import the sample app's OpenAPI spec to create a REST API proxy
 - Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login
   - In the Bluemix navigation panel (left hand), select **Services** and click **Dashboard**
-  - Launch the API Connect service
+  - Launch the API Connect service  
+   ![](images/login-1.png)   ![](images/login-2.png)  
   - In API Connect, click on **Drafts > APIs**
-  - In the **APIs** panel, click on **Add > Import API from a file or URL**
-  - In the "Import OpenAPI (Swagger) dialog box that pops up, enter this URL:
+  - In the **APIs** panel, click on **Add > Import API from a file or URL**  
+    ![](images/import-1.png) 
+ 
+  - We will now import the OpenAPI weather definition.  In the "Import OpenAPI (Swagger) dialog box that pops up, enter this URL:
 https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml
-  - Leave the _Add a product_ option **unchecked**, and click **IMPORT**  
-
-    ![](images/import-1.png)  
+  - Leave the other options as default and click **IMPORT**  
 
     ![](images/import-2.png)  
 
-- There are a few more steps before your API proxy is ready
+- We are just a step away from your API proxy being ready
 - In the API's **Design** view, scroll down to the **Host** panel.   
 _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Change this value to_ ```$(catalog.host)``` _. By doing so, you are setting the base URL for your API proxy._
 - Save your API  
@@ -57,8 +59,8 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 
   _In API Connect, **Products** provide a mechanism to  group APIs that intended for a particular use. Products are published to a **Catalog**.  [Reference: API Connect glossary]_
 
-- Click ► to test your API proxy's target invocation
-  - Choose the newly created default product, and the **get /current** operation.  
+- On the Assemble tab, click ► to test your API proxy's target invocation
+  - Choose the **get /current** operation.  
   - Zipcode is a required parameter for this operation, so enter a valid US zip (e.g. 90210).  
   - Click **invoke**, and verify that you see:
     - 200 OK response
