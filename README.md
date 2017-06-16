@@ -29,7 +29,7 @@ Welcome to API Connect! Let's get started.
 - Manage Lifecycle & Versioning
 - [Set Up and Configure Your Developer Portal](/bluemix/setup-config-customize-dev-portal) 
 - [Customize Your Developer Portal and Select a Theme](/bluemix/customize-dev-portal-select-theme)
-- Analytics Basics
+- [Analytics Basics](/bluemix/analytics-basics/README.md)
 
 ### /toolkit
 - [PREREQUISITE: Install Node.js and API Connect on laptop](/toolkit/0-Prereq/README.md)
