@@ -9,7 +9,7 @@ lastupdated: "2017-06-19"
 **Duration**: 15 mins  
 **Skill level**: Beginner  
 
-Prerequisites (https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
+[Prerequisites] (https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
 
 ---
 ### Objective
