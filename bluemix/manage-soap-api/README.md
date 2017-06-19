@@ -50,14 +50,16 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 6.	Select ```post /weatherRequest``` from the list of operations.
 ![](images/13-selectoperation.png)
 7.	Scroll down. Enter the following xml in the body field.
-```<?xml version="1.0" encoding="UTF-8"?>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
    <soap:Body>
 <wdata:WeatherRequest xmlns:wdata="http://www.ibm.com/wdata">
        <zipcode>90210</zipcode>
 </wdata:WeatherRequest>
    </soap:Body>
-</soap:Envelope> ```
+</soap:Envelope> 
+```
 
 ![](images/14-enterrequest.png)
 
