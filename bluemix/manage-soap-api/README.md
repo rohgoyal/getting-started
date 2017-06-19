@@ -2,7 +2,7 @@
  
 copyright:
 years: 2017
-lastupdated: "2017-06-08"
+lastupdated: "2017-06-19"
  
 ---
 # Managing a SOAP service
@@ -58,7 +58,9 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 </wdata:WeatherRequest>
    </soap:Body>
 </soap:Envelope>```
+
 ![](images/14-enterrequest.png)
+
 8.	Click **Invoke**.
 The API returns the current weather.
 ![](images/15-success.png)
