@@ -9,6 +9,8 @@ lastupdated: "2017-06-19"
 **Duration**: 15 mins  
 **Skill level**: Beginner  
 
+Prerequisites (https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
+
 ---
 ### Objective
 In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weather service.  This tutorial uses the weather data SOAP service as defined by https://api.us.apiconnect.ibmcloud.com/dshute-apic-apic-maker/sb/wdata/current.
@@ -16,7 +18,9 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 ---
 ### Setting up a SOAP API definition
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
-2. In the Bluemix navigation panel on the left hand, select **Services** and select the **Dashboard**. Launch the API Connect service.
+2. In the Bluemix **Dashboard**, launch the API Connect service.
+![](images/Bluemix.png)
+
 3. In API Manager, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
 4. Click **Drafts** in the UI navigation pane and then click the **APIs** tab. The **APIs** tab opens.
 5. Click **Add** > **New OpenAPI from SOAP service**.
