@@ -12,7 +12,9 @@ In order to view your own API analytics, you must have an API Product created an
 To generate the data in this walkthrough, we used Postman's *Collection Runner* to call an API several times, with varying data and client ids. You can use a similar tool (like HttpRequester for Firefox), or just use cURL to call your API multiple times from the command-line. Recall that you can obtain sample requests for your API by clicking the **Explore** link in API Connect.
 
 ### Introduction to Catalog Analytics
-As an API owner, you need a way to assess the success and performance of the APIs you offer. The main place you'll look for analytics is at the catalog level. You, and your App developers can also access app-specific analytics in the Developer Portal, but in this tutorial we'll focus on Catalog Analytics.
+As an API owner, you need a way to assess the success and performance of the APIs you offer. The main place you'll look for analytics is at the catalog level. If you have not been introduced to catalogs please read along [here!](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.apionprem.doc/conref_working_with_env.html)! 
+
+You, and your App developers can also access app-specific analytics in the Developer Portal, but in this tutorial we'll focus on Catalog Analytics.
 
 You have access to real-time and historical (up to 90 days' worth) information regarding APIs and Products (and who is calling them) published to that catalog. (If your catalog has multiple spaces, you can drill down further to the Space level.)
 
@@ -21,7 +23,7 @@ This tutorial consists of a few activities to show you how to:
 * View event record details
 * Build new dashboards
 * Creating new visualizations
-* 
+
 
 ### Activity 1: Viewing Out of the Box Analytics
 1. In your API Connect service on Bluemix, launch your Dashboard and click to open the Catalog of interest. 
@@ -30,6 +32,7 @@ This tutorial consists of a few activities to show you how to:
    ![](./images/analyticstab.png) 
   
 You'll see the default Overview dashboard, showing two bar chart visualizations based on data from the last 7 days: 5 Most Active Products and 5 Most Active APIs. 
+
 3. Hover over any of the bars to see additional details - like the API count, api names, etc.
 
    ![](./images/defaultoverview.png) 
