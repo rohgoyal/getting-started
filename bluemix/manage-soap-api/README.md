@@ -57,7 +57,7 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
        <zipcode>90210</zipcode>
 </wdata:WeatherRequest>
    </soap:Body>
-</soap:Envelope>```
+</soap:Envelope> ```
 
 ![](images/14-enterrequest.png)
 
