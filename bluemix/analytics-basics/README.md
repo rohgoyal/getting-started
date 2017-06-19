@@ -12,7 +12,7 @@ In order to view your own API analytics, you must have an API Product created an
 To generate the data in this walkthrough, we used Postman's *Collection Runner* to call an API several times, with varying data and client ids. You can use a similar tool (like HttpRequester for Firefox), or just use cURL to call your API multiple times from the command-line. Recall that you can obtain sample requests for your API by clicking the **Explore** link in API Connect.
 
 ### Introduction to Catalog Analytics
-As an API owner, you need a way to assess the success and performance of the APIs you offer. The main place you'll look for analytics is at the catalog level. If you have not been introduced to catalogs please read along [here!](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.apionprem.doc/conref_working_with_env.html)! 
+As an API owner, you need a way to assess the success and performance of the APIs you offer. The main place you'll look for analytics is at the catalog level. If you have not been introduced to catalogs please read along [here](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.apionprem.doc/conref_working_with_env.html)! 
 
 You, and your App developers can also access app-specific analytics in the Developer Portal, but in this tutorial we'll focus on Catalog Analytics.
 
@@ -39,7 +39,8 @@ You'll see the default Overview dashboard, showing two bar chart visualizations 
 
 4. Use the search bar to filter the data shown. You can also select a different time filter and/or auto-refresh rate. The visualizations will update to reflect your selections.
 
-There are other dashboards provided out of the box for you. 
+There are other dashboards provided out of the box for you.
+
 5. Click the folder icon to load a saved dashboard, and select **api_default** from the dropdown list.
 
    ![](./images/api_default.png) 
@@ -75,6 +76,7 @@ Now, let's create a new dashboard that will provide view of API traffic patterns
   * Success Rate
   * API Calls per Day
   * Success Rate
+  
 3. Click the Save button and give your dashboard a name: ``Subscriber Dashboard``.
 
    ![](./images/savedashboard.png)
