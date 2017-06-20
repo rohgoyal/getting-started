@@ -38,25 +38,26 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 	- Click **Create API**. The **Design** tab for the draft of your API definition opens.
 9. In the **Definitions** section, click the **Add Definition** icon ![](images/add-icon.png) and then expand the new definition by clicking it.
 10. Name the definition ```Weather Data Output```.
-11. The definition will have five properties.  Click **Add Property** four times to add the additional properties.  Rename the ```Property Name``` using the following as a guide and use the default for the ```Description```, ```Type``` and ```Example`:
+11. The definition will have five properties.  Click **Add Property** four times to add the additional properties.  Rename the ```Property Name``` using the following as a guide and use the default for the ```Description```, ```Type``` and ```Example```:
 	![](images/definition-new-1.png)
 12. In the **Paths** section, click the **Add Path** icon ![](images/add-icon.png).
 13. In the **Path** field of your newly created Path, replace the contents with ```/getweatherdata```.
 14. Expand the **GET /getweatherdata** operation by clicking it.
 	![](images/path-new-1.png)
 15. For your **GET /getweatherdata** operation, click **Add Parameter** and then click **Add new parameter**.
-16. Name your new parameter ```zip_code``` and mark it as required by selecting the check box. Marking a parameter as required is indicated to users in the OpenAPI (Swagger 2.0) definition of the API, is enforced by validate policies, and will result in the test tool always generating the parameter as part of a sample API call.
-17. In the **Schema** column of the **200 OK** response in the **Responses** section, select your **Weather Data Output** definition.
+16. Name your new parameter ```zip_code``` and leave the rest as default.
+17. In the **Schema** column of the **200 OK** response in the **Responses** section, select your **Weather Data Output** definition. For the response to the API call, the object define in by the **Weather Data Output** will be the response object.
 	![](images/path-new-2.png)
 18. Click the Save icon ![](images/save-icon.png) to save your changes.
 
 ---
 ### Adding and configuring your web service invocation
 To add and configure the invoke and map policies that integrate your web service into your API definition, complete the following steps:
-1. Download the ```files/weatherprovider.wsdl```to your local computer
-2. In the **Services** section, click the **Add service** icon ![](images/add-icon.png). The ```"Import web service from WSDL"``` window opens.
+1. Download the ```files/weatherprovider.wsdl``` to your local computer
+2. In the **Services** section, click the **Add service** icon ![](images/add-icon.png). The ```Import web service from WSDL``` window opens.
+	![](images/upload-file-1.png)
 3. Click **Upload file**.
-4. In the **File Upload** window, specify the location to the ```weatherprovider.wsld``` file that you downloaded in ```step 1``` and click **Open** to continue.
+4. In the **File Upload** window, specify the location to the ```weatherprovider.wsdl``` file that you downloaded in ```step 1``` and click **Open** to continue.
 5. Click **Next**.
 6. Select the **weatherService** SOAP service and then click **Done**. In the **Services** section, **WeatherService** web service is listed with a single **weatherRequest** operation.
 	![](images/services-add-1.png)	
@@ -85,15 +86,18 @@ You have included the web service invocation in your assembly and mapped an inpu
 ---
 ### Testing your API definition
 To test your API definition by using the API Manager test tool, complete the following steps:
-1. Click the **Test** icon ![](images/test-icon.png). The test tool opens.
-2. If you have used the test tool before, click **Change setup**.
-3. In the **Catalog** field, select your **Sandbox** Catalog.
-4. In the **Product** field, select your **Weather Data** Product and then click **Republish product** to publish your Product so that it can be tested.
+1. Click the **Test** icon ![](images/test-icon.png) under the **Assembly** tab to reveal the test pane.
+	![](images/test-pane-1.png)
+2. Click **Change setup**.
+3. Choose ```Weather Data product 1.0.0``` from the list of products.
+	![](images/choose-product-1.png)
+3. Click **Republish product**.
 5. Click **Next**.
-6. In the **Operation** field, select **get /getweatherdata**.
-8. In the **zip_code** field, enter ```90210```.
+6. Select ```get /getweatherdata``` from the list of operations.
+	![](images/select-operation-1.png)
+8. Scroll down to the **zip_code** field, enter ```01742```.
 	![](images/test-api-1.png)
-9. Click Invoke. The response is displayed.
+9. Click **Invoke**. The API returns the current weather.
 	![](images/test-api-2.png)
 ---
 ### What you did in this tutorial
