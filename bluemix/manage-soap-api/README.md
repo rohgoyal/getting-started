@@ -24,7 +24,9 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 3. In API Manager, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
 4. Click **Drafts** in the UI navigation pane and then click the **APIs** tab. The **APIs** tab opens.
 5. Click **Add** > **New OpenAPI from SOAP service**.
+
 ![](images/3-newapi-menu.png)
+
 6. The New API from WSDL dialog box opens.  Click **Upload File**.
 ![](images/4-uploadwsdl.png)
 7. Select the ```weatherprovider.wsdl``` file.
