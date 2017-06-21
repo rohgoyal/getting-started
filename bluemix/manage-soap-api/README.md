@@ -35,8 +35,10 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 9. Select the catalog desired.  Sandbox is the default.  Click **Done**.
 ![](images/7-newproduct.png)
 
-10.Your API is now created. The Design page displays. Click **Security** in the navigation bar.
+10.Your API is now created. The Design page displays.
+
 ![](images/8-designpage.png)
+
 11.	Scroll down to the Security tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.
 12.	Click the disk icon in the upper right corner to save your changes.
 13.	Click **Assemble**.
