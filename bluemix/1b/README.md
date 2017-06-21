@@ -107,14 +107,17 @@ B. Then, from the _palette_, drag the **Operation Switch** and drop it on the ca
     ![](images/assemble-1.png)
   - The **Operation Switch** provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked.
 
-C. Drag the **invoke** policy from the _palette_ and drop it on the canvas. Drop one in the **/get current** path, and one in the **/get today** path.
+C. Drag the **invoke** policy from the _palette_ and drop it on the canvas.   
+    _The invoke action is used to call an existing service from within an operation_  
+  - Drop one in the **/get current** path, and one in the **/get today** path.
   - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
-  - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode={zipcode}.  
+  - Update the URL field with https:// myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode)
   - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
-  - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode={zipcode}.  
+  - Update the URL field with https:// myweatherprovider.mybluemix.net/today?zipcode=$(request.parameters.zipcode)  
+    ![](images/assemble-2.png)
 
 D. Save your API.
-![](images/assemble-1.png)
+
 
 ---
 
