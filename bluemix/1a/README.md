@@ -83,3 +83,8 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
   ![](images/test-explore-2.png)
 
     ![](images/test-explore-3.png)
+
+
+### Conclusion
+In this tutorial, you saw how an existing REST service can be invoked through an API passthrough proxy. We started by quickly checking the availability of the sample service through the web browser. Then we created an API proxy in API Connect, and linked the proxy to the sample service to be invoked. We packaged our API into a product, published the product to catalog, and tested the proxy.
+
