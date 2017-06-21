@@ -27,10 +27,13 @@ After you have created your developer portal you can custimize its look and feel
 3. Under the Content heading, to change the Content text and image for the Welcome banner, you can either enter text into the content editor, or select the Edit HTML Source icon to edit or paste HTML directly that defines image and text specifications.  
   ![Content editor](images/3.3-content.png) 
 
-4. Under the Image heading, browse for the required image, and select **Update**.  
+4. Let's also add an image to our home screen! Scroll down to the Image heading. Find an image to use for your background and save it in the appropriate file format (png, gif, jpg, jpeg). If you don't have an image you can use [this](Cloudy_Day.png) one.  Select **Choose File** and browse for your chosen background image. Once you have selected the image, select **Upload** and it will be uploaded.  
   ![Upload Image](images/3.4-image.png)
 
-5. At the bottom of the page select **Save** to save your changes.  
+5. The image will be displayed once it has been uploaded.  If you wish to remove it select **Remove**  
+  ![Upload Image](images/3.5-uploaded-image.png)
+ 
+6. At the bottom of the page select **Save** to save your changes.  
   
 ---
 
