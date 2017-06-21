@@ -66,7 +66,8 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
   - Click **invoke**, and verify that you see:
     - 200 OK response
     - Current weather data for 90210  
-    ![](images/screenshot_test-1.gif)  
+    ![](images/screenshot_test-1.png)  
+    ![](images/screenshot_test-2.png)   
 
 
 ###### Test with the _Explore tool_  

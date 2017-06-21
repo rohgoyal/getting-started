@@ -22,7 +22,7 @@ Completed Part 2a
     * Title it "OAuth Endpoint API" (the name and base path should be populated automatically)
     * Click Create
     * In the newly created OAuth Endpoint API, scroll down to the **OAuth2** panel, and select "Confidential" as the Client Type
-    * Under Scopes, rename _scope1_ to _view_branches_; delete _scope2_ and _scope3_
+    * Under Scopes, rename _scope1_ to _view_current_; delete _scope2_ and _scope3_
     * Under **Grants**, deselect **Implicit, Password and Access Code**. Leave **Application** selected
     * Save your API
     ![](images/oauth_provider_2.png)  

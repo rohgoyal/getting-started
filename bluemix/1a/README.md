@@ -53,19 +53,26 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 
 ### Test your API proxy
 ###### Test with the _API Manager test tool_
-- In the **Assemble** tab, select **More Actions > Generate a default product**.
-
-- Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog.  
+- In the **Assemble** tab, select **More Actions > Generate a default product**.  
+  ![](/bluemix/1a/images/generate-default-product-1.png)   
+  
+- Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog. A message indicating successful product generation is displayed.  
+  ![](/bluemix/1a/images/generate-default-product-2.png)  
+  
+  ![](/bluemix/1a/images/generate-default-product-3.png) 
 
   _In API Connect, **Products** provide a mechanism to  group APIs that intended for a particular use. Products are published to a **Catalog**.  [Reference: API Connect glossary]_
 
 - On the Assemble tab, click ► to test your API proxy's target invocation
   - Choose the **get /current** operation.  
   - Zipcode is a required parameter for this operation, so enter a valid US zip (e.g. 90210).  
-  - Click **invoke**, and verify that you see:
+  - Click **invoke**, and verify the response.  
+  _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again_
+  - The expected response is:  
     - 200 OK response
     - Current weather data for 90210  
 
+ -   
     ![](/bluemix/1b/images/test-invoke-1.png)
 
     ![](/bluemix/1b/images/test-invoke-1.png)  
@@ -74,12 +81,19 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 
 
 ###### Test with the _Explore tool_
+_The Explore Tool allows users to test the correct operation of the API by enforcing any parameter requirements set in the OpenAPI definition. This enforcement is not done in the API Test Tool found in the Assemble tab so as to allow the user to verify the API behavior when the parameter is missing._
 - To test your API proxy endpoints
   - Click the _Explore_ button, and select **Sandbox**
     ![](images/test-explore-1.png)
-  - Click on the **GET /current** operation from the palette
+  - Click on the **GET /current** operation from the palette (on the left side)
+  - Click "Try it" in the right-hand panel  
   - Enter a valid US zipcode (e.g. 90210) in the test box
   - Click **Call operation** to see the response
   ![](images/test-explore-2.png)
 
     ![](images/test-explore-3.png)
+
+
+### Conclusion
+In this tutorial, you saw how an existing REST service can be invoked through an API passthrough proxy. We started by quickly checking the availability of the sample service through the web browser. Then we created an API proxy in API Connect, and linked the proxy to the sample service to be invoked. We packaged our API into a product, published the product to catalog, and tested the proxy.
+

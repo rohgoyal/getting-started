@@ -2,7 +2,7 @@
  
 copyright:
 years: 2017
-lastupdated: "2017-06-19"
+lastupdated: "2017-06-21"
  
 ---
 # Managing a SOAP service
@@ -22,9 +22,11 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 ![](images/Bluemix.png)
 
 3. In API Manager, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
-4. Click **Drafts** in the UI navigation pane and then click the **APIs** tab. The **APIs** tab opens.
-5. Click **Add** > **New OpenAPI from SOAP service**.
+4. Click **Drafts** > **APIs**.
+5. In the APIs panel, click **Add** > **New OpenAPI from SOAP service**.
+
 ![](images/3-newapi-menu.png)
+
 6. The New API from WSDL dialog box opens.  Click **Upload File**.
 ![](images/4-uploadwsdl.png)
 7. Select the ```weatherprovider.wsdl``` file.
@@ -32,10 +34,12 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 ![](images/6-newapi.png)
 9. Select the catalog desired.  Sandbox is the default.  Click **Done**.
 ![](images/7-newproduct.png)
-10.Your API is now created. The Design page displays. Click **Security** in the navigation bar.
+
+10.Your API is now created. The Design page displays.
+
 ![](images/8-designpage.png)
-11.	Uncheck the **ClientID** option.
-![](images/9-security.png)
+
+11.	Scroll down to the Security tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.
 12.	Click the disk icon in the upper right corner to save your changes.
 13.	Click **Assemble**.
 14.	Click the **Proxy** icon.  Notice the target URL.

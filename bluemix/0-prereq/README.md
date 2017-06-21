@@ -33,7 +33,7 @@
   - Go to   https://console.ng.bluemix.net/catalog/services/api-connect  
   ![](images/prereqs-4.png)  
 
-  - Select the _Essentials_ pricing plan (free), and click **Create** to get started  
-  ![](images/prereqs-5.png)  
+  - Select the _Lite_ pricing plan (free), and click **Create** to get started  
+  ![](images/lite-plan.png)  
 
   
