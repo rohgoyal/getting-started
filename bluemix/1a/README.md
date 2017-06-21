@@ -66,10 +66,13 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 - On the Assemble tab, click ► to test your API proxy's target invocation
   - Choose the **get /current** operation.  
   - Zipcode is a required parameter for this operation, so enter a valid US zip (e.g. 90210).  
-  - Click **invoke**, and verify that you see:
+  - Click **invoke**, and verify the response.  
+  _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again_
+  - The expected response is:  
     - 200 OK response
     - Current weather data for 90210  
 
+ -   
     ![](/bluemix/1b/images/test-invoke-1.png)
 
     ![](/bluemix/1b/images/test-invoke-1.png)  
