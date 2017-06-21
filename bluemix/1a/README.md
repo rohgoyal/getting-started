@@ -54,11 +54,11 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 ### Test your API proxy
 ###### Test with the _API Manager test tool_
 - In the **Assemble** tab, select **More Actions > Generate a default product**.  
-  ![](/bluemix/1a/images/generate-default-product-1.png)  
+  ![](/bluemix/1a/images/generate-default-product-1.png)   
   
-  ![](/bluemix/1a/images/generate-default-product-2.png) 
+- Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog. A message indicating successful product generation is displayed.  
+  ![](/bluemix/1a/images/generate-default-product-2.png)  
   
-- Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog. A message indicating successful product generation is displayed.
   ![](/bluemix/1a/images/generate-default-product-3.png) 
 
   _In API Connect, **Products** provide a mechanism to  group APIs that intended for a particular use. Products are published to a **Catalog**.  [Reference: API Connect glossary]_
