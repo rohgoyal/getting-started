@@ -74,6 +74,7 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 
 
 ###### Test with the _Explore tool_
+_The Explore Tool allows users to test the correct operation of the API by enforcing any parameter requirements set in the OpenAPI definition. This enforcement is not done in the API Test Tool found in the Assemble tab so as to allow the user to verify the API behavior when the parameter is missing._
 - To test your API proxy endpoints
   - Click the _Explore_ button, and select **Sandbox**
     ![](images/test-explore-1.png)
