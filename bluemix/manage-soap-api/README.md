@@ -13,7 +13,7 @@ lastupdated: "2017-06-22"
 
 ---
 ### Objective
-In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weather service.  This tutorial uses the weather data SOAP service as defined by https://api.us.apiconnect.ibmcloud.com/dshute-apic-apic-maker/sb/wdata/current.
+In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weather service.  
 
 ---
 ### Setting up a SOAP API definition
