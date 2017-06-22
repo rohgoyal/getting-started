@@ -1,22 +1,23 @@
----copyright:  years: 2017lastupdated: "2017-06-01"---{:new_window: target="_blank"}{:shortdesc: .shortdesc}{:screen: .screen}{:codeblock: .codeblock}{:pre: .pre}# Getting Started Discovering APIs
+---copyright:  years: 2017lastupdated: "2017-06-01"---{:new_window: target="_blank"}{:shortdesc: .shortdesc}{:screen: .screen}{:codeblock: .codeblock}{:pre: .pre}# See how your APIs will be consumed by developers
 **Duration**: 30 mins  
 **Skill level**: Beginner  
 
 
+### Prerequisite
+
+Before starting this tutorial you should have completed the [Set Up and Configure Your Developer Portal](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/setup-config-customize-dev-portal/README.md) tutorial.
+
+
 ### Objective
-This tutorial will help you get started using the **API Connect Developer Portal**. You will learn the following: 
+In this tutorial you will experience how developers will consume the APIs availble in your **API Connect Developer Portal**. You will gain an understanding of how developers will: 
 
-* Explore Products & APIs
-* View & Test APIs
-* Subscribe to APIs  
-
-### Before you begin
-You must have an **API Connect Developer Portal** installed.
+* Explore your Products & APIs
+* View & Test your APIs
+* Subscribe to your APIs  
  
----
 
 ### Explore Products & APIs
-In this tutorial, you will explore the products and APIs in the developer portal.
+In this tutorial, you will experience how the developer will explore the products and APIs in the developer portal.
 
 1. In a browser navigate to your **API Connect Developer Portal**.
 ![API Connect Developer Portal](images/1.1-developer-portal.png)
@@ -27,7 +28,7 @@ In this tutorial, you will explore the products and APIs in the developer portal
 3. Select one of the available **API products** to display the available APIs and Plans for the product.  
   ![Select Product](images/1.3-product.png)
 
-4. Select an **API** to explore the details of its available APIs.  
+4. Select an **API** to explore the details of the available APIs.  
   ![Products APIs](images/1.4-api.png)
 
 5. In the details page of an API you can view the available operations along with their parameters and the responses returned.  At the bottom of the page you can view the definitions used by the API.  
@@ -39,7 +40,7 @@ In this tutorial, you will explore the products and APIs in the developer portal
 ---
 
 ### View and test the APIs
-In this tutorial, you will learn how to view and test the APIs available in a product.
+In this tutorial, you will see how a developer can view and test the APIs available for a product in your developer portal.
 
 1. Navigate to the API details in the API Connect Developer portal as outlined above.  
   ![API Details](images/2.1-details.png) 
@@ -59,18 +60,18 @@ In this tutorial, you will learn how to view and test the APIs available in a pr
 ---
 
 ### Subscribe to APIs
-In this section you will learn how to subscribe to APIs in the developer portal. Before you can subscribe to an API you must login and create an application.
+In this section you will see how a developer can subscribe to the APIs in the developer portal. Before you can subscribe to an API you must create an account, login and then create an application.
 
-1. Select **Login** to log into the developer portal.
-![login](images/3.1-login.png)
+1. The first thing the deverloper will need to do is create an account,  select **Create an account**. 
+![API Products](images/3.1-create-account.png)
 
-2. Enter your IBM ID and password. Select **Sign in**.  
-  ![IBM ID Sign In](images/3.2-ibmid.png)
+2. Fill in the required fields and select **Create new account** at the bottom of the page. Note, use a different email address than the one used to create your developer portal in the previous tutorial.
+![API Products](images/3.2-create-new-account.png)
 
-3. Select **Apps** to go to the registered apps page.  
-  ![Apps](images/3.3-apps.png)
+3. Once the developer account is created and they are logged in they will see your home page. You must have and app to subscribe to the APIs. Select **Apps** to go to the registered apps page.  
+  ![API Products](images/3.3-login.png)
 
-4. To register a new application select **Create new App**.  
+4. An example test app was created for the developer.  Let's see what it is like to register a new application, select **Create new App**.  
   ![Register new app](images/3.4-create-new-app.png)
 
 5. Enter a *Title* and *Description* for your app and select **Submit**.  
@@ -94,8 +95,3 @@ In this section you will learn how to subscribe to APIs in the developer portal.
 
 This completes this tutorial.
 
-  
-
-
-
-  
