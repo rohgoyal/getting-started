@@ -19,7 +19,7 @@ This tutorial is to guide you through creating an API in Node.js using the LoopB
 
 ---
 ### Prerequisites
-Install the IBM API Connect toolkit
+[Install the IBM API Connect toolkit](https://github.com/ibm-apiconnect/getting-started/tree/master/toolkit/0-Prereq)
 
 ---
 ### Create a LoopBack project from the command line
@@ -103,7 +103,7 @@ To add a new model to a LoopBack project using the API Designer, complete the fo
 4. In the **Data Source** field, select **weatherDS**.
 	![](images/new-model-1.png)
 5. In the **Properties** section, click the **Add property** icon ![](images/add-icon.png).
-6. In the **Property Name** text field, enter ```zipcode```.
+6. In the **Property Name** text field, enter ```zip_code```.
 7. For **Type**, select **number**.
 8. Select **Required** to make the property required. This means that it must have a value when you add or update a model instance. For now, keep the default values for the other settings:
 	- **Is Array**: Whether the property is a JavaScript array with elements of the specified type.
@@ -129,7 +129,8 @@ To test your API endpoints by using the API Designer Explore tool, complete the 
 	Express server listening on http://127.0.0.1:9000
 	```
 	Then the API Designer opens in your default web browser, initially displaying the login page if you haven't logged in recently.
-
+	>![info]
+	>You can go directly to step 2 below if you did not exit APIC designer after completing the "Add a new model and data source" section.
 2. Start the local test servers by completing the following steps:
 	- In the test console at the bottom of the screen, click the **Start the servers** icon ![](images/test-icon.png):
 	![](images/start-server-1.png)
@@ -164,6 +165,8 @@ The center pane displays summary information about the endpoint, including its p
 >![](images/explore-test-3.png)
 >
 >The above error will occur if the the ```id``` data element has not been removed from the generated data.  Remove the ```id``` data element and re-run the test.
+>![troubleshooting]
+>If you get the error **failed to parse request body**, you have to remove the comma following the last ```humidity_high``` number.
 7. Edit the values in the JSON shown in the **data** section. Try changing the generated dummy data, then click **Call operation** again. You should see the request and response parameters, along with the JSON instance data that you entered.
 ![](images/explore-test-4.png)
 
