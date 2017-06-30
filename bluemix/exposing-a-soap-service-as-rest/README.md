@@ -29,6 +29,7 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 	- From the **API template** field, select **Default** to indicate that you want to use the default template to create the API definition.
 	- Leave the remaining fields unchanged.
 	![](images/new-api-1.png)
+	![](images/new-api-1b.png)
 8. Add your API to a new Product and then create the API definition.
 	- Click **Add a product**.
 	- In the **Title** field, enter ```Weather Data product```.
@@ -40,6 +41,8 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 ![](images/api-security-1.png)
 10.	Uncheck the **ClientID** option.
 ![](images/api-security-2.png)
+	>![info]
+	>You may notice that there is a yellow triangular icon that appears next to the save disk icon.  This is a warning that there are definition that may have been defined but not yet used.  This won't affect the API definition.
 11. In the **Definitions** section, click the **Add Definition** icon ![](images/add-icon.png) and then expand the new definition by clicking it.
 12. Name the definition ```Weather Data Output```.
 13. The definition will have five properties.  Click **Add Property** four times to add the additional properties.  Rename the ```Property Name``` using the following as a guide and use the default for the ```Description```, ```Type``` and ```Example```:
@@ -95,14 +98,14 @@ You have included the web service invocation in your assembly and mapped an inpu
 To test your API definition by using the API Manager test tool, complete the following steps:
 1. Click the **Test** icon ![](images/test-icon.png) under the **Assembly** tab to reveal the test pane.
 	![](images/test-pane-1.png)
-2. Click **Change setup**.
+2. If you have used the test tool before, click **Change setup**.
 3. Choose ```Weather Data product 1.0.0``` from the list of products.
 	![](images/choose-product-1.png)
 3. Click **Republish product**.
 5. Click **Next**.
 6. Select ```get /getweatherdata``` from the list of operations.
 	![](images/select-operation-1.png)
-8. Scroll down to the **zip_code** field, enter ```01742```.
+8. Scroll down to the **zip_code** field, enter ```90210```.
 	![](images/test-api-1.png)
 9. Click **Invoke**. The API returns the current weather.
 	![](images/test-api-2.png)
@@ -114,3 +117,7 @@ In this tutorial, you completed the following activities:
 3. Tested your API definition
 
 ---
+
+[important]: ./images/important.png "Important!"
+[info]: ./images/info.png "Information"
+[troubleshooting]: ./images/troubleshooting.png "Troubleshooting" 
