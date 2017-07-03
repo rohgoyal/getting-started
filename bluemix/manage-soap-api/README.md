@@ -11,6 +11,8 @@ lastupdated: "2017-06-22"
 
 [Prerequisites](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
 
+Before you begin, copy the WSDL file located at https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/manage-soap-api/files/weatherprovider.wsdl to your local filesystem.
+
 ---
 ### Objective
 In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weather service.  
@@ -28,7 +30,7 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 
 5. In the APIs panel, click **Add** > **New OpenAPI from SOAP service**.
 
-![](images/3-newapi-menu.png)
+![](images/newapi-menu2.png)
 
 6. The New API from WSDL dialog box opens.  Click **Upload File**.
 ![](images/4-uploadwsdl.png)
@@ -36,11 +38,11 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 7. Select the ```weatherprovider.wsdl``` file.
 
 8. The New API from WSDL dialog box reappears.  Check the **weatherService** check box. Click **Done**.
-![](images/6-newapi.png)
+![](images/newapi2.png)
 
 9.Your API is now created. The Design page displays.
 
-![](images/8-designpage.png)
+![](images/designpage2.png)
 
 10.	Scroll down to the Security tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.
 
@@ -55,17 +57,17 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 
 ---
 ### Testing the SOAP API definition
-1. In the **Assemble** tab, select **More Actions > Generate a default product**.  
+1. In the **Assemble** tab, click the ellipses (three dots) in the upper right corner, and select **Generate a default product** from the menu.  
    ![](images/generate-default-product-1.png) 
 
 2. Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **weatherService product 1.0.0** is created and published to the Sandbox catalog.    
-  ![](/bluemix/1a/images/12a-chooseproduct.png)  
+  ![](images/12a-chooseproduct.png)  
   
   - _In API Connect, **Products** provide a mechanism to  group APIs that intended for a particular use. Products are published to a **Catalog**.  [Reference: API Connect glossary]_
 
 3. Save and click ► to test the API service.
 
-4. **If you see the Add API prompt,** which is likely if you have tested any other products and APIs, click **Change setup**.  Otherwise, skip to step 7.
+4. **If the ``weatherService product`` is not shown in the current setup,** or if you see the **Add API** prompt, click **Change setup**.  Otherwise, skip to step 7.
 ![](images/11-initialtestpane.png)
 
 5. Choose ```weatherService product 1.0.0``` from the list of products.
