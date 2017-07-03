@@ -28,7 +28,7 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 
 4. Click **Drafts** > **APIs**.
 
-5. In the APIs panel, click **Add** > **New OpenAPI from SOAP service**.
+5. In the APIs panel, click **Add** > **API from SOAP service**.
 
 ![](images/newapi-menu2.png)
 
@@ -84,7 +84,7 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
    <soap:Body>
 <wdata:WeatherRequest xmlns:wdata="http://www.ibm.com/wdata">
-       <zipcode>90210</zipcode>
+       <zipcode>01742</zipcode>
 </wdata:WeatherRequest>
    </soap:Body>
 </soap:Envelope> 
