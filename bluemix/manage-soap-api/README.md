@@ -49,16 +49,12 @@ In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weat
 11.	Click the disk icon in the upper right corner to save your changes.
 
 12.	Click **Assemble**.
-
-13.	Click the **Proxy** icon.  Notice the target URL.
-![](images/10-proxy.png)
-
-14.	Click **X** to close the Proxy configuration pane.
+![](images/assemble-clean.png)
 
 ---
 ### Testing the SOAP API definition
 1. In the **Assemble** tab, click the ellipses (three dots) in the upper right corner, and select **Generate a default product** from the menu.  
-   ![](images/generate-default-product-1.png) 
+   ![](images/gen-default-prod.png) 
 
 2. Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **weatherService product 1.0.0** is created and published to the Sandbox catalog.    
   ![](images/12a-chooseproduct.png)  
