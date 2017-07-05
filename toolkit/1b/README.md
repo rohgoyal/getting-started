@@ -120,7 +120,7 @@ _(We'll visit security with API Keys in the next tutorial.)_
 
 ###### Test with the _API Manager test tool_
 - In the **Assemble** tab,
-  - Start the local test server by clicking on **Start servers** icon at the bottom of the screenshot_start-server-1
+  - Start the local test server by clicking on **Start servers** icon at the bottom of the screen
     ![](images/screenshot_start-server-1.png)
 
 - Click ► to test your API proxy's target invocation
