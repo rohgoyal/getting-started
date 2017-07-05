@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
 
 - We are just a step away from your API proxy being ready
 - In the API's **Design** view, scroll down to the **Host** panel.   
-_You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Change this value to_ ```$(catalog.host)``` _. By doing so, you are setting the base URL for your API proxy._
+_You'll notice that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
 - Save your API  
 
 
@@ -74,8 +74,6 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
 
  -   
     ![](/bluemix/1b/images/test-invoke-1.png)
-
-    ![](/bluemix/1b/images/test-invoke-1.png)  
 
 
 
