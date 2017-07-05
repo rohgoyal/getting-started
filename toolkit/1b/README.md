@@ -130,8 +130,7 @@ _(We'll visit security with API Keys in the next tutorial.)_
   - Zipcode is a required parameter for this operation, so enter a valid US zip (e.g. 90210).  
   - Click **invoke**, and verify that you see:
     - 200 OK response
-    - Current weather data for 90210  
-    ![](images/screenshot_test-1.png)  
+    - Current weather data for 90210   
     ![](images/screenshot_test-2.png)  
 
 
