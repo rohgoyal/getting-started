@@ -43,7 +43,6 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
 
     ![](images/import-2.png)  
 
-- We are just a step away from your API proxy being ready
 - In the API's **Design** view, scroll down to the **Host** panel.   
 _You'll notice that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
 - Save your API  
