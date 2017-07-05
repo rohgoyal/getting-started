@@ -32,7 +32,7 @@ In this tutorial, you will create a developer portal for a catalog.
 
 2. In the API Connect dashboard select the catalog for which you want to create a developer portal, for example **Sandbox**.
 
-Catalogs are an IBM term for different enviornments. For example you would create different catalogs for your testing, stagging and production enviornments. You should have a catalog called Sandbox, and feel free to use this catalog to create your developer portal. Or create a new one and name it whatever you want!  
+	Catalogs are an IBM term for different enviornments. For example you would create different catalogs for your testing, stagging and production enviornments. You should have a catalog called Sandbox, and feel free to use this catalog to create your developer portal. Or create a new one and name it whatever you want!  
 ![Catalog](images/1.2-APIC-Dashboard.png)
 
 3. In the catalog select the **settings** tab.  
@@ -47,7 +47,7 @@ Catalogs are an IBM term for different enviornments. For example you would creat
 6. Take note of your **Portal URL**. Save your changes.  
   ![Save settings](images/1.6-save-settings.png)
   
-7. Select **OK** to acknowledge the dialog message.  
+7. As noted in the dialog box it typically takes a few minutes to create your developer portal. You will receive an email when it has finished. Select **OK** to acknowledge the dialog message.  
   ![OK](images/1.7-OK.png)
 
 ---
@@ -66,7 +66,7 @@ In this tutorial, you will get acquainted with the developer portal created abov
 4. Now that you've set your password let's explore the developer portal. Select **Home** at the top of the page.  
   ![Home menu](images/2.4-pwsaved.png)
 
-5. The Home page is the welcome page to your developer portal. You can customize this page a we will see later in the tutorial.  When you've finished reviewing the home page select **Getting started**.   
+5. The Home page is the welcome page to your developer portal. You can customized this page to suit your needs.  When you've finished reviewing the home page select **Getting started**.   
   ![Getting started menu](images/2.5-home.png) 
 
 6. The Getting started page is used to instruct developers how to get started using your developer portal.  When you've finished reviewing the page select **API Products**.
