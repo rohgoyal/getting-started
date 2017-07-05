@@ -99,7 +99,15 @@ If modifying an existing theme doesn't suit your needs, the Developer portal all
 
 6. At the bottom of the page select **Save** to save your changes.  
 
-This completes this tutorial.
+---
+
+### Summary
+Congratulations, you have completed this tutorial.  In this tutorial you learned:
+
+* How to customize your developer portal welcome page
+* How to customize the theme used by your developer portal 
+* How to select a different theme to use for your developer portal
+* How to install a new theme for your developer portal
 
   
 
