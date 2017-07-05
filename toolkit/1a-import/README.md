@@ -77,3 +77,7 @@ _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Ch
   - Enter a valid US zipcode (e.g. 90210) in the test box
   - Click **Call operation** to see the response  
   ![](images/screenshot_explore.png)
+
+###### Conclusion
+
+In this tutorial, you saw how an existing REST service can be invoked through an API passthrough proxy. We started by checking the availability of the sample service through the web browser. Then we created an API proxy in API Connect, and linked the proxy to the sample service to be invoked. Finally, we tested this service with API Connect's internal testing tools.
