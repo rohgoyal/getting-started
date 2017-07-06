@@ -48,8 +48,7 @@ Completed Part 1a _**or**_ 1b
 ### Test the changes made to your API
 
 1. In the Assemble tab, click the ► button to test your changes
-    * In Test / Setup panel, choose **Republish product** to pickup the changes. This option updates your API product, and also publishes it to the Sandbox catalog
-    * Once the product has been republished, select the **get /current** operation in the test panel
+    * Select the **get /current** operation in the test panel
     * Scroll down in the Test panel, and notice that the Client ID and Client Secret values have already been populated. These are test values that are generated for your sandbox, and represent the keys of the application that will be using your API.
     _[ Note: The Client ID and Client Secret keys can also be found under  Dashboard > Catalog > Settings > Endpoints ]_
     ![](images/test_api_keys_1.png)
