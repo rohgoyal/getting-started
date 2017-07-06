@@ -19,7 +19,7 @@ This tutorial will guide you through creating an API in Node.js using the LoopBa
 
 ---
 ### Prerequisites
-Before you begin, make sure you [install the IBM API Connect toolkit](https://github.com/ibm-apiconnect/getting-started/tree/master/toolkit/0-Prereq).
+Before you begin, you will need to [install the IBM API Connect toolkit](https://github.com/ibm-apiconnect/getting-started/tree/master/toolkit/0-Prereq).
 
 ---
 ### Create a LoopBack project from the command line
