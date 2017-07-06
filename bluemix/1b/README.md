@@ -31,13 +31,13 @@ A sample _weather provider_ app has been created for this tutorial.
 ### Add a new OpenAPI spec and invoke an existing REST service
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
 2. In the Bluemix navigation panel on the left hand, select **Services** and select the **Dashboard**. Launch the API Connect service.
-3. In API Connect, 
-   (a) Make sure the side-navigation panel (on the left) is open. If not, click the _Navigate to..._ (>>) button to open it.
-   (b) Click on **Drafts** in the side-navigation panel, 
-   (c) then click on the **APIs** tab 
-   (d) On the **APIs** tab, click on **Add**,
-   (e) and from the dropdown, select **New API**  
-  ![](images/create-new-1.png)
+3. In API Connect,   
+   (a) Make sure the side-navigation panel (on the left) is open. If not, click the _Navigate to..._ (>>) button to open it.  
+   (b) Click on **Drafts** in the side-navigation panel,   
+   (c) then click on the **APIs** tab   
+   (d) On the **APIs** tab, click on **Add**,  
+   (e) and from the dropdown, select **New API**    
+  ![](images/create-new-1.png)  
 4. In the New API pop-up, enter "Weather Provider API" for the title.
 _The Name and Base Path are auto-populated_  
 5. Select **Create API** to complete the wizard.  
@@ -53,38 +53,41 @@ _The Name and Base Path are auto-populated_
 _(We'll visit security with API Keys in the next tutorial.)_  
 
 
-8. In the left side-navigation panel, 
-   (a) Scroll down to the **Paths** panel, 
-   (b) Create a new path by clicking on the (+) button
-   (c) Name the new path "**/current**"
-   (d) In the same **Paths** panel, click on the **GET /current** section  
-   (e) In the **GET /current** section that opened up, add a new **Parameter**  
-      - Name: zipcode
-      - Located in: Query
-      - Required: Yes (check mark)
-      - Type: string
-    ![](images/path-current-1.png)
-  - Save your API.
+8. In the left side-navigation panel,   
+   (a) Scroll down to the **Paths** panel,   
+   (b) Create a new path by clicking on the (+) button  
+   (c) Name the new path "**/current**"  
+   (d) In the same **Paths** panel, click on the **GET /current** section    
+   (e) In the **GET /current** section that opened up, add a new **Parameter**   
+      - Name: zipcode  
+      - Located in: Query  
+      - Required: Yes (check mark)  
+      - Type: string   
+    ![](images/path-current-1.png)   
+  - Save your API.  
 
-9. In the **Definitions** panel, add a new definition.
-  - Name: Current  /  Type: Object
-  - Add new properties for the **Current** definition.
-    - Name: zip         /  Type: string
-    - Name: temperature /  Type: integer
-    - Name: humidity    /  Type: integer
-    - Name: city        /  Type: string
-    - Name: state       /  Type: string
-    ![](images/definition-current-1.png)
+9. In the left side-navigation panel,   
+  (a) Scroll down to the **Definitions** panel,   
+  (b) Add a new definition  
+  (c) Name the new definition _Current_,  
+  (d) Set the Type to _Object_  
+  (e) Add new properties for the **Current** definition.    
+       - Name: zip         /  Type: string   
+       - Name: temperature /  Type: integer   
+       - Name: humidity    /  Type: integer   
+       - Name: city        /  Type: string   
+       - Name: state       /  Type: string   
+    ![](images/definition-current-1.png)   
   - Save your API.  
 
 
-10. Scroll back up to the **Paths** panel.
+10. In the left side-navigation panel, scroll back up to the **Paths** panel.
   - Open the **GET /current** operation, and scroll to the **Responses** section.
   - Change the schema of the 200OK response from "object" to "**Current**".
   - Save your API.
   - The path and operation you created was to get the current weather data. Next you'll need to create the same to get today's weather data.  
 
-11. Create a new path: **/today**.
+11. Similar to how you created the **/current** path in step 8, create a new path: **/today**.
   - Add a new Parameter under the **GET /today** operation.
     - Parameter Name: zipcode
     - Located in: Query
