@@ -13,9 +13,9 @@ lastupdated: "2017-05-25"
 ---
 ### Objective
 This tutorial will guide you through creating an API in Node.js using the LoopBack framework. The tutorial will cover the following:
-- Create a new LoopBack project using the API Connect (APIC) toolkit command line.
-- Add a new data source and model to a LoopBack project by using the API Designer in IBM API Connect toolkit.
-- Test your API endpoints by using the API Designer Explore tool.
+1. Create a new LoopBack project using the API Connect (APIC) toolkit command line.
+2. Add a new data source and model to a LoopBack project by using the API Designer in IBM API Connect toolkit.
+3. Test your API endpoints by using the API Designer Explore tool.
 
 ---
 ### Prerequisites
