@@ -111,9 +111,9 @@ C. Drag the **invoke** policy from the _palette_ and drop it on the canvas.
     _The invoke action is used to call an existing service from within an operation_  
   - Drop one in the **/get current** path, and one in the **/get today** path.
   - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
-  - Update the URL field with https:// myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode)
+  - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode)
   - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
-  - Update the URL field with https:// myweatherprovider.mybluemix.net/today?zipcode=$(request.parameters.zipcode)  
+  - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode=$(request.parameters.zipcode)  
     ![](images/assemble-2.png)
 
 D. Save your API.
