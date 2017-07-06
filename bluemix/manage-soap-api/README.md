@@ -14,9 +14,8 @@ lastupdated: "2017-07-06"
 In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weather service.  
 
 ### Prerequisites
-Before you begin, you will need to [set up your API Connect instance](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
-
-Before you begin, copy the WSDL file located at https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/manage-soap-api/files/weatherprovider.wsdl to your local filesystem.  Note that you can click **Raw** and then save the resulting page as a file.
+- Before you begin, you will need to [set up your API Connect instance](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
+- Before you begin, copy the WSDL file located at https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/manage-soap-api/files/weatherprovider.wsdl to your local filesystem.  Note that you can click **Raw** and then save the resulting page as a file.
 
 ---
 ### Setting up a SOAP API definition
