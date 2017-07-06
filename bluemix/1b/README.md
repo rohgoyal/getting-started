@@ -31,7 +31,12 @@ A sample _weather provider_ app has been created for this tutorial.
 ### Add a new OpenAPI spec and invoke an existing REST service
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
 2. In the Bluemix navigation panel on the left hand, select **Services** and select the **Dashboard**. Launch the API Connect service.
-3. In API Connect, select **Drafts > APIs**. Then click **Add > New API**  
+3. In API Connect, 
+   (a) Make sure the side-navigation panel (on the left) is open. If not, click the _Navigate to..._ (>>) button to open it.
+   (b) Click on **Drafts** in the side-navigation panel, 
+   (c) then click on the **APIs** tab 
+   (d) On the **APIs** tab, click on **Add**,
+   (e) and from the dropdown, select **New API**  
   ![](images/create-new-1.png)
 4. In the New API pop-up, enter "Weather Provider API" for the title.
 _The Name and Base Path are auto-populated_  
@@ -48,14 +53,16 @@ _The Name and Base Path are auto-populated_
 _(We'll visit security with API Keys in the next tutorial.)_  
 
 
-8. In the **Paths** panel, create a new path.
-  - Name it "**/current**".  
-  - In the same **Paths** panel, click on the **GET /current** section.  
-  - Add a new Parameter.  
-    - Name: zipcode
-    - Located in: Query
-    - Required: Yes (check mark)
-    - Type: string
+8. In the left side-navigation panel, 
+   (a) Scroll down to the **Paths** panel, 
+   (b) Create a new path by clicking on the (+) button
+   (c) Name the new path "**/current**"
+   (d) In the same **Paths** panel, click on the **GET /current** section  
+   (e) In the **GET /current** section that opened up, add a new **Parameter**  
+      - Name: zipcode
+      - Located in: Query
+      - Required: Yes (check mark)
+      - Type: string
     ![](images/path-current-1.png)
   - Save your API.
 
@@ -98,25 +105,24 @@ _(We'll visit security with API Keys in the next tutorial.)_
 
 13. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the right target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.  
 
-A. First, delete the **invoke** policy that may already be added to the _canvas_.  
+   (a) First, delete the **invoke** policy that may already be added to the _canvas_.  
+   (b) Then, from the _palette_, drag the **Operation Switch** and drop it on the canvas.  
+      - To **case 0**, assign the **get /current** operation.
+      - Add a new Case: **case 1**.
+      - Assign the **get /today** operation to **case 1**.
+       ![](images/assemble-1.png)
+      - The **Operation Switch** provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked.
 
-B. Then, from the _palette_, drag the **Operation Switch** and drop it on the canvas.  
-  - To **case 0**, assign the **get /current** operation.
-  - Add a new Case: **case 1**.
-  - Assign the **get /today** operation to **case 1**.
-    ![](images/assemble-1.png)
-  - The **Operation Switch** provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked.
+   (c) Drag the **invoke** policy from the _palette_ and drop it on the canvas.   
+      _The invoke action is used to call an existing service from within an operation_  
+      - Drop one in the **/get current** path, and one in the **/get today** path.
+      - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
+      - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode)
+      - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
+      - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode=$(request.parameters.zipcode)  
+        ![](images/assemble-2.png)
 
-C. Drag the **invoke** policy from the _palette_ and drop it on the canvas.   
-    _The invoke action is used to call an existing service from within an operation_  
-  - Drop one in the **/get current** path, and one in the **/get today** path.
-  - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
-  - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode)
-  - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
-  - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode=$(request.parameters.zipcode)  
-    ![](images/assemble-2.png)
-
-D. Save your API.
+  (d) Save your API.
 
 
 ---
