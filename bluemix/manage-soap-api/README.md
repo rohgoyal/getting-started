@@ -2,7 +2,7 @@
  
 copyright:
 years: 2017
-lastupdated: "2017-06-22"
+lastupdated: "2017-07-06"
  
 ---
 # Managing a SOAP service
@@ -11,7 +11,7 @@ lastupdated: "2017-06-22"
 
 [Prerequisites](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
 
-Before you begin, copy the WSDL file located at https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/manage-soap-api/files/weatherprovider.wsdl to your local filesystem.
+Before you begin, copy the WSDL file located at https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/manage-soap-api/files/weatherprovider.wsdl to your local filesystem.  Note that you can click **Raw** and then save the resulting page as a file.
 
 ---
 ### Objective
