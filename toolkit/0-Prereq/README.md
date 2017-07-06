@@ -16,7 +16,7 @@
 
 ### Install node.js
 1. Download and install node.js from one of the two sources:
-   * https://nodejs.org/en/download/  
+   * https://nodejs.org/en/download/  (Download the LTS version for your platform, not the latest)
       **OR**
    * https://developer.ibm.com/node/sdk/v6/  
 
