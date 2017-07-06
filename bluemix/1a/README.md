@@ -33,9 +33,14 @@ A sample _weather provider_ app has been created for this tutorial; its correspo
   - In the Bluemix navigation panel (left hand), select **Services** and click **Dashboard**
   - Launch the API Connect service  
    ![](images/login-1.png)   ![](images/login-2.png)  
-  - In API Connect, click on **Drafts > APIs**
-  - In the **APIs** panel, click on **Add > Import API from a file or URL**  
-    ![](images/import-1.png) 
+  
+  - In API Connect,   
+     (a) Make sure the side-navigation panel (on the left) is open. If not, click the _Navigate to..._ (>>) button to open it.  
+     (b) Click on **Drafts** in the side-navigation panel,   
+     (c) then click on the **APIs** tab   
+     (d) On the **APIs** tab, click on **Add**,  
+     (e) and from the dropdown, select **Import API from a file or URL**  
+     ![](images/import-1.png) 
  
   - We will now import the OpenAPI weather definition.  In the "Import OpenAPI (Swagger) dialog box that pops up, enter this URL:
 https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml
