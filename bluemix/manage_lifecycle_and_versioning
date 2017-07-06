@@ -1,1 +1,101 @@
+---
 
+# Manage Lifecycle and Versions
+**Duration**: 30 mins  
+**Skill level**: Beginner  
+
+[Prerequisites]
+Complete the following tutorials:
+1. [Import an OpenAPI2.0 spec and proxy an existing REST service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md) or [Add a New API Spec and Invoke an Existing REST Service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1b/README.md)
+2. [Secure an API with two-legged OAuth (Application flow)](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/2b/README.md)
+
+---
+### Objective
+In API Manager, you will learn to manage the API Lifecycle.  
+
+---
+### Manage Products, Catalogs, and Roles
+In the previous tutorials you created 2 APIs, Weather Provider API and OAuth Endpoint API. Both of these APIs you added to the Weather Provider product, which is published in the default Sandbox catalog.
+
+First thing we will do is create a new catalog. This new catalog is going to be our production environment where we will publish and socialize our products and APIs publicly as opposed to the Sandbox catalog where we publish products and APIs while they are still in development and testing. Depending on the size of your organization and how your pipeline is set up you may want a separate catalog for development, testing, and production. 
+    Steps to create a new catalog and product with screenshots
+    1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
+
+    2. In the Bluemix **Dashboard**, launch the API Connect service.
+    ![](images/Bluemix.png)
+
+    3. In API Manager, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
+
+    4. Click **Drafts** > **APIs**.
+
+Now that we have our Prod catalog, we need to publish our Weather Provider product to it. But first lets talk about the different roles that come into play when managing the life cycle of an API. In API Connect we define 5 default roles for an organization but give the flexibility to add additional roles too:
+    Organization Owner - Owns and administers the API provider organization
+    Administrator - Administers the API provider organization
+    Product Manager - Manages application developer communities
+    API Developer - Authors API and product definitions
+    API Administrator - Manages the API product lifecycle
+
+Each role has certain responsibilities and permissions which can be customized to make sure the right people can do the right things.
+
+The organization owner can add team members and assign them roles.
+    Steps and screenshots to add members and assign/manage roles and permissions
+    1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
+
+    2. In the Bluemix **Dashboard**, launch the API Connect service.
+    ![](images/Bluemix.png)
+
+    3. In API Manager, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
+
+    4. Click **Drafts** > **APIs**.
+    
+So when the API developer creates APIs, Weather Provider API and OAuth Endpoint API, and a product, Weather Provider product, and publishes them to the Sandbox catalog, the API Administrator reviews the APIs and the product and can create a plan with rate and burst limits and can set subscription approvals. Once the product is all squared away and approved, the API Administrator can publish the product to the Prod catalog. 
+    Steps to create a new plan for a product with rate and burst limiting and adding subscription approvals
+    1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
+
+    2. In the Bluemix **Dashboard**, launch the API Connect service.
+    ![](images/Bluemix.png)
+
+    3. In API Manager, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
+
+    4. Click **Drafts** > **APIs**.
+    
+    Steps to stage and publish a product to the Prod catalog
+    1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
+
+    2. In the Bluemix **Dashboard**, launch the API Connect service.
+    ![](images/Bluemix.png)
+
+    3. In API Manager, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
+
+    4. Click **Drafts** > **APIs**.
+
+---
+### Manage Versions
+Now that the organization has gotten a product published in production, we will go through how one might manage different versions of that product.
+
+When a new version of the product comes through development and is ready to be published, the API Administrator has some decisions to make depending on the status of the existing product version. 
+    Replace - They could straight-up replace the old version thus forcing all the existing developers to subscribe to the new version.
+    Steps and screenshots
+    
+    Supersede -  they could supersede the existing version of the product meaning the existing developers have the option to migrate their subscription to the new version and all new subscriptions are automatically put on the new version. 
+    Steps and screenshots
+    
+    Deprecate - You can deprecate a published Product by using the Products view within a Catalog in API Manager. When you deprecate a Product, application developers that are already subscribed to the Product can continue to use it, but no new developers can subscribe to the Product. 
+    Steps and screenshots
+    
+    Retired - You can retire a published or deprecated Product by using the Products view within a Catalog in API Manager. When a Product is retired, all associated APIs are taken offline, and any subscriptions become inactive. 
+    Steps and screenshots
+    
+    Archived - You can archive a retired Product by using the Products view within a Catalog in API Manager. When a Product is archived, all associated APIs are taken offline, and any subscriptions become inactive.
+    Steps and screenshots
+    
+    Deleted - the product is erased from the catalog permanently
+    Steps and screenshots
+    
+---
+### What you did in this tutorial
+In this tutorial, you completed the following activities:
+1. Set up a SOAP API definition
+2. Tested your API definition
+
+---
