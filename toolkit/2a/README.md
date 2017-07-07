@@ -78,9 +78,10 @@ Completed Part 1a _**or**_ 1b
 The security settings can also be tested using the Explore tool that explicitly calls the proxy endpoint, and passes the Client ID and Client Secret keys as header values.
 
 1. Click **Explore > Sandbox**
-    ![](images/explore_1.png)
+ 
 
 2. Click on the GET /current operation from the list
 
 3. In the right-hand column, use the Call Operation button to rerun the test
-    ![](images/explore_3.png)
+    
+    ![](pictures/4.png)
