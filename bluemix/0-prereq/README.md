@@ -24,7 +24,6 @@
 2. When you have your IBMid and Bluemix account, create your **API Connect** instance.
   a. Log in to **Bluemix**, IBM’s cloud platform: https://new-console.ng.bluemix.net/login.  
   ![](images/prereqs-1.png)  
-
   b. Create your _organization_ in **Bluemix**. You will be prompted to do the first time you log in.  
   ![](images/prereqs-2.png)
   c. Create your _space_.  
