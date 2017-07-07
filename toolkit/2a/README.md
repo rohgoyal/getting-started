@@ -32,6 +32,7 @@ Completed Part 1a _**or**_ 1b
 
 
 3. In the Design view, scroll down to **Security Definitions**
+     ![](pictures/1.png)  
     * Add two new API keys:
     * Name: Client ID;  Parameter name: X-IBM-Client-ID
     * Name: Client Secret;  Parameter name: X-IBM-Client-Secret
