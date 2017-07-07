@@ -46,8 +46,11 @@ Completed Part 1a _**or**_ 1b
 
 4. Scroll down to the **Security** panel, and add a new security option
     * Select the newly created Client ID and Client Secret keys
+    
+    ![](pictures/3a.png) 
+    
     * Save your API, and switch over to the **Assemble** tab
-    ![](images/3_security_option.png)  
+     
 
 
 ### Test the changes made to your API
