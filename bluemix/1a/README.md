@@ -21,8 +21,7 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
   - Test it out by going to https://myweatherprovider.mybluemix.net/current?zipcode=90210.  
   ![](images/explore-weatherapp-2.png)
 
-  - Similary, the Endpoint to get **today's** forecast data is  
-   _**https:// myweatherprovider<span></span>.mybluemix.net/today?zipcode={zipcode}**_.
+  - Similary, the Endpoint to get **today's** forecast data is _**https:// myweatherprovider<span></span>.mybluemix.net/today?zipcode={zipcode}**_.
   - Test it out by going to https://myweatherprovider.mybluemix.net/today?zipcode=90210.  
   ![](images/explore-weatherapp-3.png)
 
