@@ -1,4 +1,4 @@
-# Basic Analytics
+# Gain Insights from Basic Analytics
 **Duration**: 30 mins  
 **Skill level**: Beginner
 
