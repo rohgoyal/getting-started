@@ -106,8 +106,7 @@ b. From the palette, drag the **Operation Switch** and drop it on the canvas.
        ![](images/assemble-1.png)
 The **Operation Switch** provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked.
 
-c. Drag the **invoke** policy from the palette and drop it on the canvas.   
-_The invoke action is used to call an existing service from within an operation_  
+c. Drag the **invoke** policy from the palette and drop it on the canvas. _The invoke action is used to call an existing service from within an operation_.  
 - Drop one in the **/get current** path, and one in the **/get today** path.   
 - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
 - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode).  
