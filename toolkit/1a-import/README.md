@@ -27,19 +27,18 @@ A sample _weather provider_ app has been created for this tutorial.
 ---
 
 ### Import the sample app's OpenAPI spec to create a REST API proxy
-1. Launch the **API Designer**.
-- In your terminal, enter `apic edit`.
-3. Log in using your IBMid.
+1. Launch the **API Designer**. In your terminal, enter `apic edit`.
+2. Log in using your IBMid.
     ![](images/screenshot_apic-edit_login.png)
-4. In the **API Designer** navigation panel, select **Drafts > APIs**.
-5. In the **APIs** panel, select **Add > Import API from a file or URL**.
-6. There is an OpenAPI 2.0 definition of the above weather API we will use for this tutorial. In the "Import OpenAPI (Swagger)" dialog box that pops up, enter this URL:
+3. In the **API Designer** navigation panel, select **Drafts > APIs**.
+4. In the **APIs** panel, select **Add > Import API from a file or URL**.
+5. There is an OpenAPI 2.0 definition of the above weather API we will use for this tutorial. In the "Import OpenAPI (Swagger)" dialog box that pops up, enter this URL:
 https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/1a-import/weather-provider-api_1.0.0.yaml.
-7. Leave the _Add a product_ option unchecked and click **Import**.  
+6. Leave the _Add a product_ option unchecked and click **Import**.  
     ![](images/screenshot_import-url.png)  
-8. There are a few more steps before your API proxy is ready. In the API's **Design** view, scroll down to the **Host** panel.   
+7. There are a few more steps before your API proxy is ready. In the API's **Design** view, scroll down to the **Host** panel.   
 _You'll notice that the Host value is set to myweatherprovider.mybluemix.net. Change this value to_ ```$(catalog.host)``` _. By doing so, you are setting the base URL for your API proxy._
-9. Save your API.  
+8. Save your API.  
 
 
 ### Test your API proxy
