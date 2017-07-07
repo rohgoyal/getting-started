@@ -77,10 +77,10 @@ _The Explore Tool allows users to test the correct operation of the API by enfor
 
 1. To test your API proxy endpoints, select **Explore**, then select **Sandbox**.
     ![](images/test-explore-1.png)
-2. Click **GET /current** operation from the palette.
-3. Click "Try it" in the right-hand panel.  
+2. Select the **GET /current** operation from the palette.
+3. Select "Try it" in the right-hand panel.  
 4. Enter a valid U.S. zipcode (e.g. 90210) in the test box.
-5. Click **Call operation** to see the response.
+5. Select **Call operation** to see the response.
   ![](images/test-explore-2.png)
 
     ![](images/test-explore-3.png)
