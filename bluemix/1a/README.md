@@ -17,11 +17,11 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
 2. Enter a valid 5-digit US zipcode to get the _**current weather**_ and _**today's forecast**_.  
 ![](images/explore-weatherapp-1.png)
 
-  - The endpoint to get the **current** weather data is _**https:// myweatherprovider<span></span>.mybluemix.net/current?zipcode={zipcode}**_.
+  - The above sample weather app has been built using APIs that provide the weather data. The endpoint to get the **current** weather data is _**https:// myweatherprovider<span></span>.mybluemix.net/current?zipcode={zipcode}**_.
   - Test it out by going to https://myweatherprovider.mybluemix.net/current?zipcode=90210.  
   ![](images/explore-weatherapp-2.png)
 
-  - Endpoint to get **today's** forecast data is  
+  - Similary, the Endpoint to get **today's** forecast data is  
    _**https:// myweatherprovider<span></span>.mybluemix.net/today?zipcode={zipcode}**_.
   - Test it out by going to https://myweatherprovider.mybluemix.net/today?zipcode=90210.  
   ![](images/explore-weatherapp-3.png)
