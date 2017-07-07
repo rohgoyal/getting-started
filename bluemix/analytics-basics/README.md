@@ -77,6 +77,8 @@ Now, let's create a new dashboard that will provide view of API traffic patterns
   * API Calls per Day
   * Success Rate
   
+  ***Important!*** When you select each visualization, the selection tab blocks your dashboard view, so you may not realize that the visualization you click has been added to the dashboard. It may be easier to select one visualization at a time, closing the selection tab each time, so that you can see the changes to your new dashboard.
+
 3. Click the Save button and give your dashboard a name: ``Subscriber Dashboard``.
 
    ![](./images/savedashboard.png)
@@ -124,9 +126,7 @@ The ability to visualize API analytics in different styles and combinations give
 
 For example, an API provider "ACME" has had version 1 (v1) and version 2 (v2) of an API running for several years. They deprecated v1 when they released v2. They also ensured existing v1 consumers were aware that they had a certain timeline to move to v2. As this deadline approaches, ACME wants to see how quickly consumers are moving off v2, so they can offer assistance to valued partners. 
 
-Using a visualization to the one we just built, ACME has this information available at a glance.
-
-*todo: insert screencap of graph here, after I build something attractive & simple*
+Using a visualization similar to the one we just built, ACME has this information available at a glance.
 
 In this tutorial, we walked through a number of activities to help you create useful combinations of API & consumer data. Using visualizations and dashboards, we quickly created tools to help API owners offer the right mix of APIs.
 
