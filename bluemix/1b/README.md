@@ -6,7 +6,7 @@
 This tutorial is to help you get started quickly with **API Connect**. We'll start by creating a new OpenAPI spec, and then proxy existing REST services used by the sample weather app.
 
 ### Prerequisite
-Before you begin, you will need to [set up your API Connect Instance](/bluemix/0-prereq/README.md)
+Before you begin, you will need to [set up your API Connect Instance](/bluemix/0-prereq/README.md).
 
 ---
 
