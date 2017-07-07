@@ -21,7 +21,7 @@
 
 - _Already have an IBMid? Then skip the registration, and just create your free Bluemix account:_ _https://console.ng.bluemix.net/_.  
 
-2. When you have your IBMid and Bluemix account, create your **API Connect** instance.
+2. When you have your IBMid and Bluemix account, create your **API Connect** instance.  
   a. Log in to **Bluemix**, IBM’s cloud platform: https://new-console.ng.bluemix.net/login.  
   ![](images/prereqs-1.png)  
   b. Create your _organization_ in **Bluemix**. You will be prompted to do the first time you log in.  
