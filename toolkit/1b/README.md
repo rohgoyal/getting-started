@@ -29,9 +29,9 @@ A sample _weather provider_ app has been created for this tutorial.
 1. Launch the **API Designer**. In your terminal, enter `apic edit`.
 2. Log in using your IBMid.
     ![](images/screenshot_apic-edit_login.png)
-3. In the **API Designer** navigation panel (left hand), click on **Drafts > APIs**.
-4. In the **APIs** panel, click on **Add > New API**.
-5. In the New API pop-up, enter "Weather Provider API" for the title. _The Name and Base Path are auto-populated_  
+3. In the **API Designer** navigation panel, select **Drafts > APIs**.
+4. In the **APIs** panel, select **Add > New API**.
+5. In the New API pop-up, enter "Weather Provider API" for the title. _The Name and Base Path are auto-populated_.  
 6. Select **Create API** to complete the wizard.  
 
 7. Once your API is created, you should be in the **Design** tab.
@@ -44,7 +44,7 @@ _(We'll visit security with API Keys in the next tutorial.)_
 
 9. In the **Paths** panel, create a new path.
   - Name it "**/current**".  
-  - In the same **Paths** panel, click on the **GET /current** section.  
+  - In the same **Paths** panel, select the **GET /current** section.  
   - Add a new Parameter.  
     - Name: zipcode
     - Located in: Query
@@ -119,7 +119,7 @@ c. Drag the **invoke** policy from the palette and drop it on the canvas. Drop o
 
 3. In the test panel, select the **get /current** operation.  
   - Zipcode is a required parameter for this operation, so enter a valid U.S. zip code (e.g. 90210).  
-  - Click **invoke**, and verify that you see the following:
+  - Select **invoke**, and verify that you see the following:
     - 200 OK response
     - Current weather data for 90210   
     ![](images/screenshot_test-2.png)  
