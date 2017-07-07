@@ -16,39 +16,38 @@
 
 ### Install node.js
 1. Download and install node.js from one of the two sources:
-   * https://nodejs.org/en/download/  (Download the LTS version for your platform, not the latest)
+   * https://nodejs.org/en/download/ (Note: Download the LTS version for your platform, not the latest)
       **OR**
    * https://developer.ibm.com/node/sdk/v6/  
 
-    _Installing node.js also installs **npm** (Node Package Manager)_
+    _Installing node.js also installs **npm** (Node Package Manager)_.
 
-2.  Once Node.js is downloaded and install, check to make sure it is in your _PATH_
+2.  Once Node.js is downloaded and install, check to make sure it is in your _PATH_.
     ![](images/verify-path.png)  
 
 
-3. Update **npm**   
-    In a command line, enter `npm install -g npm`   
+3. Update **npm**. In a command line, enter `npm install -g npm`.
 
 
-4. Check the installed version and path
+4. Check the installed version and path.
    ![](images/screenshot_install_apic-1.png)  
 
 
 
 ### Install the API Connect toolkit
-1. Update the npm config to allow use of untrusted certificates  
+1. Update the npm config to allow use of untrusted certificates.
    `npm config -g set strict-ssl false`  
 
-2. Install the API Connect toolkit from **npm**  
+2. Install the API Connect toolkit from **npm**.
     `npm install -g apiconnect`
 
-3. Check the installed version  
+3. Check the installed version.
     `apic -v`
 
 
 ### Install the Microgateway
-_We'll use the Microgateway as a local test server for this tutorial_
+_We'll use the Microgateway as a local test server for this tutorial_.
 
- In a command line, enter `npm install -g microgateway`  
+ In a command line, enter `npm install -g microgateway`.
 
  
