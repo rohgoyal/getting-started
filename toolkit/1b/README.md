@@ -143,3 +143,7 @@ _(We'll visit security with API Keys in the next tutorial.)_
   ![](images/screenshot_explore.png)  
   
 ---
+
+###### Conclusion
+
+In this tutorial, you saw how an existing REST service can be accessed by building an API. We started by checking the availability of the sample service through the web browser. Then we created an API in API Connect, and built the connections in the API Design editor.  Finally, we tested the API with the built-in testing tool.
