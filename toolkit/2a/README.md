@@ -34,7 +34,7 @@ Completed Part 1a _**or**_ 1b
 3. In the Design view, scroll down to **Security Definitions**
       
     * Add two new API keys:
-    ![](pictures/1a.png) 
+    ![](pictures/1b.png) 
     * Name: Client ID;  Parameter name: X-IBM-Client-ID
     * Name: Client Secret;  Parameter name: X-IBM-Client-Secret
     * For both new keys, ensure that the "Located In" field is set to "Header"
