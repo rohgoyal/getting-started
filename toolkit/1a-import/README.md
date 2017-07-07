@@ -28,7 +28,7 @@ A sample _weather provider_ app has been created for this tutorial.
 
 ### Import the sample app's OpenAPI spec to create a REST API proxy
 1. Launch the **API Designer**.
-2. In your terminal, enter `apic edit`.
+- In your terminal, enter `apic edit`.
 3. Log in using your IBMid.
     ![](images/screenshot_apic-edit_login.png)
 4. In the **API Designer** navigation panel, select **Drafts > APIs**.
