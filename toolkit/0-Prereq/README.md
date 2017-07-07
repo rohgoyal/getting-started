@@ -35,18 +35,18 @@
 
 
 ### Install the API Connect toolkit
-1. Update the npm config to allow use of untrusted certificates.
+1. Update the npm config to allow use of untrusted certificates.  
    `npm config -g set strict-ssl false`  
 
-2. Install the API Connect toolkit from **npm**.
+2. Install the API Connect toolkit from **npm**.  
     `npm install -g apiconnect`
 
-3. Check the installed version.
+3. Check the installed version.  
     `apic -v`
 
 
 ### Install the Microgateway
-_We'll use the Microgateway as a local test server for this tutorial_.
+We'll use the Microgateway as a local test server for this tutorial.
 
  In a command line, enter `npm install -g microgateway`.
 
