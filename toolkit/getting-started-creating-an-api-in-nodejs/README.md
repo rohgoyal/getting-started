@@ -90,12 +90,12 @@ To add a new data source to a LoopBack project using the API Designer, complete 
 6. Click **New**.
 7. By default, the **Connector** setting shows **In-memory db** and the other settings are blank. Keep the default settings for now, and API Designer automatically saves the new data source.
 	>![info]
-	>The In-memory data source is built into LoopBack and is suitable only for development and initial testing. When you are ready to connect your models to a real data source such as database server, change the **Connector** setting accordingly then install the data source connector by following the instructions in [Installing LoopBack connectors](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim-connector-install.html#task_i2p_dnw_vv). Then enter the connector settings (host name, port, database name, user name, password) as appropriate for your Connector type, and click the **Save** icon ![](images/save-icon.png). Then, API Designer automatically tests the connection to the data source. If the test is successful, it displays the message **Success - Data source connection test succeeded**.
+	>The In-memory data source is built into LoopBack and is suitable only for development and initial testing. When you are ready to connect your models to a real data source such as a database server, change the **Connector** setting accordingly then install the data source connector by following the instructions in [Installing LoopBack connectors](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim-connector-install.html#task_i2p_dnw_vv). Then enter the connector settings (host name, port, database name, user name, password) as appropriate for your Connector type, and click the **Save** icon ![](images/save-icon.png). API Designer automatically tests the connection to the data source. If the test is successful, it displays the message **Success - Data source connection test succeeded**.
 8. You can test the data source connection by clicking Test Connection icon ![](images/db-test-icon.png). The message "Data source connection test succeeded" is displayed.
 9. Click **All Data Sources**. The data source will appear in the list of data sources, and the editor updates the server/datasources.json file with settings for the new data source.
 
 #### Adding a model
-To add a new model to a LoopBack project using the API Designer, complete the following steps.
+To add a new model to a LoopBack project using the API Designer, complete the following steps:
 1. Click the **Models** icon ![](images/models-icon.png).
 2. Click **Add**. The New LoopBack Model window opens.
 3. Enter ```weather``` in the **Name** text field, then click **New**.
@@ -114,14 +114,14 @@ To add a new model to a LoopBack project using the API Designer, complete the fo
 10. Click the **Save** icon ![](images/save-icon.png) to save your changes.
 11. Click **All Models** to finish editing the model.
 
-This completes the adding of a new data source and model to the **weather-data** LoopBack project.
+This completes adding a new data source and model to the **weather-data** LoopBack project.
 
 ---
 ### Test your LoopBack project
 >![info]
 	>You can go directly to step 2 below if you did not exit APIC designer after completing the "Add a new model and data source" section.
 	
-To test your API endpoints using the API Designer Explore tool, complete the following steps.
+To test your API endpoints using the API Designer Explore tool, complete the following steps:
 1. From the command line, enter the following command:
 	```bash
 	apic edit
