@@ -23,7 +23,7 @@ Before you begin, you will need to [install the IBM API Connect toolkit](https:/
 
 ---
 ### Create a LoopBack project from the command line
-To create a LoopBack project using the APIC toolkit command line, complete the following steps.
+To create a LoopBack project using the APIC toolkit command line, complete the following steps:
 1.  From the command-line interface, enter the command below. It is used to create and manage LoopBack applications.
 	```bash
 	apic loopback
