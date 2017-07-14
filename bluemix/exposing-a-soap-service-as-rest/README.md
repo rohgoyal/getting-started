@@ -31,7 +31,7 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 	![](images/new-api-1.png)
 	![](images/new-api-1b.png)
 8. Add your API to a new Product and then create the API definition.
-	- Click **Add a product**.
+	- Select **Add a product**.
 	- In the **Title** field, enter ```Weather Data product```.
 	- Leave the **Name** and **Version** fields unchanged.
 	- Ensure that the **Publish this product to a catalog** check box is selected and then select **Sandbox** as the target Catalog.
@@ -63,7 +63,7 @@ To add and configure the invoke and map policies that integrate your web service
 1. Download the ```files/weatherprovider.wsdl``` to your local computer.
 2. In the **Services** section, click the **Add service** icon ![](images/add-icon.png). The ```Import web service from WSDL``` window opens.
 	![](images/upload-file-1.png)
-3. Click **Upload file**.
+3. Select **Upload file**.
 4. In the **File Upload** window, specify the location to the ```weatherprovider.wsdl``` file that you downloaded in ```step 1``` and click **Open** to continue.
 5. Click **Next**.
 6. Select the **weatherService** SOAP service and then click **Done**. In the **Services** section, **WeatherService** web service is listed with a single **weatherRequest** operation.
