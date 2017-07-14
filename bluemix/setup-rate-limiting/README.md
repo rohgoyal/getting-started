@@ -10,7 +10,7 @@ In **API Connect**, we use *Products* to group APIs together. Products also cont
 
 When an application developer wants to use your APIs, they will subscribe to a plan that meets their usage needs.
 
-In this tutorial, you will do the following:
+In this tutorial, you will complete the following tasks:
 1. Add a new rate-limiting plan to an existing API product.
 2. See what happens when an application exceeds the allowed rate limits.
 
