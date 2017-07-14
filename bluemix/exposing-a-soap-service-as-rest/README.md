@@ -5,7 +5,7 @@ years: 2017
 lastupdated: "2017-05-25"
  
 ---
-# Exposing a SOAP service as REST
+# Exposing a SOAP service as REST API
 **Duration**: 20 mins  
 **Skill level**: Beginner  
 
@@ -17,9 +17,9 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 ### Setting up a REST API definition
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
 2. In the Bluemix navigation panel on the left hand, select **Services** and select the **Dashboard**. Launch the API Connect service.
-3. In API Connect, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
-4. Click **Drafts** in the UI navigation pane and then click the **APIs** tab. The **APIs** tab opens.
-5. Click **Add** > **New API**.
+3. In API Connect, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png). The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
+4. Select **Drafts** in the UI navigation pane and then click the **APIs** tab. The **APIs** tab opens.
+5. Select **Add** > **New API**.
 6. Specify basic information about the API.
 	- In the **Title** field, enter ```Weather Data```.
 	- Leave the **Name** field as ```weather-data``` when it is filled while you enter your title.	
@@ -39,19 +39,19 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 	- Click **Create API**. The **Design** tab for the draft of your API definition opens.
 9. Your API is now created. The Design page displays. Click **Security** in the navigation bar.
 ![](images/api-security-1.png)
-10.	Uncheck the **ClientID** option.
+10. Uncheck the **ClientID** option.
 ![](images/api-security-2.png)
 	>![info]
-	>You may notice that there is a yellow triangular icon that appears next to the save disk icon.  This is a warning that there are definition that may have been defined but not yet used.  This won't affect the API definition.
+	>You may notice that there is a yellow triangular icon that appears next to the save disk icon.  This is a warning that there are definition that may have been defined but not yet used. (This won't affect the API definition.)
 11. In the **Definitions** section, click the **Add Definition** icon ![](images/add-icon.png) and then expand the new definition by clicking it.
 12. Name the definition ```Weather Data Output```.
-13. The definition will have five properties.  Click **Add Property** four times to add the additional properties.  Rename the ```Property Name``` using the following as a guide and use the default for the ```Description```, ```Type``` and ```Example```:
+13. The definition will have five properties. Click **Add Property** four times to add the additional properties. Rename the ```Property Name``` using the following as a guide and use the default for the ```Description```, ```Type``` and ```Example```:
 	![](images/definition-new-1.png)
 14. In the **Paths** section, click the **Add Path** icon ![](images/add-icon.png).
 15. In the **Path** field of your newly created Path, replace the contents with ```/getweatherdata```.
 16. Expand the **GET /getweatherdata** operation by clicking it.
 	![](images/path-new-1.png)
-17. For your **GET /getweatherdata** operation, click **Add Parameter** and then click **Add new parameter**.
+17. For your **GET /getweatherdata** operation, click **Add Parameter**, and then click **Add new parameter**.
 18. Name your new parameter ```zip_code``` and leave the rest as default.
 19. In the **Schema** column of the **200 OK** response in the **Responses** section, select your **Weather Data Output** definition. For the response to the API call, the object define in by the **Weather Data Output** will be the response object.
 	![](images/path-new-2.png)
@@ -59,8 +59,8 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 
 ---
 ### Adding and configuring your web service invocation
-To add and configure the invoke and map policies that integrate your web service into your API definition, complete the following steps:
-1. Download the ```files/weatherprovider.wsdl``` to your local computer
+To add and configure the invoke and map policies that integrate your web service into your API definition, complete the steps below.
+1. Download the ```files/weatherprovider.wsdl``` to your local computer.
 2. In the **Services** section, click the **Add service** icon ![](images/add-icon.png). The ```Import web service from WSDL``` window opens.
 	![](images/upload-file-1.png)
 3. Click **Upload file**.
@@ -70,7 +70,7 @@ To add and configure the invoke and map policies that integrate your web service
 	![](images/upload-file-2.png)
 
 	![](images/services-add-1.png)	
-7. Click the **Assemble** tab and then ensure that **DataPower Gateway policies** is selected.
+7. Navigate to the **Assemble** tab and then ensure that **DataPower Gateway policies** is selected.
 8. Delete the existing **invoke** policy on the canvas by hovering your cursor over the policy and then clicking the **Delete policy** icon ![](images/delete-icon.png).
 	![](images/delete-invoke-1.png)	
 9. From the palette, drag the **weatherRequest** web service onto the dashed box that is displayed on the canvas. An invoke policy and two map policies are placed in the assembly. The first map policy assigns variables to the input of your web service invocation, while the second policy assigns outputs of your web service invocation to variables. The outputs of the first map and the inputs of the second map are generated from the WSDL provided in step 4.
@@ -84,18 +84,18 @@ To add and configure the invoke and map policies that integrate your web service
 	![](images/webservice-input-2.png)
 14. Close the property sheet.
 15. Click the **weatherRequest: output** map policy in the palette and then click the **Edit outputs** icon ![](images/edit-icon.png) in the Output column of the property sheet.
-16. Click **+ outputs for operation** and select ```get /getweatherdata```.
-17. Click **Done** to add the ```Weather Data Output``` output definition.
+16. Select **+ outputs for operation** and select ```get /getweatherdata```.
+17. Select **Done** to add the ```Weather Data Output``` output definition.
 	![](images/webservice-output-1.png)
-18. Click the circle corresponding to **zip string** on the input side and then click the circle corresponding to **zip string** on the output side.  Map the remaining parameters using the following as a guide.
+18. Click the circle corresponding to **zip string** on the input side and then click the circle corresponding to **zip string** on the output side. Map the remaining parameters using the following as a guide.
 	![](images/webservice-output-2.png)
-19. Click the **Save** icon ![](images/save-icon.png). to save your changes.
+19. Click the **Save** icon ![](images/save-icon.png) to save your changes.
 
 You have included the web service invocation in your assembly and mapped an input parameter to the appropriate part of the SOAP request and mapped the appropriate part of the SOAP response to a JSON output.
 
 ---
 ### Testing your API definition
-To test your API definition by using the API Manager test tool, complete the following steps:
+To test your API definition by using the API Manager test tool, complete the steps below.
 1. Click the **Test** icon ![](images/test-icon.png) under the **Assembly** tab to reveal the test pane.
 	![](images/test-pane-1.png)
 2. If you have used the test tool before, click **Change setup**.
