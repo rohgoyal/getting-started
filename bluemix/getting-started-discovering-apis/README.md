@@ -44,13 +44,13 @@ In this section, you will explore the products and APIs in the developer portal.
 5. In the details page of an API you can view the available operations along with their parameters and the responses returned. At the bottom of the page you can view the definitions used by the API.  
   ![API Details](images/1.5-details.png) 
 
-6. In the right panel, you can view different examples of how to invoke the requests and their responses. Select one of the different examples such as **Node** to see an example in that language.  
+6. In the right panel, you can view examples in different languages for how to invoke the requests and their responses. Select one of the examples, such as **Node**, to see an example in that language.  
   ![API Details](images/1.6-examples.png) 
 
 ---
 
 ### View and test the APIs
-In this section, you will learn how to view and test the APIs available for a product. 
+In this section, you will learn how to view and test the available APIs for a product. 
 
 1. Navigate to the API details in the API Connect Developer portal as outlined above.  
   ![API Details](images/2.1-details.png) 
@@ -75,7 +75,9 @@ In this section, you will learn how to subscribe to APIs in the developer portal
 1. Select **Create an account**. 
 ![API Products](images/3.1-create-account.png)
 
-2. Fill in the required fields and select **Create new account** at the bottom of the page. Note: Use a different email address than the one used to create your developer portal in the previous tutorial.
+2. Fill in the required fields and select **Create new account** at the bottom of the page. 
+>![info]
+>Use a different email address than the one used to create your developer portal in the previous tutorial.
 ![API Products](images/3.2-create-new-account.png)
 
 3. Once the developer account is created, log in to view the home page. You must have an app to subscribe to the APIs. Select **Apps** to go to the registered apps page.  
@@ -90,7 +92,7 @@ In this section, you will learn how to subscribe to APIs in the developer portal
 6. Now that you have an App, you can subscribe to API Product plans. Select **available APIs** or **API Products** to browse the API Product plans.  
   ![API Details](images/3.6-api-products.png) 
 
-7. Select the **API Product** you wish to subscribe too.  
+7. Select the **API Product** you wish to subscribe to.  
   ![API Product](images/3.7-select-product.png) 
 
 8. Select **Subscribe** to subscribe to the API Product Plan.  
