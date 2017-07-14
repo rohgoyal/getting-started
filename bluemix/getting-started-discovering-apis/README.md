@@ -76,8 +76,7 @@ In this section, you will learn how to subscribe to APIs in the developer portal
 ![API Products](images/3.1-create-account.png)
 
 2. Fill in the required fields and select **Create new account** at the bottom of the page. 
->![info]
->Use a different email address than the one used to create your developer portal in the previous tutorial.
+**Note:** Use a different email address than the one used to create your developer portal in the previous tutorial.
 ![API Products](images/3.2-create-new-account.png)
 
 3. Once the developer account is created, log in to view the home page. You must have an app to subscribe to the APIs. Select **Apps** to go to the registered apps page.  
