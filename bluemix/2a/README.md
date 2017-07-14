@@ -25,7 +25,7 @@ Before you begin, you must have completed one of the following tutorials:
     ![](images/1_goto_drafts_api.png)  
 
 2. In the Design view, scroll down to **Security Definitions**.
-- Add two new API keys:
+- Select **+ > API Key** and add two new API keys:
    - Name: Client ID;  Parameter name: X-IBM-Client-Id
    - Name: Client Secret;  Parameter name: X-IBM-Client-Secret
 For both new keys, ensure that the "Located In" field is set to "Header".
