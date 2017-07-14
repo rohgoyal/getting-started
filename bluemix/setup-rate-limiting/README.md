@@ -16,7 +16,7 @@ In this tutorial, you will complete the following tasks:
 
 
 ### Prerequisites
-You must have already created an API in **API Connect**, secured with at least an API Key. In the instructions below, our starting point is the [Weather Provider API example](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md), secured using a [client ID and secret](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/2a/README.md).
+You must have already created an API in **API Connect**, secured with at least an API Key. In the instructions below, our starting point is the [Weather Provider API example](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md), secured using a client ID and secret.
 
 Before you begin, you must have completed the following tutorials.
 - [Import your API spec, and proxy an existing REST service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md)
