@@ -29,7 +29,7 @@ Before you begin, you must have completed one of the following tutorials:
     ![](images/1_goto_drafts_api.png)  
 
 3. In the Design view, scroll down to **Security Definitions**.
-- Add two new API keys:
+- Select **+ > API Key** and add two new API keys:
     ![](pictures/1b.png) 
    - Name: Client ID; Parameter name: X-IBM-Client-ID
    - Name: Client Secret; Parameter name: X-IBM-Client-Secret
