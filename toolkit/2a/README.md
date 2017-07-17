@@ -58,7 +58,7 @@ Before you begin, you must have completed one of the following tutorials:
 3. Scroll back up to the Client ID field. Replace the Client ID value with a random one.
 
 4. Rerun the test by clicking **Invoke**.
-- You'll see a 401 Unauthorized response, along with details: "Client ID not registered".
+- You'll see a 401 Unauthorized response, together with the message "Client ID not registered".
     ![](images/test_api_keys_3.png)
 
 ### Call your API using the Client ID and Client Secret
