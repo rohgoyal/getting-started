@@ -38,7 +38,7 @@ Before you begin, you must have completed one of the following tutorials:
 
 
 4. Scroll down to the **Security** panel and add a new security option.
-- Select the newly created Client ID and Client Secret keys
+- Select the newly created Client ID and Client Secret keys.
     
     ![](pictures/3a.png) 
     
