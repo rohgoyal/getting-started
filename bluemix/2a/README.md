@@ -28,7 +28,7 @@ Before you begin, you must have completed one of the following tutorials:
 - Select **+ > API Key** and add two new API keys:
    - Name: Client ID;  Parameter name: X-IBM-Client-Id
    - Name: Client Secret;  Parameter name: X-IBM-Client-Secret
-For both new keys, ensure that the "Located In" field is set to "Header".
+   - For both new keys, ensure that the "Located In" field is set to "Header".
     ![](images/2_security_definitions.png)  
 
 3. Scroll down to the **Security** panel and add a new security option.
