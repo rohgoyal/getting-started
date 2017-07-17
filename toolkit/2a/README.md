@@ -8,7 +8,7 @@ Skill level: Beginner
 
 ### Objective
 
-This tutorial will guide you through securing your API with the keys so that any application calling your API would need to supply the Client ID and Client Secret keys. In this tutorial, we will modify the API the same API we are working with.
+This tutorial will guide you through securing your API with the keys so that any application calling your API would need to supply the Client ID and Client Secret keys. In this tutorial, we will modify the same API we are working with.
 
 ### Prerequisites
 Before you begin, you must have completed one of the following tutorials:
