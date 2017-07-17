@@ -19,7 +19,7 @@ Before you begin, you must have completed one of the following tutorials:
 
 ### Set the identification mechanism of your API
 
-1. Navigate to the API's Design view.
+1. Navigate to your API's Design view.
 - Select **Drafts > APIs**.
 - Select the Weather Provider API. This opens the **Design** view.
     ![](images/1_goto_drafts_api.png)  
