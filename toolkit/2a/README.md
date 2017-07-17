@@ -33,7 +33,7 @@ Before you begin, you must have completed one of the following tutorials:
     ![](pictures/1b.png) 
    - Name: Client ID; Parameter name: X-IBM-Client-ID
    - Name: Client Secret; Parameter name: X-IBM-Client-Secret
-   - For both new keys, ensure that the "Located In" field is set to "Header".
+   - For both new keys, ensure that the **Located In field** is set to "Header".
     ![](pictures/2a.png)   
 
 
