@@ -83,8 +83,8 @@ In previous examples, you may have published your Product by using the test tool
 1. Launch the Developer Portal. If you don't know the URL, you can find it in the Settings > Portal tab of the Sandbox Catalog.
 
    ![](./images/devportalurl.png)
-    - To provision the Developer Portal for the first time, select **IBM Developer Portal** from the drop-down.
-    - This may take up to an hour to complete. You will get an email when your Sandbox portal is ready.
+    - To provision the Developer Portal for the first time, select **IBM Developer Portal** from the *Select Portal* drop-down.
+    - The provisioning may take up to an hour to complete. You will get an email when your Sandbox portal is ready.
 2. Log into the Portal using your app developer credentials (**not** your IBM id). _(Create a new developer account if necessary, using a different address than your IBM id.)_
 3. Click the **Apps** link on the toolbar, and select **Create new App**.
 
