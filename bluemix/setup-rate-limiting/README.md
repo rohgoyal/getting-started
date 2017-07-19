@@ -47,18 +47,19 @@ Before you begin, you must have completed the following tutorials:
 ## Create a new rate-limited Plan
 
 Now that we have seen what the Default Plan looks like, let's create a new Plan with more restrictive rate limits, to demonstrate what happens when an API consumer exceeds a Plan's limits. 
-1. Click **+** to add a new plan.
+1. Click **+** to add a new Plan.
  
     ![](./images/newplanbutton.png) 
     
 A new Plan is created for you, and by default it is set to allow unlimited usage (no rate limits at all). Let's give it a more meaningful name, and set a more restrictive limit. 
+
 2. Select the new Plan (`New Plan 1`) to expand the details.
 3. In the Title field, set the Plan title to: `Demo`.
 4. In the Name field, set the Plan name to `demo-plan`.
 5. Click the button to add a new rate-limit.
 6. Rename the new rate-limit to `demo-rate-limit, and set it to `1 / 1 Minute`.
 7. Check the `Enforce hard limit` checkbox. (When this setting is enabled, an application will receive an error if it calls an API more than allowed by the subscribed plan limit).
-8. Accept all the other default settings and save the product.
+8. Accept all the other default settings and save the Product.
 
    ![](./images/demoplan.png) 
 
