@@ -64,11 +64,11 @@ A new Plan is created for you, and by default it is set to allow unlimited usage
    ![](./images/demoplan.png) 
 
 
-## Stage & publish an updated product to the Sandbox catalog
+## Stage & publish an updated Product to the Sandbox Catalog
 
-In previous examples, you may have published your product using the test tool, which calls your API with a pre-supplied test application's credentials. However, this test application is not subject to rate limits, so we will need to create a new application here for rate limiting purposes. [Reference: API Connect Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.toolkit.doc/tapim_create_product.html)
+In previous examples, you may have published your Product by using the test tool, which calls your API with pre-supplied test application credentials. However, this test application is not subject to rate limits, so we need to create a new application for rate limiting purposes. [Reference: API Connect Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.toolkit.doc/tapim_create_product.html)
 
-1. Click the icon to *stage* the product to the **Sandbox** catalog. This action adds your Draft product changes to the selected catalog. We need to *publish* the product changes next, to make them available to consumers via the Developer Portal.
+1. Click the Publish icon to *stage* the Product to the **Sandbox** Catalog. This action adds your draft product changes to the selected catalog. We need to *publish* the product changes next, to make them available to consumers via the Developer Portal.
    ![](./images/stageproduct.png) 
 2. Click **>>** to open the navigation menu.
    ![](./images/navigate.png) 
