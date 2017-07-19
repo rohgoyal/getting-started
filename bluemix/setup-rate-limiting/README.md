@@ -39,7 +39,7 @@ Before you begin, you must have completed the following tutorials:
 3. Scroll down to the Plans section of the page. A Default Plan was created when you generated this product. 
 
    ![](./images/defaultplanlist.png)    
-4. Expand the Default plan details. Notice the rate limit (100 calls / 1 Hour) and API list, which can be expanded to show specific operations.
+4. Expand the Default Plan details. Notice the rate limit (100 calls / 1 Hour) and API list, which can be expanded to show specific operations.
 
    ![](./images/defaultplandetails.png) 
 
