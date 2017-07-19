@@ -18,7 +18,7 @@ In this tutorial, you will complete the following tasks:
 ### Prerequisites
 You must have already created an API in **API Connect**, secured with at least an API Key. In the instructions below, our starting point is the [Weather Provider API example](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md), secured using a client ID and secret.
 
-Before you begin, you must have completed the following tutorials.
+Before you begin, you must have completed the following tutorials:
 - [Import your API spec, and proxy an existing REST service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md)
 - [Secure your API with a client ID and secret](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/2a/README.md)
 
@@ -39,35 +39,36 @@ Before you begin, you must have completed the following tutorials.
 3. Scroll down to the Plans section of the page. A Default Plan was created when you generated this product. 
 
    ![](./images/defaultplanlist.png)    
-4. Expand the Default plan details. Notice the rate limit (100 calls / 1 Hour) and API list, which can be expanded to show specific operations.
+4. Expand the Default Plan details. Notice the rate limit (100 calls / 1 Hour) and API list, which can be expanded to show specific operations.
 
    ![](./images/defaultplandetails.png) 
 
    
-## Create a new rate-limited plan
+## Create a new rate-limited Plan
 
-Now that we have seen what the default plan looks like, let's create a new plan with more restrictive rate limits, to demonstrate what happens when an API consumer exceeds a plan's limits. 
-1. Click the **+** to add a new plan.
+Now that we have seen what the Default Plan looks like, let's create a new Plan with more restrictive rate limits, to demonstrate what happens when an API consumer exceeds a Plan's limits. 
+1. Click **+** to add a new Plan.
  
     ![](./images/newplanbutton.png) 
     
-A new plan is created for you, and by default, it is set to allow unlimited usage (no rate limits at all). Let's give it a more meaningful name, and set a more restrictive limit. 
-2. Select the new plan (`New Plan 1`) to expand the details.
-3. In the Title field, set the plan title to: `Demo`.
-4. In the Name field, set the plan name to `demo-plan`.
+A new Plan is created for you, and by default it is set to allow unlimited usage (no rate limits at all). Let's give it a more meaningful name, and set a more restrictive limit. 
+
+2. Select the new Plan (`New Plan 1`) to expand the details.
+3. In the Title field, set the Plan title to: `Demo`.
+4. In the Name field, set the Plan name to `demo-plan`.
 5. Click the button to add a new rate-limit.
 6. Rename the new rate-limit to `demo-rate-limit, and set it to `1 / 1 Minute`.
-7. Check the `Enforce hard limit` checkbox. (When this setting is enabled, an application will receive an error if it calls an API more than allowed by the subscribed plan limit).
-8. Accept all the other default settings and save the product.
+7. Select the `Enforce hard limit` checkbox. (When this setting is enabled, an application will receive an error if it calls an API more than is allowed by the subscribed Plan limit).
+8. Accept all the other default settings and save the Product.
 
    ![](./images/demoplan.png) 
 
 
-## Stage & publish an updated product to the Sandbox catalog
+## Stage & publish an updated Product to the Sandbox Catalog
 
-In previous examples, you may have published your product using the test tool, which calls your API with a pre-supplied test application's credentials. However, this test application is not subject to rate limits, so we will need to create a new application here for rate limiting purposes. [Reference: API Connect Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.toolkit.doc/tapim_create_product.html)
+In previous examples, you may have published your Product by using the test tool, which calls your API with pre-supplied test application credentials. However, this test application is not subject to rate limits, so we need to create a new application for rate limiting purposes. [Reference: API Connect Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.toolkit.doc/tapim_create_product.html)
 
-1. Click the icon to *stage* the product to the **Sandbox** catalog. This action adds your Draft product changes to the selected catalog. We need to *publish* the product changes next, to make them available to consumers via the Developer Portal.
+1. Click the Publish icon to *stage* the Product to the **Sandbox** Catalog. This action adds your draft product changes to the selected catalog. We need to *publish* the product changes next, to make them available to consumers via the Developer Portal.
    ![](./images/stageproduct.png) 
 2. Click **>>** to open the navigation menu.
    ![](./images/navigate.png) 
@@ -79,11 +80,11 @@ In previous examples, you may have published your product using the test tool, w
 
 ## Register a new (consumer) application
 
-1. Launch the Developer Portal. If you don't know the URL, you can find it in the Settings tab of the Sandbox catalog.
+1. Launch the Developer Portal. If you don't know the URL, you can find it in the Settings > Portal tab of the Sandbox Catalog.
 
    ![](./images/devportalurl.png)
-    - To provision the developer portal for the first time, select **IBM Developer Portal** from the drop-down.
-    - This may take up to an hour to complete. You will get an email when your Sandbox portal is ready.
+    - To provision the Developer Portal for the first time, select **IBM Developer Portal** from the *Select Portal* drop-down.
+    - The provisioning may take up to an hour to complete. You will get an email when your Sandbox portal is ready.
 2. Log into the Portal using your app developer credentials (**not** your IBM id). _(Create a new developer account if necessary, using a different address than your IBM id.)_
 3. Click the **Apps** link on the toolbar, and select **Create new App**.
 
