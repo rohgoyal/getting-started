@@ -2,7 +2,7 @@
  
 copyright:
 years: 2017
-lastupdated: "2017-05-25"
+lastupdated: "2017-07-20"
  
 ---
 # Exposing a SOAP service as REST API
@@ -10,21 +10,41 @@ lastupdated: "2017-05-25"
 **Skill level**: Beginner  
 
 ---
+Notes inline from a rewiew requested by Lana Li. Reviewed by @omg. Review stopped mid-way because the entire document does not correlate to the existing BlueMix UI and is unworkable in the present form.
+
 ### Objective
-In API Manager, you will create a REST API that accesses a SOAP API to make data from the existing SOAP service available. This tutorial uses the weather data SOAP service as defined by https://api.us.apiconnect.ibmcloud.com/dshute-apic-apic-maker/sb/wdata/current.
+In API Manager, you will create a REST API that accesses a SOAP API to make data from the existing SOAP service available. This tutorial uses the weather data SOAP service as defined by https://api.us.apiconnect.ibmcloud.com/dshute-apic-apic-maker/sb/wdata/current. **URL is not functioning**
 
 ---
 ### Setting up a REST API definition
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
-2. In the Bluemix navigation panel on the left hand, select **Services** and select the **Dashboard**. Launch the API Connect service.
-3. In API Connect, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png). The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
+2. In the Bluemix navigation panel on the left hand,[**new icons in new UI**] select **Services** and select the **Dashboard**. ~~Launch the API Connect service~~ 
+Home > Menu > Services > APIs > API Connect >
+You are presented with editable **Service name:** change the automatically generated name to "Weather Data". Click create.
+
+If you already have a service, you may see an alert message: "Service broker error: A service instance has already been provisioned in space: xxx-xxx-xxx-xxx" To remove select menu (burger) then Dashboard, and 'more' icon (three vertical dots, not ellipses] 
+
+~~3. In API Connect, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png). The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).~~
 4. Select **Drafts** in the UI navigation pane and then click the **APIs** tab. The **APIs** tab opens.
 5. Select **Add** > **New API**.
+
+[__Stopped here because the actual UI is very different than what is described.__]
+[__Would it be better to link to other tutorials first?__]
+Presently, to reach your API in order to perform the followign steps go **https://console.bluemix.net/apis > click API Connect > ** here you can add one or see one already created. Click to edit attributes. 
+
 6. Specify basic information about the API.
 	- In the **Title** field, enter ```Weather Data```.
-	- Leave the **Name** field as ```weather-data``` when it is filled while you enter your title.	
-	- Leave the **Base** Path field as ```/weather-data```.
-	- Leave the **Version** field as ```1.0.0```.
+	- Leave the **Name** field as ```weather-data``` when it is filled while you enter your title.
+	Presently the UI shows **Version** next
+	then **Description**
+	and **Contact**
+	and a few other things before showing
+	**Host**
+	THEN
+	- Leave the **Base Path** field as ```/weather-data```.
+	
+	## Please rewrite this tutorial while viewing current BlueMix UI
+	
 7. Expand **Additional properties** to specify additional properties for the API.
 	- From the **API template** field, select **Default** to indicate that you want to use the default template to create the API definition.
 	- Leave the remaining fields unchanged.
