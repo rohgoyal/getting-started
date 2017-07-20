@@ -85,11 +85,11 @@ In previous examples, you may have published your Product by using the test tool
    ![](./images/devportalurl.png)
     - To provision the Developer Portal for the first time, select **IBM Developer Portal** from the *Select Portal* drop-down.
     - The provisioning may take up to an hour to complete. You will get an email when your Sandbox portal is ready.
-2. Log into the Portal using your app developer credentials (**not** your IBM id). _(Create a new developer account if necessary, using a different address than your IBM id.)_
-3. Click the **Apps** link on the toolbar, and select **Create new App**.
+2. Log into the Portal using your app developer credentials (**not** your IBM id). _(Create a new app developer account if necessary, using a different email address than your IBM id.)_
+3. Click **Apps** on the toolbar, and select **Create new App**.
 
    ![](./images/createnewapp.png)
-4. Give the application a title and select **Submit**.
+4. Give the application a title and click **Submit**.
 
    ![](./images/mymobileapp.png)
 5. Save the client secret and client ID displayed. Note: This will be the only time your client secret is available for you to copy!
@@ -97,15 +97,15 @@ In previous examples, you may have published your Product by using the test tool
    ![](./images/clientidandsecret.png)
 
 
-## Subscrie to an API product
+## Subscribe to an API Product
 
-1. Click the **API Products** link on the toolbar. Your Weather Provider API product is listed! 
+1. Click **API Products** on the toolbar. Your Weather Provider API product is listed! 
 
    ![](./images/apiproducts.png)
-2. Click the link to see details and options. You should see two plans available: the original Default Plan, and your new Demo plan. (If you only see one plan, return to API Connect and ensure that your product changes have been saved, staged and published to the Sandbox catalog.) 
+2. Click on your Product to see details and options. You should see two Plans available: the original Default Plan, and your new Demo Plan. (If you only see one Plan, return to API Connect and ensure that your Product changes have been saved, staged and published to the Sandbox Catalog.) 
 
    ![](./images/plans.png)
-3. Select **Subscribe** to subscribe to the Demo plan, and select the application you just registered. Now, your application can call the APIs associated with this plan, at a rate of up to *one* API call every minute. 
+3. Click **Subscribe** to subscribe to the Demo Plan, and select the application you just registered. Now, your application can call the APIs associated with this Plan, at a rate of up to *one* API call every minute. 
 
 We are ready to test this behavior and observe what happens when the application exceeds the specified rate.
 
@@ -116,19 +116,19 @@ We are ready to test this behavior and observe what happens when the application
    ![](./images/weatherproviderapi.png)
 2. The page will refresh to show you details about the API, its operations, and provide a place to test it. (This is how your API consumers will discover and test out your API as well.) Notice the dark test pane, and scroll down to the first **Try this operation** section.
 
-3. To test the `GET /current` operation, enter your application's client secret and a valid zipcode. Select **Call operation**. You should get a `200 OK` response, with data about current weather in that zipcode, 
+3. To test the `GET /current` operation, enter your application's client secret and a valid zipcode, like `90210`. Click **Call operation**. You should get a `200 OK` response, with data about current weather in that zipcode. 
 
    ![](./images/trythisop-1.png)
 
    ![](./images/response-1.png)
 
-4. Now, before a minute is up, select **Call operation** again, with a different zipcode if you like. You should get a `429 Too Many Requests` response this time.
+4. Now, before one minute is up, click **Call operation** again, with a different zipcode if you like. You should get a `429 Too Many Requests` response this time.
 
    ![](./images/response-2.png)
 
-5. To validate that the rate-limit resets, wait a minute, then try again and confirm that you receive a valid response.
+5. To validate that the rate limit resets, wait one minute, then try again and confirm that you receive a valid response.
 
 
 ## Conclusion
 
-Congratulations! You have successfully created a rate-limiting plan, associated it with your secure APIs, and verified that your API only responds to requests within the parameters you specified.
+Congratulations! You have successfully created a rate-limited Plan, associated it with your secure APIs, and verified that your API only responds to requests within the parameters you specified.
