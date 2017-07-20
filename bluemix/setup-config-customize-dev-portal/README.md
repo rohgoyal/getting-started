@@ -17,7 +17,8 @@ lastupdated: "2017-05-16"
 **Duration**: 30 mins  
 **Skill level**: Beginner  
 
-[Prerequisite](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md)
+### Prerequisite
+Before you begin, you will need to [import your API spec and proxy an existing REST service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md).
 
 ### Objective
 This tutorial is to help you get started quickly with Configuring your **API Connect Developer Portal**. 
