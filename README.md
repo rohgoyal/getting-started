@@ -4,16 +4,6 @@ _** Note: These tutorials still need to be reviewed and tested, so please do not
 
 Welcome to API Connect! Let's get started.
 
-# Where would you like to begin?
-
-### Create an API in Node.js
-
-### Manage a REST Service
-
-### Manage a SOAP Service
-
-### Discover APIs
-
 # All Tutorials
 
 ### /bluemix
