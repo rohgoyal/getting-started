@@ -2,7 +2,7 @@ _** Note: These tutorials still need to be reviewed and tested, so please do not
 
 # Getting Started with IBM API Connect
 
-Welcome to API Connect! Let's get started.
+Welcome to API Connect! Let's get started. To view the full experience, click [here](https://console-regional.ng.bluemix.net/docs/services/apiconnect/index.html#index). The full list of tutorials is below.
 
 # All Tutorials
 
