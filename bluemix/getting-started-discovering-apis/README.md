@@ -19,7 +19,7 @@ lastupdated: "2017-06-01"
 
 
 ### Prerequisite
-Before you begin, you will need to [install API Connect Developer Portal](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.install.doc/tapim_portal_installing_VA.html). 
+If you already have access to a developer portal, you may use this tutorial as a general guideline on how to navigate a developer portal. (Keep in mind that all developer portals have different skins. This tutorial will provide a general guideline on how to navigate one.) If not, you can [set up and configure a developer portal in Bluemix](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/setup-config-customize-dev-portal/README.md) before proceeding with the tutorial on this page.
 
 
 ### Objective
