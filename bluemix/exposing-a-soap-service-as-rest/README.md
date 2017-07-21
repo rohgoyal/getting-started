@@ -2,7 +2,7 @@
  
 copyright:
 years: 2017
-lastupdated: "2017-05-25"
+lastupdated: "2017-07-21"
  
 ---
 # Exposing a SOAP service as REST API
@@ -11,15 +11,24 @@ lastupdated: "2017-05-25"
 
 ---
 ### Objective
-In API Manager, you will create a REST API that accesses a SOAP API to make data from the existing SOAP service available. This tutorial uses the weather data SOAP service as defined by https://api.us.apiconnect.ibmcloud.com/dshute-apic-apic-maker/sb/wdata/current.
+In API Manager, you will create a REST API that will accesses a existing SOAP Service and expose it as a REST API.
+
+### Prerequisites
+1. Before you begin, you will need to [set up your API Connect instance](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
+2. Before you begin, copy the WSDL file located at https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/exposing-a-soap-service-as-rest/files/weatherprovider.wsdl to your local filesystem.
+	>![info]
+	>You can click **Raw** and then save the resulting page on your local system as a `.wsdl` file.
 
 ---
 ### Setting up a REST API definition
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
-2. In the Bluemix navigation panel on the left hand, select **Services** and select the **Dashboard**. Launch the API Connect service.
+2. In the Bluemix **Dashboard** scroll down and select API Connect. Alternately, from the menu icon, choose **Services** and then **APIs** to reach the **Work with APIs** window, and select **API Connect**. From the **API Connect** page, you can simply press `Create`, or you can adjust the default settings. For the purposes of this exercise, leave the instance unbound, and adjust the Service name for easier recognition later. One example would be `API Connect-weather-exercise`.
+Press the `Create` button to launch the API Connect service.  
+You may see an alert describing what's new, or the **Draft APIs** informational splash page. After reading the information click the **"Got it"** icon to view the API Manager.
 3. In API Connect, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png). The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
 4. Select **Drafts** in the UI navigation pane and then click the **APIs** tab. The **APIs** tab opens.
-5. Select **Add** > **New API**.
+	![](images/drafts-api-1.png)
+5. Select **Add +** > **New API**.
 6. Specify basic information about the API.
 	- In the **Title** field, enter ```Weather Data```.
 	- Leave the **Name** field as ```weather-data``` when it is filled while you enter your title.	
@@ -29,10 +38,9 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 	- From the **API template** field, select **Default** to indicate that you want to use the default template to create the API definition.
 	- Leave the remaining fields unchanged.
 	![](images/new-api-1.png)
-	![](images/new-api-1b.png)
 8. Add your API to a new Product and then create the API definition.
 	- Select **Add a product**.
-	- In the **Title** field, enter ```Weather Data product```.
+	- In the **Title** field, use ```Weather Data product``` as the default.
 	- Leave the **Name** and **Version** fields unchanged.
 	- Ensure that the **Publish this product to a catalog** check box is selected and then select **Sandbox** as the target Catalog.
 	![](images/new-api-2.png)
@@ -60,17 +68,15 @@ In API Manager, you will create a REST API that accesses a SOAP API to make data
 ---
 ### Adding and configuring your web service invocation
 To add and configure the invoke and map policies that integrate your web service into your API definition, complete the steps below.
-1. Download the ```files/weatherprovider.wsdl``` to your local computer.
-2. In the **Services** section, click the **Add service** icon ![](images/add-icon.png). The ```Import web service from WSDL``` window opens.
+1. In the **Services** section, click the **Add service** icon ![](images/add-icon.png). The ```Import web service from WSDL``` window opens.
 	![](images/upload-file-1.png)
-3. Select **Upload file**.
-4. In the **File Upload** window, specify the location to the ```weatherprovider.wsdl``` file that you downloaded in ```step 1``` and click **Open** to continue.
-5. Click **Next**.
-6. Select the **weatherService** SOAP service and then click **Done**. In the **Services** section, **WeatherService** web service is listed with a single **weatherRequest** operation.
+2. Select **Upload file**.
+3. In the **File Upload** window, specify the location to the ```weatherprovider.wsdl``` file that you downloaded in ```step 2``` of the **Prerequisites** section and click **Open** to continue.
+4. Select the **weatherService** SOAP service and then click **Done**. In the **Services** section, **WeatherService** web service is listed with a single **weatherRequest** operation.
 	![](images/upload-file-2.png)
 
 	![](images/services-add-1.png)	
-7. Navigate to the **Assemble** tab and then ensure that **DataPower Gateway policies** is selected.
+5. Navigate to the **Assemble** tab and then ensure that **DataPower Gateway policies** is selected.
 8. Delete the existing **invoke** policy on the canvas by hovering your cursor over the policy and then clicking the **Delete policy** icon ![](images/delete-icon.png).
 	![](images/delete-invoke-1.png)	
 9. From the palette, drag the **weatherRequest** web service onto the dashed box that is displayed on the canvas. An invoke policy and two map policies are placed in the assembly. The first map policy assigns variables to the input of your web service invocation, while the second policy assigns outputs of your web service invocation to variables. The outputs of the first map and the inputs of the second map are generated from the WSDL provided in step 4.
