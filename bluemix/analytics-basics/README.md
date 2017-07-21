@@ -75,7 +75,6 @@ Now, let's create a new dashboard that will provide view of API traffic patterns
   * Apps per Plan 
   * Success Rate
   * API Calls per Day
-  * Success Rate
   
   ***Important!*** When you select each visualization, the selection tab blocks your dashboard view, so you may not realize that the visualization you click has been added to the dashboard. It may be easier to select one visualization at a time, closing the selection tab each time, so that you can see the changes to your new dashboard.
 
