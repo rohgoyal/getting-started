@@ -7,25 +7,25 @@ This is a basic introduction to API analytics in API Connect. We'll tour the ava
 
 
 ### Prerequisites
-In order to view your own API analytics, you must have an API Product created and published. Additionally, you'll need to call your API several times, preferably using a client id from a registered application (not the pre-provisioned test app).
+In order to view your own API analytics, you must have an API Product created and published. Additionally, you'll need to call your API several times, preferably using a client ID from a registered application (not the pre-provisioned test app).
 
-To generate the data in this walkthrough, we used Postman's *Collection Runner* to call an API several times, with varying data and client ids. You can use a similar tool (like HttpRequester for Firefox), or just use cURL to call your API multiple times from the command-line. Recall that you can obtain sample requests for your API by clicking the **Explore** link in API Connect.
+To generate the data in this walkthrough, we used Postman's *Collection Runner* to call an API several times, with varying data and client IDs. You can use a similar tool (like HttpRequester for Firefox), or just use cURL to call your API multiple times from the command line. Recall that you can obtain sample requests for your API by clicking the **Explore** link in API Connect.
 
-### Introduction to Catalog Analytics
-As an API owner, you need a way to assess the success and performance of the APIs you offer. The main place you'll look for analytics is at the catalog level. If you have not been introduced to catalogs please read along [here](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.apionprem.doc/conref_working_with_env.html)! 
+### Introduction to catalog analytics
+As an API owner, you need a way to assess the success and performance of the APIs you offer. The main place you'll look for analytics is at the catalog level. If you have not been introduced to catalogs, please read along [here](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.apionprem.doc/conref_working_with_env.html)! 
 
-You, and your App developers can also access app-specific analytics in the Developer Portal, but in this tutorial we'll focus on Catalog Analytics.
+You and your App developers can also access app-specific analytics in the Developer Portal, but in this tutorial we'll focus on Catalog Analytics.
 
-You have access to real-time and historical (up to 90 days' worth) information regarding APIs and Products (and who is calling them) published to that catalog. (If your catalog has multiple spaces, you can drill down further to the Space level.)
+You have access to real-time and historical information--up to 90 days' worth--regarding APIs and Products (and who is calling them) published to that catalog. (If your catalog has multiple spaces, you can drill down further to the Space level.)
 
-This tutorial consists of a few activities to show you how to:
+This tutorial consists of a few activities to show you how to accomplish the following:
 * View analytics
 * View event record details
 * Build new dashboards
 * Creating new visualizations
 
 
-### Activity 1: Viewing Out of the Box Analytics
+### Activity 1: Viewing out of the box analytics
 1. In your API Connect service on Bluemix, launch your Dashboard and click to open the Catalog of interest. 
 2. Click the Analytics tab.
 
@@ -33,7 +33,7 @@ This tutorial consists of a few activities to show you how to:
   
 You'll see the default Overview dashboard, showing two bar chart visualizations based on data from the last 7 days: 5 Most Active Products and 5 Most Active APIs. 
 
-3. Hover over any of the bars to see additional details - like the API count, api names, etc.
+3. Hover over any of the bars to see additional details, such as the API count, api names, etc.
 
    ![](./images/defaultoverview.png) 
 
@@ -50,13 +50,13 @@ This dashboard has a different set of visualizations, depicting API status, erro
    ![](./images/sandbox-api_default.png) 
 
 
-### Activity 2: Viewing Event Details
+### Activity 2: Viewing event details
 
 Visualizations are a great way to get a useful overview of data, but you also need a way to drill down into the event records behind the charts.
 
 1. Hover over the bottom left corner of any visualization. 
 2. A small arrow should appear. If you click the arrow, you can see a table of the data behind that visualization. 
-3. The **View Events** label is clickable as well - there, you can drill down into the individual event details (up to 100 records).
+3. The **View Events** label is clickable as well. There, you can drill down into the individual event details (up to 100 records).
 
    ![](./images/statuscodetable.png) 
 
@@ -64,7 +64,7 @@ You can edit, move, and delete visualizations on your dashboard.
 
 ### Activity 3: Building new dashboards
 
-Now, let's create a new dashboard that will provide view of API traffic patterns These are all available using built-in visualizations. 
+Now, let's create a new dashboard that will provide view of API traffic patterns. These are all available using built-in visualizations. 
 
 1. Click the new dashboard icon and click the **Choose from existing visualizations** link. 
 
@@ -105,7 +105,7 @@ On the Subscriber dashboard we created above, we include the built-in visualizat
 This chart (so far) just shows a time series of API calls. Recall, we want to see API calls by app name.
 
 6. Click the **Add sub-buckets** button.
-7. Select:
+7. Select the following:
 	* Buckets type: **Split Lines**
 	* Sub Aggregation: **Terms**
 	* Field: **app_name**
