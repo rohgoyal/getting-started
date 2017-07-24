@@ -50,12 +50,12 @@ _The Name and Base Path are auto-populated_.
 13. Scroll to the **Security** tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.  
 > _(You will cover security with API Keys in the next tutorial.)_  
 
-14. In the side navigation panel
+14. In the side navigation panel:  
     a. scroll down to the **Paths** panel.   
     b. Create a new path by clicking **+**.   
     c. Name the new path "**/current**".  
     d. In the same *Paths* panel, click on **GET /current** to open that section.    
-    e. In the **GET /current** section, add a new **Parameter**.   
+    e. In the **GET /current** section, add a new **Parameter**. As you noticed while exploring the ![sample app](http://gettingstartedweatherapp.mybluemix.net/), the weather service requires zipcode as a parameter.  
         - Name: zipcode  
         - Located in: Query  
         - Required: Yes (check mark)  
@@ -63,11 +63,11 @@ _The Name and Base Path are auto-populated_.
     ![](images/path-current-1.png)   
         
 
-15. In the navigation panel 
-    a. scroll down to the **Definitions** panel   
+15. With your query parameters defined in the previous step, you need to now define the response object that is returned when you incoke the weather API. To do so, in the navigation panel:  
+    a. Scroll down to the **Definitions** panel   
     b. Add a new definition  
     c. Name the new definition _Current_  
-    d. Set the Type to _Object_  
+    d. Set the Type to _Object_   
     e. Add new properties for the **Current** definition.    
        - Name: zip         /  Type: string   
        - Name: temperature /  Type: integer   
@@ -77,7 +77,8 @@ _The Name and Base Path are auto-populated_.
     ![](images/definition-current-1.png)   
      
 
-16. In the left side-navigation panel, scroll back up to the **Paths** panel.  
+16. In the previous step, you defined the response object. Next you'll need to ensure the response object is associated with the **get /current** path.  
+    In the left side-navigation panel, scroll back up to the **Paths** panel.  
     a. Open the **GET /current** operation, and scroll to the **Responses** section.  
     b. Change the schema of the 200OK response from "object" to "**Current**".  
     c. Save your API.  
