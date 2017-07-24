@@ -62,6 +62,7 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/
    d. The expected response is a **200 OK** response code along with  the current weather data for 90210.
     
     ![](images/screenshot_test-1.png)    
+    ![](images/screenshot_test-2.png)  
 
 
 ---
