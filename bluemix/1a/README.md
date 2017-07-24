@@ -15,7 +15,7 @@ Before you begin, you will need to <a href="https://github.com/ibm-apiconnect/ge
 A sample _weather provider_ app has been created for this tutorial. Its corresponding OpenAPI specification (Swagger 2.0)  ![can be found here](https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml).  
 1. To explore the app, go to http://gettingstartedweatherapp.mybluemix.net/.  
 2. Enter a valid 5-digit U.S. zipcode to get the _**current weather**_ and _**today's forecast**_.  
-![](images/explore-weatherapp-1.png)
+  ![](images/explore-weatherapp-1.png)
 
 3. The above sample weather app was built using APIs that provide the weather data. The endpoint to get the **current** weather data is _**https:// myweatherprovider<span></span>.mybluemix.net/current?zipcode={zipcode}**_. Test it out by visiting https://myweatherprovider.mybluemix.net/current?zipcode=90210.  
   ![](images/explore-weatherapp-2.png)
@@ -61,29 +61,17 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
   > _In API Connect, **Products** provide a way to group APIs that are intended for a particular use. Products are published to a **Catalog**.  [Reference: API Connect glossary]_
 
 3. On the Assemble tab, click ► to test your API proxy's target invocation.  
-  a. Choose the **get /current** operation.  
-  b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip (for example, 90210).  
-  c. Click **invoke**, and verify the response.  
-  > _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again._  
+   a. Choose the **get /current** operation.  
+   b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip (for example, 90210).  
+   c. Click **invoke**, and verify the response.  
+   > _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again._  
   
-  d. The expected response is a **200 OK** response code along with  the current weather data for 90210.  
-   
-   ![](images/test-invoke-1.png)  
+   d. The expected response is a **200 OK** response code along with  the current weather data for 90210.  
+    ![](images/test-invoke-1.png) 
+    ![](images/test-invoke-2.png) 
+    ![](images/test-invoke-3.png)  
 
 
-
-### Test with the _Explore tool_
-> _The Explore Tool allows users to test the correct operation of the API by enforcing any parameter requirements that are set in the OpenAPI definition. This enforcement is not done in the API Test Tool found in the Assemble tab, so it allows the user to verify the API behavior when the parameter is missing._  
-
-1. To test your API proxy endpoints, Click **Explore**, then click **Sandbox**.
-    ![](images/test-explore-1.png)
-2. Click the **GET /current** operation from the palette.
-3. Click "Try it".  
-4. Enter a valid U.S. zipcode (for example, 90210) in the test box.
-5. Click **Call operation** to see the response.
-  ![](images/test-explore-2.png)
-
-    ![](images/test-explore-3.png)
 
 
 ### Conclusion
