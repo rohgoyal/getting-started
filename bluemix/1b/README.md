@@ -42,12 +42,12 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
   
 9. In the **New API** window, enter ```Weather Provider API``` for the title.
 _The Name and Base Path are auto-populated_.  
-10. Click **Create API** to complete the wizard.  
-11. Once you've created your OpenAPI spec, you are taken to the **Design** view. 
-12. Scroll to the **Host** panel. Enter ```$(catalog.host)``` as the value, if the field is not automatically filled in.  
-
+  ![](images/bluemix-add-new-api.png)   
+10. Click **Create API** to complete the wizard.  Once you've created your OpenAPI spec, you are taken to the **Design** view.  
+11. In the **Design** view, scroll to the **Host** panel. 
+12. Enter ```$(catalog.host)``` as the value, if the field is not automatically filled in.  
 13. Scroll to the **Security** tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.  
-_(You will cover security with API Keys in the next tutorial.)_  
+> _(You will cover security with API Keys in the next tutorial.)_  
 
 14. In the side navigation panel
     a. scroll down to the **Paths** panel.   
@@ -65,7 +65,7 @@ _(You will cover security with API Keys in the next tutorial.)_
 15. In the navigation panel 
     a. scroll down to the **Definitions** panel   
     b. Add a new definition  
-    c. Name the new definition _Current_,  
+    c. Name the new definition _Current_  
     d. Set the Type to _Object_  
     e. Add new properties for the **Current** definition.    
        - Name: zip         /  Type: string   
@@ -76,11 +76,11 @@ _(You will cover security with API Keys in the next tutorial.)_
     ![](images/definition-current-1.png)   
      
 
-16. In the left side-navigation panel, scroll back up to the **Paths** panel.
-  a. Open the **GET /current** operation, and scroll to the **Responses** section.
-  b. Change the schema of the 200OK response from "object" to "**Current**".
+16. In the left side-navigation panel, scroll back up to the **Paths** panel.  
+  a. Open the **GET /current** operation, and scroll to the **Responses** section.  
+  b. Change the schema of the 200OK response from "object" to "**Current**".  
   c. Save your API.  
-_The path and operation you created was to get the current weather data. Next, you'll need to create a similar path and operation to get today's weather data._  
+  > _The path and operation you created was to get the current weather data. Next, you'll need to create a similar path and operation to get today's weather data._  
 
 17. Similar to how you created the **/current** path in the previous steps, create a new path: **/today**.
 18. Add a new Parameter under the **GET /today** operation.
