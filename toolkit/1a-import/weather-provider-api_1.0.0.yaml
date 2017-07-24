@@ -3,7 +3,7 @@ info:
   title: Weather Provider API
   version: 1.0.0
   x-ibm-name: weather-provider-api
-host: myweatherprovider.mybluemix.net
+host: $(catalog.host)
 schemes:
   - https
 basePath: /
