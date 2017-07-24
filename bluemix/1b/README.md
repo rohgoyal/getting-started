@@ -56,11 +56,11 @@ _The Name and Base Path are auto-populated_.
     c. Name the new path "**/current**".  
     d. In the same *Paths* panel, click on **GET /current** to open that section.    
     e. In the **GET /current** section, add a new **Parameter**. As you noticed while exploring the ![sample app](http://gettingstartedweatherapp.mybluemix.net/), the weather service requires zipcode as a parameter.  
-        - Name: zipcode  
-        - Located in: Query  
-        - Required: Yes (check mark)  
-        - Type: string   
-    ![](images/path-current-1.png)   
+       - Name: zipcode  
+       - Located in: Query  
+       - Required: Yes (check mark)  
+       - Type: string   
+      ![](images/path-current-1.png)   
         
 
 15. With your query parameters defined in the previous step, you need to now define the response object that is returned when you incoke the weather API. To do so, in the navigation panel:  
