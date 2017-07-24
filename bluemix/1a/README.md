@@ -72,7 +72,7 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
     ![](images/test-invoke-3.png)  
 
 
-
+— 
 
 ### Conclusion
 In this tutorial, you saw how an existing REST service can be invoked through an API passthrough proxy. You started by checking the availability of the sample service through the web browser. Then you created an API proxy in API Connect, and linked the proxy to the sample service to be invoked. You packaged your API into a product, published the product to catalog, and tested the proxy.
