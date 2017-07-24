@@ -1,9 +1,9 @@
-# Import your API spec and proxy an existing REST service with IBM Bluemix
+# Import your API spec, and proxy an existing REST service with IBM Bluemix
 **Duration:** 5 mins  
 **Skill level:** Beginner  
 
 ## Objective
-This tutorial helps you get started quickly with IBM API Connect by illustrating how you can bring your existing API under management control. You'll start by importing an OpenAPI spec, and then create a passthrough API proxy for an existing REST service.
+This tutorial helps you get started quickly with **IBM API Connect** by illustrating how you can bring your existing API under management control. You'll start by importing an OpenAPI spec, and then create a passthrough API proxy for an existing REST service.
 
 ## Prerequisites
 Before you begin, you will need to <a href="https://github.com/ibm-apiconnect/getting-started/tree/master/bluemix/0-prereq" target="blank">set up your API Connect instance</a>.
@@ -12,7 +12,7 @@ Before you begin, you will need to <a href="https://github.com/ibm-apiconnect/ge
 
 
 ## Explore the sample app and test the target endpoints
-A sample _weather provider_ app has been created for this tutorial. Its corresponding API specification (Swagger 2.0) can be found ![here](https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml).
+A sample _weather provider_ app has been created for this tutorial. Its corresponding OpenAPI specification (Swagger 2.0)  ![can be found here](https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml).  
 1. To explore the app, go to http://gettingstartedweatherapp.mybluemix.net/.  
 2. Enter a valid 5-digit U.S. zipcode to get the _**current weather**_ and _**today's forecast**_.  
 ![](images/explore-weatherapp-1.png)
@@ -28,32 +28,32 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
 
 ## Import the sample app's OpenAPI spec to create a REST API proxy
 1. Log in to Bluemix: https://new-console.ng.bluemix.net/login.
-2. In the API Connect navigation panel, select **Services**, then **Dashboard**.
+2. In the API Connect navigation panel, click **Services**, then **Dashboard**.
 3. Launch the API Connect service.  
    ![](images/login-1.png)   ![](images/login-2.png)  
   
 4. In the API Connect interface, make sure the navigation panel on the left side is open. If not, click **>>** to open it.  
-5. Select **Drafts** in the navigation panel.   
+5. Click on **Drafts** in the navigation panel.   
 6. Go to the **APIs** tab
 7. In the **APIs** tab, click **Add**
-8. From the dropdown menu, select **Import API from a file or URL**.  
+8. In the dropdown menu, click **Import API from a file or URL**.  
      ![](images/import-1.png) 
  
 9. In the "Import OpenAPI (Swagger)" dialog box that opens, enter the following URL:
 https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml. Leave the other options with their default values and click **Import**.  
     ![](images/import-2.png)  
 
-10. In the API's **Design** view, scroll down to the **Host** panel.   
-_Note: You'll notice that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
+10. Once you import the OpenAPI spec, you are taken to the **Design** view. Scroll down to explore, and especially note the **Host** panel.   
+    _Note: You'll see that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
 
 
 
 ## Test your API proxy
 ### Test with the _API Manager test tool_.
-1. In the **Assemble** tab, select **More Actions > Generate a default product**.  
+1. In the **Assemble** tab, click on **More Actions** then click **Generate a default product**.  
   ![](/bluemix/1a/images/generate-default-product-1.png)   
   
-2. Accept the default options in the **New Product** dialog box, and select **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog. A message indicating successful product generation is displayed.  
+2. Accept the default options in the **New Product** dialog box, and click **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog. A message indicating successful product generation is displayed.  
   ![](/bluemix/1a/images/generate-default-product-2.png)  
   
   ![](/bluemix/1a/images/generate-default-product-3.png) 
