@@ -1,4 +1,4 @@
-# Installing Node.js and API Connect
+# Installing the API Connect toolkit
 
 
 ### What you'll need
