@@ -139,11 +139,8 @@ _The path and operation you created was to get the current weather data. Next, y
   > _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again._   
   
   d. The expected response is a **200 OK** response code along with  the current weather data for 90210.  
-  
-    ![](images/test-invoke-1.png)  
-
-    ![](images/test-invoke-2.png)  
-
+    ![](images/test-invoke-1.png) 
+    ![](images/test-invoke-2.png) 
     ![](images/test-invoke-3.png) 
 
 
