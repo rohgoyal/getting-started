@@ -49,30 +49,32 @@ _The Name and Base Path are auto-populated_.
 13. Scroll to the **Security** tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.  
 _(You will cover security with API Keys in the next tutorial.)_  
 
-14. In the side navigation panel, scroll down to the **Paths** panel.   
-    a. Create a new path by clicking **+**.   
-    b. Name the new path "**/current**".  
-    c. In the same *Paths* panel, click on **GET /current** to open that section.    
-    d. In the **GET /current** section, add a new **Parameter**.   
+14. In the side navigation panel
+    a. scroll down to the **Paths** panel.   
+    b. Create a new path by clicking **+**.   
+    c. Name the new path "**/current**".  
+    d. In the same *Paths* panel, click on **GET /current** to open that section.    
+    e. In the **GET /current** section, add a new **Parameter**.   
       - Name: zipcode  
       - Located in: Query  
       - Required: Yes (check mark)  
       - Type: string   
     ![](images/path-current-1.png)   
-    e. Save your API.  
+        
 
-15. In the navigation panel, scroll down to the **Definitions** panel.   
-    a. Add a new definition  
-    b. Name the new definition _Current_,  
-    c. Set the Type to _Object_  
-    d. Add new properties for the **Current** definition.    
+15. In the navigation panel 
+    a. scroll down to the **Definitions** panel   
+    b. Add a new definition  
+    c. Name the new definition _Current_,  
+    d. Set the Type to _Object_  
+    e. Add new properties for the **Current** definition.    
        - Name: zip         /  Type: string   
        - Name: temperature /  Type: integer   
        - Name: humidity    /  Type: integer   
        - Name: city        /  Type: string   
        - Name: state       /  Type: string   
     ![](images/definition-current-1.png)   
-    e. Save your API.  
+     
 
 16. In the left side-navigation panel, scroll back up to the **Paths** panel.
   a. Open the **GET /current** operation, and scroll to the **Responses** section.
