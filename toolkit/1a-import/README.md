@@ -53,22 +53,28 @@ _You'll notice that the Host value is set to_ ```$(catalog.host)``` _. This sets
 3. Click the play icon (►) to test your API proxy's target invocation.
     ![](images/screenshot_test-0.png)
 
-4. In the test panel, click the **get /current** operation.  
-  - Zipcode is a required parameter for this operation, so enter a valid U.S. zip code (for example, 90210).  
-  - Click **invoke**, and verify that you see the following responses: 
+4. In the test panel, 
+   a. Click the **get /current** operation.  
+   b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip code (for example, 90210).  
+   c. Click **invoke**, and verify the response.
+    _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then     hit the "invoke" button again._  
+   d. The expected response is:   
     ```
     200 OK response
     Current weather data for 90210
-    ```
+    ```  
     ![](images/screenshot_test-1.png)    
 
 
-### Test with the _Explore tool_.  
+### Test with the _Explore tool_  
+_The Explore Tool allows users to test the correct operation of the API by enforcing any parameter requirements that are set in the OpenAPI definition. This enforcement is not done in the API Test Tool found in the Assemble tab, so it allows the user to verify the API behavior when the parameter is missing._  
+
 1. To test your API proxy endpoints, click **Explore**.  
    ![](images/toolkit-explore.png)  
 2. Click the **GET /current** operation from the palette.
-3. Enter a valid U.S. zip code (for example, 90210) in the test box.
-4. Click **Call operation** to see the response.  
+3. Click "Try it".  
+4. Enter a valid U.S. zip code (for example, 90210) in the test box.
+5. Click **Call operation** to see the response.  
   ![](images/screenshot_explore.png)
 
 ## Conclusion
