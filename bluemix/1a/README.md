@@ -72,7 +72,7 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
 
 
 ### Test with the _Explore tool_
-_The Explore Tool allows users to test the correct operation of the API by enforcing any parameter requirements that are set in the OpenAPI definition. This enforcement is not done in the API Test Tool found in the Assemble tab, so it allows the user to verify the API behavior when the parameter is missing._
+> _The Explore Tool allows users to test the correct operation of the API by enforcing any parameter requirements that are set in the OpenAPI definition. This enforcement is not done in the API Test Tool found in the Assemble tab, so it allows the user to verify the API behavior when the parameter is missing._  
 
 1. To test your API proxy endpoints, Click **Explore**, then click **Sandbox**.
     ![](images/test-explore-1.png)
