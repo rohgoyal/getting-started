@@ -29,19 +29,27 @@ A sample _weather provider_ app was created for this tutorial.
 ---
 
 ## Add a new OpenAPI spec and invoke an existing REST service
-1. Launch the **API Designer**. In your terminal, enter `apic edit`.
-2. Log in using your IBMid.
-    ![](images/screenshot_apic-edit_login.png)
-3. In the **API Designer** navigation panel, select **Drafts > APIs**.
-4. In the **APIs** panel, select **Add > New API**.
-5. In the New API window, enter "Weather Provider API" for the title. _The Name and Base Path are auto-populated_.  
-6. Click **Create API** to complete the wizard. Once you've created your OpenAPI spec, you are taken to the **Design** view.  
+1. Launch the terminal on your laptop.
+2. In the terminal, enter `apic edit` to launch the **API Designer**.
+3. Log in using your IBMid.
+    ![](images/screenshot_apic-edit_login.png)  
+4. In the **API Designer**, make sure the navigation panel is open. If not, click **>>** to open it.  
+5. Click on **Drafts** in the navigation panel.   
+6. Go to the **APIs** tab.  
+7. In the **APIs** tab, click **Add**   
 
-7. In the **Design** view, scroll to the **Host** panel. Enter ```$(catalog.host)``` as the value, if the field is not already automatically filled in.  
-8. Scroll to the **Security** tab and delete the "clientIDHeader (API Key)" that has been been auto-generated.  
+8. In the drop-down menu, click **New API**.
+    ![](images/create-new-1.png)  
+    
+9. In the New API window, enter "Weather Provider API" for the title. _The Name and Base Path are auto-populated_. 
+10. Click **Create API** to complete the wizard. Once you've created your OpenAPI spec, you are taken to the **Design** view.  
+
+11. In the **Design** view, scroll to the **Host** panel. 
+12. Enter ```$(catalog.host)``` as the value, if the field is not automatically filled in.  
+13. Scroll to the **Security** tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.  
 > _(You will cover security with API Keys in the next tutorial.)_   
 
-9. In the side navigation panel:  
+14. In the side navigation panel:  
     a. scroll down to the **Paths** panel.   
     b. Create a new path by clicking **+**.   
     c. Name the new path "**/current**".  
@@ -54,7 +62,7 @@ A sample _weather provider_ app was created for this tutorial.
     ![](images/path-current-1.png)  
      
 
-10. With your query parameters defined in the previous step, you need to now define the response object that is returned when you incoke the weather API. To do so, in the navigation panel:  
+15. With your query parameters defined in the previous step, you need to now define the response object that is returned when you incoke the weather API. To do so, in the navigation panel:  
     a. Scroll down to the **Definitions** panel   
     b. Add a new definition  
     c. Name the new definition _Current_  
@@ -68,32 +76,32 @@ A sample _weather provider_ app was created for this tutorial.
     ![](images/definition-current-1.png)  
   
 
-11. In the previous step, you defined the response object. Next you'll need to ensure the response object is associated with the **get /current** path.  
+16. In the previous step, you defined the response object. Next you'll need to ensure the response object is associated with the **get /current** path.  
     In the left side-navigation panel, scroll back up to the **Paths** panel.  
     a. Open the **GET /current** operation, and scroll to the **Responses** section.  
     b. Change the schema of the 200OK response from "object" to "**Current**".  
     c. Save your API.  
-    > _The path and operation you created was to get the current weather data. Next, you'll need to create a similar path and operation to get today's weather data._  
+    > _The path and operation you created was to get the current weather data. Next, you'll need to create a similar path and operation to get today's weather data._   
 
-12. Similar to how you created the **/current** path in the previous steps, create a new path: **/today**.  
-13. Add a new Parameter under the **GET /today** operation.
+17. Similar to how you created the **/current** path in the previous steps, create a new path: **/today**.  
+18. Add a new Parameter under the **GET /today** operation.
       - Parameter Name: zipcode
       - Located in: Query
       - Required: Yes (check mark)
       - Type: string  
 
-14. Create a new definition: **Today**.
-15. Add new properties for the **Today** definition.
+19. Create a new definition: **Today**.
+20. Add new properties for the **Today** definition.
       - Name: zip / Type: string
       - Name: hi / Type: integer
       - Name: lo / Type: integer
       - Name: nightHumidity / Type: integer
       - Name: dayHumidity / Type: integer
       - Name: city / Type: string
-16. Update the response schema in the **GET /today** section to "Today".
-17. Save your API.
+21. Update the response schema in the **GET /today** section to "Today".
+22. Save your API.
 
-18. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the right target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.  
+23. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the right target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.  
     a. Delete the **invoke** policy that may already be added to the _canvas_.  
     b. From the _palette_, drag the **Operation Switch** and drop it on the canvas.  
        - To **case 0**, assign the **get /current** operation.
@@ -108,7 +116,7 @@ A sample _weather provider_ app was created for this tutorial.
        - Update the URL field with: https://myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode).
        - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
        - Update the URL field with: https://myweatherprovider.mybluemix.net/today?zipcode=$(request.parameters.zipcode).  
- 19. Save your API.
+ 24. Save your API.
 
 ---
 
