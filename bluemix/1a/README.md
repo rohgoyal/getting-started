@@ -78,12 +78,12 @@ _Note: You'll notice that the Host value is set to_ ```$(catalog.host)``` _. Thi
 ### Test with the _Explore tool_
 _The Explore Tool allows users to test the correct operation of the API by enforcing any parameter requirements that are set in the OpenAPI definition. This enforcement is not done in the API Test Tool found in the Assemble tab, so it allows the user to verify the API behavior when the parameter is missing._
 
-1. To test your API proxy endpoints, select **Explore**, then select **Sandbox**.
+1. To test your API proxy endpoints, Click **Explore**, then click **Sandbox**.
     ![](images/test-explore-1.png)
-2. Select the **GET /current** operation from the palette.
-3. Select "Try it".  
+2. Click the **GET /current** operation from the palette.
+3. Click "Try it".  
 4. Enter a valid U.S. zipcode (for example, 90210) in the test box.
-5. Select **Call operation** to see the response.
+5. Click **Call operation** to see the response.
   ![](images/test-explore-2.png)
 
     ![](images/test-explore-3.png)
