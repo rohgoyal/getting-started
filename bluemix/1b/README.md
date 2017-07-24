@@ -43,6 +43,7 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
 9. In the **New API** window, enter ```Weather Provider API``` for the title.
 _The Name and Base Path are auto-populated_.  
   ![](images/bluemix-add-new-api.png)   
+  
 10. Click **Create API** to complete the wizard.  Once you've created your OpenAPI spec, you are taken to the **Design** view.  
 11. In the **Design** view, scroll to the **Host** panel. 
 12. Enter ```$(catalog.host)``` as the value, if the field is not automatically filled in.  
@@ -55,10 +56,10 @@ _The Name and Base Path are auto-populated_.
     c. Name the new path "**/current**".  
     d. In the same *Paths* panel, click on **GET /current** to open that section.    
     e. In the **GET /current** section, add a new **Parameter**.   
-      - Name: zipcode  
-      - Located in: Query  
-      - Required: Yes (check mark)  
-      - Type: string   
+        - Name: zipcode  
+        - Located in: Query  
+        - Required: Yes (check mark)  
+        - Type: string   
     ![](images/path-current-1.png)   
         
 
@@ -77,45 +78,46 @@ _The Name and Base Path are auto-populated_.
      
 
 16. In the left side-navigation panel, scroll back up to the **Paths** panel.  
-  a. Open the **GET /current** operation, and scroll to the **Responses** section.  
-  b. Change the schema of the 200OK response from "object" to "**Current**".  
-  c. Save your API.  
-  > _The path and operation you created was to get the current weather data. Next, you'll need to create a similar path and operation to get today's weather data._  
+    a. Open the **GET /current** operation, and scroll to the **Responses** section.  
+    b. Change the schema of the 200OK response from "object" to "**Current**".  
+    c. Save your API.  
+    > _The path and operation you created was to get the current weather data. Next, you'll need to create a similar path and operation to get today's weather data._  
 
 17. Similar to how you created the **/current** path in the previous steps, create a new path: **/today**.
 18. Add a new Parameter under the **GET /today** operation.
-    - Parameter Name: zipcode
-    - Located in: Query
-    - Required: Yes (check mark)
-    - Type: string  
+      - Parameter Name: zipcode
+      - Located in: Query
+      - Required: Yes (check mark)
+      - Type: string  
 
 19. Create a new definition: **Today**.
 20. Add new properties for the **Today** definition.
-    - Name: zip / Type: string
-    - Name: hi / Type: integer
-    - Name: lo / Type: integer
-    - Name: nightHumidity / Type: integer
-    - Name: dayHumidity / Type: integer
-    - Name: city / Type: string
-    - Name: state / Type: string
+      - Name: zip / Type: string
+      - Name: hi / Type: integer
+      - Name: lo / Type: integer
+      - Name: nightHumidity / Type: integer
+      - Name: dayHumidity / Type: integer
+      - Name: city / Type: string
+      - Name: state / Type: string
 21. Update the response schema in the **GET /today** section to "Today".
 22. Save your API.
 
 23. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the correct target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.  
     a. Delete the **invoke** policy that may already be added to the _canvas_.  
     b. From the palette, drag the **Operation Switch** and drop it on the canvas.  
-        - To **case 0**, assign the **get /current** operation.
-        - Add a new Case: **case 1**.
-        - Assign the **get /today** operation to **case 1**.
-        ![](images/assemble-1.png)
-        _The **Operation Switch** provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked._
+       - To **case 0**, assign the **get /current** operation.
+       - Add a new Case: **case 1**.
+       - Assign the **get /today** operation to **case 1**.
+       ![](images/assemble-1.png)  
+        _The **Operation Switch** provides a decision point. Based on the verb/path pair, the appropriate operation needs to be invoked._   
+          
     c. Drag the **invoke** policy from the palette and drop it on the canvas. _The invoke action is used to call an existing service from within an operation_.  
-        - Drop an invoke action in the **/get current** path, and one in the **/get today** path.   
-        - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
-        - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode).  
-        - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
-        - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode=$(request.parameters.zipcode).  
-        ![](images/assemble-2.png)
+       - Drop an invoke action in the **/get current** path, and one in the **/get today** path.   
+       - Select the **invoke** policy in the **/get current** path, and update its title to "**invoke-current**".  
+       - Update the URL field with https://myweatherprovider.mybluemix.net/current?zipcode=$(request.parameters.zipcode).  
+       - Select the **invoke** policy in the **/get today** path, and update its title to "**invoke-today**".  
+       - Update the URL field with https://myweatherprovider.mybluemix.net/today?zipcode=$(request.parameters.zipcode).  
+       ![](images/assemble-2.png)  
 
 24. Save your API.
 
@@ -133,12 +135,12 @@ _The Name and Base Path are auto-populated_.
   > _In API Connect, **Products** provide a way to group APIs that are intended for a particular use. Products are published to a **Catalog**. [Reference: API Connect glossary]_
 
 3. On the Assemble tab, click ► to test your API proxy's target invocation.  
-  a. Choose the **get /current** operation.  
-  b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip (for example, 90210).  
-  c. Click **invoke**, and verify the response.  
+   a. Choose the **get /current** operation.  
+   b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip (for example, 90210).  
+   c. Click **invoke**, and verify the response.  
   > _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again._   
   
-  d. The expected response is a **200 OK** response code along with  the current weather data for 90210.  
+   d. The expected response is a **200 OK** response code along with  the current weather data for 90210.  
     ![](images/test-invoke-1.png) 
     ![](images/test-invoke-2.png) 
     ![](images/test-invoke-3.png) 
