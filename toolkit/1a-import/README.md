@@ -56,7 +56,7 @@ _You'll notice that the Host value is set to_ ```$(catalog.host)``` _. This sets
 4. In the test panel, 
    a. Click the **get /current** operation.  
    b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip code (for example, 90210).  
-   c. Click **invoke**, and verify the response.
+   c. Click **invoke**, and verify the response.  
     _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then     hit the "invoke" button again._  
    d. The expected response is:   
     ```
