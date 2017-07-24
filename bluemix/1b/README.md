@@ -130,15 +130,15 @@ _The path and operation you created was to get the current weather data. Next, y
   
   ![](/bluemix/1a/images/generate-default-product-3.png) 
 
-  - _In API Connect, **Products** provide a way to group APIs that are intended for a particular use. Products are published to a **Catalog**. [Reference: API Connect glossary]_
+  > _In API Connect, **Products** provide a way to group APIs that are intended for a particular use. Products are published to a **Catalog**. [Reference: API Connect glossary]_
 
 3. On the Assemble tab, click ► to test your API proxy's target invocation.  
   a. Choose the **get /current** operation.  
   b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip (for example, 90210).  
   c. Click **invoke**, and verify the response.  
-  _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again._  
-  d. The expected response code is:  **200 OK** 
-     
+  > _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again._   
+  
+  d. The expected response is a **200 OK** response code along with  the current weather data for 90210.  
   
     ![](images/test-invoke-1.png)  
 
