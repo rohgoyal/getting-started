@@ -42,6 +42,8 @@ A sample _weather provider_ app was created for this tutorial.
     ![](images/create-new-1.png)  
     
 9. In the New API window, enter "Weather Provider API" for the title. _The Name and Base Path are auto-populated_. 
+  ![](images/toolkit-add-new-api.png)   
+
 10. Click **Create API** to complete the wizard. Once you've created your OpenAPI spec, you are taken to the **Design** view.  
 
 11. In the **Design** view, scroll to the **Host** panel. 
