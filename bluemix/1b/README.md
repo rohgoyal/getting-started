@@ -141,13 +141,13 @@ _The path and operation you created was to get the current weather data. Next, y
   ```
   200 OK response
   Current weather data for 90210  
-  ```
+  ```  
   
     ![](images/test-invoke-1.png)  
 
     ![](images/test-invoke-2.png)  
 
-    ![](images/test-invoke-3.png)
+    ![](images/test-invoke-3.png)  
 
 ---
 
