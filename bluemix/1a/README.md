@@ -3,7 +3,7 @@
 **Skill level:** Beginner  
 
 ## Objective
-This tutorial helps you get started quickly with IBM API Connect by illustrating how you can bring your existing API under management control. We'll start by importing an OpenAPI spec, and then create a passthrough API proxy for an existing REST service.
+This tutorial helps you get started quickly with IBM API Connect by illustrating how you can bring your existing API under management control. You'll start by importing an OpenAPI spec, and then create a passthrough API proxy for an existing REST service.
 
 ## Prerequisites
 Before you begin, you will need to <a href="https://github.com/ibm-apiconnect/getting-started/tree/master/bluemix/0-prereq" target="blank">set up your API Connect instance</a>.
@@ -90,5 +90,5 @@ _The Explore Tool allows users to test the correct operation of the API by enfor
 
 
 ### Conclusion
-In this tutorial, you saw how an existing REST service can be invoked through an API passthrough proxy. We started by checking the availability of the sample service through the web browser. Then we created an API proxy in API Connect, and linked the proxy to the sample service to be invoked. We packaged our API into a product, published the product to catalog, and tested the proxy.
+In this tutorial, you saw how an existing REST service can be invoked through an API passthrough proxy. You started by checking the availability of the sample service through the web browser. Then you created an API proxy in API Connect, and linked the proxy to the sample service to be invoked. You packaged your API into a product, published the product to catalog, and tested the proxy.
 
