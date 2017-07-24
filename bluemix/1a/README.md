@@ -27,12 +27,12 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
 ---
 
 ## Import the sample app's OpenAPI spec to create a REST API proxy
-1. Log in to {{site.data.keyword.Bluemix_short}}: https://new-console.ng.bluemix.net/login.
-2. In the {{site.data.keyword.Bluemix_short}} navigation panel, select **Services**, then **Dashboard**.
+1. Log in to Bluemix: https://new-console.ng.bluemix.net/login.
+2. In the API Connect navigation panel, select **Services**, then **Dashboard**.
 3. Launch the API Connect service.  
    ![](images/login-1.png)   ![](images/login-2.png)  
   
-4. In the {{site.data.keyword.apiconnect_short}} interface, make sure the navigation panel on the left side is open. If not, click **>>** to open it.  
+4. In the API Connect interface, make sure the navigation panel on the left side is open. If not, click **>>** to open it.  
 5. Select **Drafts** in the navigation panel.   
 6. Go to the **APIs** tab
 7. In the **APIs** tab, click **Add**
