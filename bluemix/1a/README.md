@@ -43,7 +43,7 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
 https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml. Leave the other options with their default values and click **Import**.  
     ![](images/import-2.png)  
 
-10. Once you import the OpenAPI spec, you are taken to the **Design** view. Scroll down to explore, and especially note the **Host** panel.   
+10. Once you import the OpenAPI spec, you are taken to the **Design** view of the API. Here you can view various sections of the OpenAPI definition. Scroll to explore, and especially note the **Host** panel.   
     _Note: You'll see that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
 
 
