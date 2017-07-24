@@ -137,17 +137,15 @@ _The path and operation you created was to get the current weather data. Next, y
   b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip (for example, 90210).  
   c. Click **invoke**, and verify the response.  
   _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again._  
-  d. The expected response is:  
-  ```
-  200 OK response
-  Current weather data for 90210  
-  ```  
+  d. The expected response code is:  **200 OK** 
+     
   
     ![](images/test-invoke-1.png)  
 
     ![](images/test-invoke-2.png)  
 
-    ![](images/test-invoke-3.png)  
+    ![](images/test-invoke-3.png) 
+
 
 ---
 
