@@ -32,35 +32,26 @@ Note : You can click **Raw** and then save the resulting page on your local syst
 6. Go to the **APIs** tab
 7. In the **APIs** tab, click **Add**
 8. In the dropdown menu, click **API from SOAP service**.
+   ![New API](images/newapi-menu2.png)
 
-2. In the Bluemix **Dashboard** scroll down and select API Connect. Alternately, from the menu icon, choose **Services** and then **APIs** to reach the **Work with APIs** window, and select **API Connect**. From the **API Connect** page, you can simply press `Create`, or you can adjust the default settings. For the purposes of this exercise, leave the instance unbound, and adjust the Service name for easier recognition later. One example would be `API Connect-weather-exercise`.
-Press the `Create` button to launch the API Connect service.  
-You may see an alert describing what's new, or the **Draft APIs** informational splash page shown in the following image. After reading the information click the **"Got it"** icon to view the API Manager.
-![Draft APIs splash page](images/apic_draft-apis.png)
-
-3. Click `Add +` in the main window to view the APIs panel.
-
-4. In the APIs panel, select **API from SOAP service**.
-
-![New API](images/newapi-menu2.png)
-
-5. The New API from WSDL dialog box opens. Click **Upload File**.
+9. The New API from WSDL dialog box opens. Click **Upload File**.
 ![upload the .wsdl file](images/4-uploadwsdl.png)
 
-6. Select the ```weatherprovider.wsdl``` file that you saved previously.
+10. Select the ```weatherprovider.wsdl``` file that you saved previously.
 
-7. The New API from WSDL dialog box reappears. Check the **weatherService** check box. Click **Done**.
+11. The New API from WSDL dialog box reappears. Check the **weatherService** check box. Click **Done**.
 ![select weather service](images/newapi2.png)
 
-8.Your API is now created. The `API Editor` page displays.
+12.On successful import, you are taken to the **Design** view of the API. Also you can view the OpenAPI definition under source tab.
+  > _You'll see that the wsdl is wrapped inside the OpenAPI definition._
 
 ![API Editor page](images/designpage2.png)
 
-9.	Scroll down to the **Security tab**, and click the delete icon to remove the `clientIDHeader (API Key)` that was automatically generated when you created the service.
+13.	Scroll down to the **Security** tab, and click the delete icon to remove the `clientIDHeader (API Key)` that was automatically generated when you created the service.
 
-10.	Click the ![save](images/save.png) icon to save your changes. An "API Saved" appears momentarily.
+14.	Click the ![save](images/save.png) icon to save your changes. An "API Saved" appears momentarily.
 
-11.	In the menu bar with the save icon, the **Design** tab indicates your present location. Next to that, you find the **Source** tab where you can directly view the Swagger (2.0) file that represents your API, and next to that, you find the **Assemble** tab that takes you to a drag and drop interface for API processing. Click **Assemble**.
+15.	In the menu bar with the save icon, the **Design** tab indicates your present location. Next to that, you find the **Source** tab where you can directly view the Swagger (2.0) file that represents your API, and next to that, you find the **Assemble** tab that takes you to a drag and drop interface for API processing. Click **Assemble**.
 ![Assemble tab](images/assemble-clean.png)
 
 ---
