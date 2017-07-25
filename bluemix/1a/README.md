@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
 
 ---
 
-### Test your API proxy
+## Test your API proxy
 
 1. In the **Assemble** tab, click on **More Actions** then click **Generate a default product**.  
   ![](/bluemix/1a/images/generate-default-product-1.png)   
