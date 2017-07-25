@@ -47,8 +47,8 @@ _The Name and Base Path are auto-populated_.
 10. Click **Create API** to complete the wizard.  Once you've created your OpenAPI spec, you are taken to the **Design** view.  
 11. In the **Design** view, scroll to the **Host** panel. 
 12. Enter ```$(catalog.host)``` as the value, if the field is not automatically filled in.  
-13. Scroll to the **Security** tab, and delete the "clientIDHeader (API Key)" that has been been auto-generated.  
-> _(You will cover security with API Keys in the next tutorial.)_  
+13. Scroll to the **Security** tab, and click the delete icon to remove the `clientIDHeader (API Key)` that was auto-generated.  
+> _You will cover security with API Keys in the next tutorial._  
 
 14. In the side navigation panel:  
     a. scroll down to the **Paths** panel.   
