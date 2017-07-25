@@ -25,7 +25,13 @@ Note : You can click **Raw** and then save the resulting page on your local syst
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
 2. Once logged in to Bluemix, scroll down to **All Services**, and click on **API Connect**. 
 3. Click on **API Connect** to launch the API Connect service.  
-  ![](images/bluemix-launch-apic.png)
+  ![](images/bluemix-launch-apic.png)  
+  
+4. In the API Connect interface, make sure the navigation panel on the left side is open. If not, click **>>** to open it.  
+5. Click on **Drafts** in the navigation panel.   
+6. Go to the **APIs** tab
+7. In the **APIs** tab, click **Add**
+8. In the dropdown menu, click **API from SOAP service**.
 
 2. In the Bluemix **Dashboard** scroll down and select API Connect. Alternately, from the menu icon, choose **Services** and then **APIs** to reach the **Work with APIs** window, and select **API Connect**. From the **API Connect** page, you can simply press `Create`, or you can adjust the default settings. For the purposes of this exercise, leave the instance unbound, and adjust the Service name for easier recognition later. One example would be `API Connect-weather-exercise`.
 Press the `Create` button to launch the API Connect service.  
