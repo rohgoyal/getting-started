@@ -126,12 +126,12 @@ A sample _weather provider_ app was created for this tutorial.
 
 2. Switch over to the Assemble tab.  
 
-2. Click the play icon (►) to test your API proxy's target invocation.
+3. Click the play icon (►) to test your API proxy's target invocation.
    > _For this tutorial, we shall use the embedded Micro Gateway, so ensure Micro Gateway Policies is selected._  
    
     ![](images/screenshot_test-0.png)
 
-3. In the test panel:
+4. In the test panel:  
     a. Choose the **get /current** operation.  
     b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip code (for example, 90210).  
     c. Click **invoke**, and verify the response.  
