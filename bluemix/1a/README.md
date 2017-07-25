@@ -62,7 +62,7 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
 
 3. On the Assemble tab, click ► to test your API proxy's target invocation.
 
-4. In the test panel: 
+4. In the test panel:   
    a. Choose the **get /current** operation.  
    b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip (for example, 90210).  
    c. Click **invoke**, and verify the response.  
