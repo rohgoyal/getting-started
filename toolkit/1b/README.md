@@ -28,13 +28,12 @@ A sample _weather provider_ app was created for this tutorial.
 ---
 
 ## Add a new OpenAPI spec and invoke an existing REST service
-1. Launch the terminal on your laptop.
-2. In the terminal, enter `apic edit` to launch the **API Designer**.
-3. Log in using your IBMid.
+1. Launch the terminal on your laptop. In the terminal, enter `apic edit` to launch the **API Designer**.
+2. Log in using your IBMid.
     ![](images/screenshot_apic-edit_login.png)  
-4. In the **API Designer**, make sure the navigation panel is open. If not, click **>>** to open it.  
-5. Click on **Drafts** in the navigation panel.   
-6. Go to the **APIs** tab.  
+4. In the **API Designer**, ensure the navigation panel is open. If not, click **>>** to open it.  
+5. In the navigation panel, click **Drafts**.
+6. Then go to the **APIs** tab.  
 7. In the **APIs** tab, click **Add**   
 
 8. In the drop-down menu, click **New API**.
