@@ -57,7 +57,7 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/
     ![](images/screenshot_test-0.png)
 
 4. In the test panel:   
-   a. Click the **get /current** operation.  
+   a. Choose the **get /current** operation.  
    b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip code (for example, 90210).  
    c. Click **invoke**, and verify the response.  
    > _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then     hit the "invoke" button again._   
