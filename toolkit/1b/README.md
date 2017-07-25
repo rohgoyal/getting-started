@@ -22,8 +22,7 @@ A sample _weather provider_ app was created for this tutorial.
 3. The sample weather app, shown above, was developed using APIs that provide weather data. The endpoint to get the **current** weather data is _**https:// myweatherprovider<span></span>.mybluemix.net/current?zipcode={zipcode}**_. Test it out by going to https://myweatherprovider.mybluemix.net/current?zipcode=90210.  
   ![](images/explore-weatherapp-2.png)  
 
-4. Similary, the Endpoint to get **today's** forecast data is _**https:// myweatherprovider<span></span>.mybluemix.net/today?zipcode={zipcode}**_.
-  - Test it out by going to https://myweatherprovider.mybluemix.net/today?zipcode=90210.  
+4. Similary, the Endpoint to get **today's** forecast data is _**https:// myweatherprovider<span></span>.mybluemix.net/today?zipcode={zipcode}**_.Test it out by going to https://myweatherprovider.mybluemix.net/today?zipcode=90210.  
   ![](images/explore-weatherapp-3.png)
 
 ---
