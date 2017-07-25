@@ -39,7 +39,7 @@ A sample _weather provider_ app was created for this tutorial.
 8. In the drop-down menu, click **New API**.
     ![](images/create-new-1.png)  
     
-9. In the New API window, enter "Weather Provider API" for the title. _The Name and Base Path are auto-populated_. 
+9. In the **New API** window, enter "Weather Provider API" for the title. _The Name and Base Path are auto-populated_. 
   ![](images/toolkit-add-new-api.png)   
 
 10. Click **Create API** to complete the wizard. Once you've created your OpenAPI spec, you are taken to the **Design** view.  
@@ -121,14 +121,18 @@ A sample _weather provider_ app was created for this tutorial.
 ---
 
 ### Test your API proxy
-1. In the **Assemble** tab, start the local test server by selecting the **Start servers** icon.
+1. Start the local test server by clicking the Start servers icon on the bottom left of the designer. Once the Gateway is started, you would see the status update automatically to Running.  
     ![](images/screenshot_start-server-1.png)
 
+2. Switch over to the Assemble tab.  
+
 2. Click the play icon (►) to test your API proxy's target invocation.
+   > _For this tutorial, we shall use the embedded Micro Gateway, so ensure Micro Gateway Policies is selected._  
+   
     ![](images/screenshot_test-0.png)
 
 3. In the test panel:
-    a. select the **get /current** operation.  
+    a. Choose the **get /current** operation.  
     b. Zipcode is a required parameter for this operation, so enter a valid U.S. zip code (for example, 90210).  
     c. Click **invoke**, and verify the response.  
    > _If you run into a CORS error, follow the instructions in the error message. Click the link in the error to add the exception to your browser, and then hit the "invoke" button again._   
