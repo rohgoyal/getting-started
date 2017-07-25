@@ -39,8 +39,8 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
 8. In the "Import OpenAPI (Swagger)" dialog box, enter the following URL:
 https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/1a-import/weather-provider-api_1.0.0.yaml. Leave the _Add a product_ option unchecked and click **Import**.  
     ![](images/screenshot_import-url.png)  
-9. In the API's **Design** view, scroll down to the **Host** panel.   
-   >_You'll notice that the Host value is set to_ ```$(catalog.host)``` _. This sets the base URL for your API proxy._
+9. Once you import the OpenAPI spec, you are taken to the Design view of the API. Here you can view various sections of the OpenAPI definition. Scroll to explore, and especially note the Host value. Also you can view the OpenAPI under source tab.
+   > _You'll see that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
  
 
 
