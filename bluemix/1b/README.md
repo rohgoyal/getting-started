@@ -101,7 +101,7 @@ _The Name and Base Path are auto-populated_.
       - Name: city / Type: string
       - Name: state / Type: string
 21. Update the response schema in the **GET /today** section to "Today".
-22. Save your API.
+22. Save your API by clicking on the save icon on the top right corner of the designer. An "API Saved" confirmation notification appears momentarily.
 
 23. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the correct target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.  
     a. Delete the **invoke** policy that may already be added to the _canvas_.  
