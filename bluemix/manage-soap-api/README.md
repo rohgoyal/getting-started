@@ -48,8 +48,9 @@ Note : You can click **Raw** and then save the resulting page on your local syst
 ![API Editor page](images/designpage2.png)
 
 13.	Scroll down to the **Security** tab, and click the delete icon to remove the `clientIDHeader (API Key)` that was automatically generated when you created the service.
+> _You will cover security with API Keys in the next tutorial._ 
 
-14.	Click the ![save](images/save.png) icon to save your changes. An "API Saved" appears momentarily.
+14.	Save your API by clicking the ![save](images/save.png) icon on the top right corner of the designer. An "API Saved" confirmation notification appears momentarily.
 
 15.	In the menu bar with the save icon, the **Design** tab indicates your present location. Next to that, you find the **Source** tab where you can directly view the Swagger (2.0) file that represents your API, and next to that, you find the **Assemble** tab that takes you to a drag and drop interface for API processing. Click **Assemble**.
 ![Assemble tab](images/assemble-clean.png)
