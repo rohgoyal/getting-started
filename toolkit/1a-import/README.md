@@ -52,7 +52,8 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/
 2. Switch over to the **Assemble** tab.
 
 3. Click the play icon (►) to test your API proxy's target invocation.
-    > _For this tutorial, we shall use the embedded microgateway._
+    > _For this tutorial, we shall use the embedded microgateway._<
+    
     ![](images/screenshot_test-0.png)
 
 4. In the test panel:   
