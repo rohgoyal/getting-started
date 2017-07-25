@@ -5,21 +5,23 @@ years: 2017
 lastupdated: "2017-07-11"
 
 ---
-# Managing a SOAP service
-**Duration**: 15 mins
+# Managing a SOAP service with IBM Bluemix
+**Duration**: 15 mins  
 **Skill level**: Beginner
 
----
-### Objective
+
+## Objective
 In API Manager, you will create a SOAP API that is a proxy for a SOAP-based weather service.
 
-### Prerequisites
+## Prerequisites
 - Before you begin, you will need to [set up your API Connect instance](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
 - Before you begin, copy the WSDL file located at https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/manage-soap-api/files/weatherprovider.wsdl to your local filesystem.
-Note : You can click **Raw** and then save the resulting page on your local system as a `.wsdl` file.
+Note : You can click **Raw** and then save the resulting page on your local system as a `.wsdl` file. 
 
 ---
-### Setting up a SOAP API definition
+
+
+## Setting up a SOAP API definition
 1. Log in to IBM Bluemix: https://new-console.ng.bluemix.net/login.
 
 2. In the Bluemix **Dashboard** scroll down and select API Connect. Alternately, from the menu icon, choose **Services** and then **APIs** to reach the **Work with APIs** window, and select **API Connect**. From the **API Connect** page, you can simply press `Create`, or you can adjust the default settings. For the purposes of this exercise, leave the instance unbound, and adjust the Service name for easier recognition later. One example would be `API Connect-weather-exercise`.
