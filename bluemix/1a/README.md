@@ -46,10 +46,10 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
 10. Once you import the OpenAPI spec, you are taken to the **Design** view of the API. Here you can view various sections of the OpenAPI definition. Scroll to explore, and especially note the **Host** value. Also you can view the OpenAPI under source tab  
    > _Note: You'll see that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
 
+---
 
+### Test your API proxy
 
-## Test your API proxy
-### Test with the _API Manager test tool_.
 1. In the **Assemble** tab, click on **More Actions** then click **Generate a default product**.  
   ![](/bluemix/1a/images/generate-default-product-1.png)   
   
