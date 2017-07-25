@@ -42,10 +42,10 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/
 9. Once you import the OpenAPI spec, you are taken to the Design view of the API. Here you can view various sections of the OpenAPI definition. Scroll to explore, and especially note the Host value. Also you can view the OpenAPI under source tab.
    > _You'll see that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
  
-
+---
 
 ## Test your API proxy
-### Test with the _API Manager test tool_.
+
 1. Switch over to the **Assemble** tab.
 2. Start the local test server by clicking the **Start servers** icon.
     ![](images/screenshot_start-server-1.png)
