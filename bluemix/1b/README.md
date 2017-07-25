@@ -81,7 +81,7 @@ _The Name and Base Path are auto-populated_.
     In the left side-navigation panel, scroll back up to the **Paths** panel.  
     a. Open the **GET /current** operation, and scroll to the **Responses** section.  
     b. Change the schema of the 200OK response from "object" to "**Current**".  
-    c. Save your API.  
+    c. Save your API by clicking on the save icon on the top right corner of the designer. An "API Saved" confirmation notification appears momentarily.  
     > _The path and operation you created was to get the current weather data. Next, you'll need to create a similar path and operation to get today's weather data._  
 
 17. Similar to how you created the **/current** path in the previous steps, create a new path: **/today**.
@@ -101,7 +101,7 @@ _The Name and Base Path are auto-populated_.
       - Name: city / Type: string
       - Name: state / Type: string
 21. Update the response schema in the **GET /today** section to "Today".
-22. Save your API by clicking on the save icon on the top right corner of the designer. An "API Saved" confirmation notification appears momentarily.
+22. Save your API.
 
 23. Switch over to the **Assemble** tab. You've got two operations so far: **GET /current** and **GET /today**. To ensure the correct target endpoint is invoked, you'll need to create some logic that will execute conditional on the operation that's being called. Let's use the **Operation Switch** logic construct to do this.  
     a. Delete the **invoke** policy that may already be added to the _canvas_.  
