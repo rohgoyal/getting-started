@@ -29,7 +29,7 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
 1. Launch the **API Designer**. In your terminal window, enter the following command: `apic edit`.
 2. Log in using your IBMid.
     ![](images/screenshot_apic-edit_login.png)
-3. In the **API Designer**, ensure that the navigation panel is open.  
+3. In the **API Designer**, ensure that the navigation panel is open. If not, click **>>** to open it.  
 4. In the navigation panel, click **Drafts**.  
 5. Then go to the **APIs** tab.
 6. In the **APIs** tab, click **Add**
