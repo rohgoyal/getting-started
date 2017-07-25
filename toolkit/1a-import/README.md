@@ -46,9 +46,10 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/toolkit/
 
 ## Test your API proxy
 
-1. Switch over to the **Assemble** tab.
-2. Start the local test server by clicking the **Start servers** icon.
+1. Start the local test server by clicking the **Start servers** icon on the bottom left of the designer. Once the Gateway is started, you would see the status update automatically to _**Running**_
     ![](images/screenshot_start-server-1.png)
+ 
+2. Switch over to the **Assemble** tab.
 
 3. Click the play icon (►) to test your API proxy's target invocation.
     ![](images/screenshot_test-0.png)
