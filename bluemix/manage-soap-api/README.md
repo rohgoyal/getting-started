@@ -42,8 +42,8 @@ Note : You can click **Raw** and then save the resulting page on your local syst
 11. The New API from WSDL dialog box reappears. Check the **weatherService** check box. Click **Done**.
 ![select weather service](images/newapi2.png)
 
-12.On successful import, you are taken to the **Design** view of the API. Also you can view the OpenAPI definition under source tab.
-  > _You'll see that the wsdl is wrapped inside the OpenAPI definition._
+12.On successful import, you are taken to the **Design** view of the API. Also you can view the OpenAPI definition under **Source** tab.
+  > _In the Source tab, you'll see that the wsdl is wrapped inside the OpenAPI definition._
 
 ![API Editor page](images/designpage2.png)
 
@@ -56,14 +56,16 @@ Note : You can click **Raw** and then save the resulting page on your local syst
 ![Assemble tab](images/assemble-clean.png)
 
 ---
+
+
 ### Testing the SOAP API definition
-1. In the **Assemble** tab, click the **More actions** (three dots) icon, and select **Generate a default product** from the menu.
+1. Naviage to **Assemble** tab, click on More Actions (three dots overflow menu icon) then click Generate a default product.  
    ![More actions menu, open](images/gen-default-prod.png)
 
 2. Accept the default options in the **New Product** dialog pop-up, and select **Create Product**. The **weatherService product 1.0.0** is created and published to the Sandbox catalog.
   ![create a new product](images/12a-chooseproduct.png)
 
-  - _In API Connect, **Products** provide a mechanism to  group APIs that are intended for a particular use. Products are published to a **Catalog**. Reference: ![API Connect glossary](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.overview.doc/overview_apimgmt_glossary.html)_
+ >_In API Connect, **Products** provide a way to  group APIs that are intended for a particular use. Products are published to a **Catalog**. Reference: ![API Connect glossary](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.overview.doc/overview_apimgmt_glossary.html)_
 
 3. Save your changes.  
 
