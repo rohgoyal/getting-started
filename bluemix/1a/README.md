@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/
 
 ## Test your API proxy
 
-1. In the **Assemble** tab, click on **More Actions** then click **Generate a default product**.  
+1. Naviage to **Assemble** tab, click on **More Actions** (three dots overflow menu icon) then click **Generate a default product**.  
   ![](/bluemix/1a/images/generate-default-product-1.png)   
   
 2. Accept the default options in the **New Product** dialog box, and click **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog. A message indicating successful product generation is displayed.  
