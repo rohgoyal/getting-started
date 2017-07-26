@@ -34,7 +34,7 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
   
 4. In the API Connect interface, make sure the navigation panel on the left side is open. If not, click **>>** to open it.  
 5. Click on **Drafts** in the navigation panel.   
-6. Go to the **APIs** tab.
+6. Navigate to the **APIs** tab.
 7. In the **APIs** tab, click **Add**.
 8. In the dropdown menu, click **Import API from a file or URL**.  
      ![](images/import-1.png) 
