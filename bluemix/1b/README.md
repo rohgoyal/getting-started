@@ -34,8 +34,8 @@ A sample _weather provider_ app has been created for this tutorial.
   
 4. In the API Connect interface, make sure the navigation panel on the left side is open. If not, click **>>** to open it.  
 5. Click on **Drafts** in the navigation panel.   
-6. Go to the **APIs** tab
-7. In the **APIs** tab, click **Add**
+6. Navigate to the **APIs** tab.
+7. In the **APIs** tab, click **Add**.
 
 8. In the dropdown menu, click **New API**.    
   ![](images/create-new-1.png)  
