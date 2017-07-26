@@ -34,8 +34,8 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
   
 4. In the API Connect interface, make sure the navigation panel on the left side is open. If not, click **>>** to open it.  
 5. Click on **Drafts** in the navigation panel.   
-6. Go to the **APIs** tab
-7. In the **APIs** tab, click **Add**
+6. Go to the **APIs** tab.
+7. In the **APIs** tab, click **Add**.
 8. In the dropdown menu, click **Import API from a file or URL**.  
      ![](images/import-1.png) 
  
@@ -43,14 +43,14 @@ A sample _weather provider_ app has been created for this tutorial. Its correspo
 https://raw.githubusercontent.com/ibm-apiconnect/getting-started/master/bluemix/1a/weather-provider-api_1.0.0.yaml. Leave the other options with their default values and click **Import**.  
     ![](images/import-2.png)  
 
-10. Once you import the OpenAPI spec, you are taken to the **Design** view of the API. Here you can view various sections of the OpenAPI definition. Scroll to explore, and especially note the **Host** value. Also you can view the OpenAPI under **Source** tab  
+10. Once you import the OpenAPI spec, you are taken to the **Design** view of the API. Here you can view various sections of the OpenAPI definition. Scroll to explore, and especially note the **Host** value. You can also view the OpenAPI under the **Source** tab.  
    > _You'll see that the Host value is set to_ ```$(catalog.host)``` _. This is the base URL for your API proxy._
 
 ---
 
 ## Test your API proxy
 
-1. Naviage to **Assemble** tab, click on **More Actions** (three dots overflow menu icon) then click **Generate a default product**.  
+1. Naviage to the **Assemble** tab and click on **More Actions** (three dots overflow menu icon). Then click **Generate a default product**.  
   ![](/bluemix/1a/images/generate-default-product-1.png)   
   
 2. Accept the default options in the **New Product** dialog box, and click **Create Product**. The **Weather Provider API product** is created and published to the Sandbox catalog. A confirmation notification that product generation and publish was successful appears momentarily.  
