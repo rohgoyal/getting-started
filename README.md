@@ -1,6 +1,6 @@
 # Getting Started with IBM API Connect
 
-The links below have **not** been published yet, so please do not use or share content in this repo. **[Click here](https://console-regional.ng.bluemix.net/docs/services/apiconnect/index.html#index) to access the full experience for getting started**. 
+## The links below have **not** been published yet, so please do not use or share content in this repo. **[Click here](https://console-regional.ng.bluemix.net/docs/services/apiconnect/index.html#index) to access the full experience for getting started**. 
 
 # Tutorial Drafts
 
