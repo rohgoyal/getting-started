@@ -1,12 +1,8 @@
-_** Note: These tutorials still need to be reviewed and tested, so please do not use or share yet._
-
 # Getting Started with IBM API Connect
 
-Welcome to API Connect! Let's get started. **To view the full experience, click [here](https://console-regional.ng.bluemix.net/docs/services/apiconnect/index.html#index)**. 
+The links below have **not** been published yet, so please do not use or share content in this repo. **[Click here](https://console-regional.ng.bluemix.net/docs/services/apiconnect/index.html#index) to access the full experience for getting started**. 
 
-The full list of tutorials is below. Tutorials marked with ▶ are common starting points.
-
-# All Tutorials
+# Tutorial Drafts
 
 ### /bluemix
 - [PREREQUISITE: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
