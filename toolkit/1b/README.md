@@ -34,9 +34,9 @@ A sample _weather provider_ app was created for this tutorial.
 4. In the **API Designer**, ensure the navigation panel is open. If not, click **>>** to open it.  
 5. In the navigation panel, click **Drafts**.
 6. Then go to the **APIs** tab.  
-7. In the **APIs** tab, click **Add**   
+7. In the **APIs** tab, click **Add**.   
 
-8. In the drop-down menu, click **New API**.
+8. From the drop-down menu, click **New API**.
     ![](images/create-new-1.png)  
     
 9. In the **New API** window, enter "Weather Provider API" for the title. _The Name and Base Path are auto-populated_. 
