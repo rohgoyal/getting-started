@@ -25,8 +25,8 @@
 2.  Once Node.js is downloaded and install, check to make sure it is in your _PATH_.
     ![](images/verify-path.png)  
 
-
 3. Update **npm**. In a command line, enter `npm install -g npm`.
+   Note: Setting npm `--engine-strict` or `npm config set engine-strict true` prevents installation from completing.
 
 
 4. Check the installed version and path.
