@@ -81,4 +81,4 @@ The security settings can also be tested using the Explore tool that explicitly 
 ---
 
 ### Conclusion
-In this tutorial, you learned how to set the identification mechanism of your API, test changes made to your API, and call your API using the client ID and client secret. 
+In this tutorial, you learned how to set the identification mechanism of your API, test changes made to your API, and call your API using the Client ID and Client secret. 
