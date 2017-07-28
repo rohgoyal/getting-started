@@ -1,4 +1,4 @@
-# Secure your API with a client ID and secret
+# Secure your API with Client ID and Client Secret
 
 
 **Duration:** 10 mins  
@@ -13,7 +13,8 @@ This tutorial will guide you through securing your API with Client ID and Client
 ### Prerequisites
 
 Before you begin, you must have completed one of the following tutorials: 
-- [Import an OpenAPI2.0 spec and proxy an existing REST service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md), or
+- [Import an OpenAPI2.0 spec and proxy an existing REST service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md)  
+**or**  
 - [Add a New API Spec and Invoke an Existing REST Service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1b/README.md)
 
 
@@ -76,6 +77,8 @@ The security settings can also be tested using the Explore tool that explicitly 
 
 3. In the right-hand column, click **Call operation** to rerun the test.
     ![](images/explore_3.png)
+
+---
 
 ### Conclusion
 In this tutorial, you learned how to set the identification mechanism of your API, test changes made to your API, and call your API using the Client ID and Client Secret. 
