@@ -29,7 +29,7 @@ Before you begin, you must have completed one of the following tutorials:
 
 2. In the Design view:
    a. Scroll down to **Security Definitions**.
-   b. Click the **Add Security Definitions** icon (+), then select **API Key**. 
+   b. Click the **Add Security Definitions** icon (+), then click **API Key**. 
    c. Add two new API keys:
       - Name: Client ID;  Parameter name: X-IBM-Client-Id  
       - Name: Client Secret;  Parameter name: X-IBM-Client-Secret  
@@ -47,10 +47,10 @@ Before you begin, you must have completed one of the following tutorials:
 
 1. In the Assemble tab, click the ► button to test your changes.
 
-2. In the Test / Setup panel, select **Republish product** to pickup the changes. 
+2. In the Test / Setup panel, click on **Republish product** to get the latest changes. 
 > This option updates your API product, and also publishes it to the Sandbox catalog.
 
-3. After the product has been republished, select the **get /current** operation in the test panel.
+3. After the product has been republished, click on the **get /current** operation in the test panel.
 4. Scroll down in the Test panel, and notice that the Client ID and Client Secret values have already been populated. 
 > These are test values that are generated for your sandbox, and represent the keys of the application that will be using your API.
 > **Note:** The Client ID and Client Secret keys can also be found under Dashboard > Catalog > Settings > Endpoints]_   
