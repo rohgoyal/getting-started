@@ -21,8 +21,8 @@ Before you begin, you must have completed one of the following tutorials:
 
 1. Launch the API Designer (if it is not already open):  
    a. Open your terminal.  
-   b. Enter **apic edit** into the command line.  
-   c. Select **Sign in with Bluemix**.  
+   b. Enter `apic edit` into the command line. _API Designer is launched in your web browser_    
+   c. Click on **Sign in with Bluemix**.  
    d. Enter your Bluemix login information.  
 
 2. Navigate to your API's Design view:
@@ -35,7 +35,7 @@ Before you begin, you must have completed one of the following tutorials:
    a. Scroll down to **Security Definitions**.  
     ![](pictures/1b.png) 
 
-   b. Click the **Add Security Definitions** icon (+), then select **API Key**.  
+   b. Click the **Add Security Definitions** icon (+), then click **API Key**.  
       - Name: Client ID; Parameter name: X-IBM-Client-ID  
       - Name: Client Secret; Parameter name: X-IBM-Client-Secret  
       - For both new keys, ensure that the **Located In** field is set to "Header".  
@@ -52,7 +52,7 @@ Before you begin, you must have completed one of the following tutorials:
 ### Test the changes made to your API
 
 1. In the Assemble tab, click ► to test your changes.
-2. In the test panel, select the **get /current** operation.
+2. In the test panel, click on the **get /current** operation.
 3. Scroll down in the test panel, and notice that Client ID and Client Secret values have already been populated. _These are test values that are generated for your sandbox, and represent the keys of the application that will be using your API._  
 > Note: These Client ID and Client Secret keys can also be found under  **Dashboard** > **Catalog** > **Settings** > **Endpoints**  
 
