@@ -20,9 +20,9 @@ Before you begin, you must have completed one of the following tutorials:
 
 ### Set the identification mechanism of your API
 
-1. Navigate to your API's Design view:
-   a. Click on **Drafts** in the left-navigation panel 
-   b. Then click on the **APIs** tab
+1. Navigate to your API's Design view:  
+   a. Click on **Drafts** in the left-navigation panel  
+   b. Then click on the **APIs** tab  
    c. Click on the _Weather Provider API_ that you created in the previous tutorial. This opens the API's **Design** view.  
    
     ![](images/1_goto_drafts_api.png)  
