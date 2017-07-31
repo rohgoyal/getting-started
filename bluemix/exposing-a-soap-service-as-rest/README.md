@@ -14,7 +14,7 @@ lastupdated: "2017-07-21"
 In API Manager, you will create a REST API that will accesses a existing SOAP Service and expose it as a REST API.
 
 ### Prerequisites
-1. Before you begin, you will need to [set up your API Connect instance](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
+1. Before you begin, you will need to [set up your API Connect instance](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md).
 2. Before you begin, copy the WSDL file located at https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/exposing-a-soap-service-as-rest/files/weatherprovider.wsdl to your local filesystem.
 	>![info]
 	>You can click **Raw** and then save the resulting page on your local system as a `.wsdl` file.
