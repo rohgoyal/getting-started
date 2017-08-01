@@ -12,31 +12,34 @@ lastupdated: "2017-05-25"
 
 ---
 ### Objective
-This tutorial will guide you through creating an API in Node.js using the LoopBack framework. The tutorial will cover the following:
+This tutorial guides you through creating an API in Node.js using the LoopBack framework. The tutorial describes how to:
 1. Create a new LoopBack project using the API Connect (APIC) toolkit command line.
-2. Add a new data source and model to a LoopBack project by using the API Designer in IBM API Connect toolkit.
-3. Test your API endpoints by using the API Designer Explore tool.
+2. Add a new data source and model to a LoopBack project using the API Designer in the IBM API Connect toolkit.
+3. Test your API endpoints using the API Designer Explore tool.
 
 ---
 ### Prerequisites
 Before you begin, you will need to [install the IBM API Connect toolkit](https://github.com/ibm-apiconnect/getting-started/tree/master/toolkit/0-Prereq).
 
 ---
-### Create a LoopBack project from the command line
-To create a LoopBack project using the APIC toolkit command line, complete the following steps.
+### Create a LoopBack project
+A LoopBack project can be created using either the APIC toolkit command line or the API Designer interface.  The steps for each option are outlined below:
+
+#### Option 1 - APIC toolkit CLI
+To create a LoopBack project using the APIC toolkit command line, complete the following steps:
 1.  From the command-line interface, enter the command below. It is used to create and manage LoopBack applications.
 	```bash
 	apic loopback
 	```
 	>![info]
 	>You will create a project called weather-data.
-2.  At the prompt, enter ```weather-data``` as the project name. Then click **Enter**.
+2.  At the prompt, enter ```weather-data``` as the project name. Then press **Enter**.
 	```bash
 	? What's the name of your application? weather-data
 	```
   	>![important]
   	>In general, a project name can contain any characters except blank space (" "), forward slash ("/"), ampersand ("&"), at ("@"), plus ("+"), percent ("%"), and colon (":").
-3.  Enter the name of the directory in which to create the project. You can click **Enter** to use a directory with the same name as the project, or type a new name and then click **Enter**.
+3.  Enter the name of the directory in which to create the project. Press **Enter** to use a directory with the same name as the project, or type a new name and then press **Enter**.
 	```bash
 	? Enter name of the directory to contain the project: weather-data
 	```
@@ -53,21 +56,53 @@ To create a LoopBack project using the APIC toolkit command line, complete the f
   	hello-world (A project containing a basic working example, including a memory database) 
   	notes (A project containing a basic working example, including a memory database)
 	```
-	Then, click **Enter** to create an empty LoopBack API. 
+	Then, press **Enter** to create an empty LoopBack API. 
 
-The tool displays a number of messages as it creates the project directory and adds a number of directories and files to it. It also runs npm install to install all the project dependencies, as specified in package.json. This process creates a node_modules directory and might take some time.
+>![info]
+>The tool displays a number of messages as it creates the project directory and adds a number of directories and files to it. It also runs npm install to install all the project dependencies, as specified in package.json. This process creates a node_modules directory and might take some time.
 
-An empty LoopBack project contains the following directories:
+>An empty LoopBack project contains the following directories:
 - server: contains server model and data source definitions, and other server code.
-- client: contains client model definitions, and static assets such as HTML, CSS, JavaScript files, and so on.
 - definitions: contains YAML definition files.
+- node_modules: created by node.js
+
+#### Option 2 - API Designer
+To create a LoopBack project using the API Designer, complete the following steps:
+1.  From the command-line interface, enter the command below to start the API Designer
+	```bash
+	apic edit
+	```
+	![](images/api-designer-1.png)
+	>![info]
+	>The above command initializes the APIC Toolkit and launches the API Designer in the default browser once it's done.
+	>![info]
+	>You will create a project called weather-data.
+2.  If you have not previously pinned the UI navigation pane then click the Navigate to icon ![](images/navigate-to.png). The API Manager UI navigation pane opens. To pin the UI navigation pane, click the Pin menu icon ![](images/pinned.png).
+3.  In the side bar, click the Projects Plus icon ![](images/add-icon.png).
+4.  Click **Create LoopBack Project**. You'll see the **Add new LoopBack project ** dialog.
+5.  Select **empty-server** as the project template.
+6.  For **LoopBack Version**, select version 3.x (the current version).
+7.  Enter ```weather-data``` for the Display Name and Name fields.
+8.  For the **Project Directory**, select the ```weather-data``` folder created in step 1 by clicking on the **Browse** button.
+	![](images/api-designer-2.png)
+9. Click **Add** to add the project
+	>![info]
+	>A number of messages will be displayed in the **Add new LoopBack project** window as it creates the project directory and adds a number of directories and files to it. It also runs npm install to install all the project dependencies, as specified in package.json. This process creates a node_modules directory and might take some time.
+	
+	>An empty LoopBack project contains the following directories:
+	- server: contains server model and data source definitions, and other server code.
+	- definitions: contains YAML definition files.
+	- node_modules: created by node.js
+10. Click **Finished** to close the **Add new LoopBack project** dialog box.
+11. Exit **API Desiger** by going back to the CLI in **step 1** and entering ```Ctrl + C```.  Type is ```Y``` to confirm the exit.
+12. Close out the browser session.
 
 ---
 ### Add a new data source and model
-To add a new model and data source to a LoopBack project using the API Designer, complete the following steps.
+To add a new model and data source to a LoopBack project using the API Designer, complete the following steps:
 #### Adding a data source
 To add a new data source to a LoopBack project using the API Designer, complete the following steps.
-1. You must also create a LoopBack project (the "weather-data" project) as described in ```Create a LoopBack project from the command line``` and make sure the current working directory is the project root directory:
+1. You must also create a LoopBack project (the "weather-data" project) as described in ```Create a LoopBack project``` and make sure the current working directory is the project root directory:
 	```bash
 	cd weather-data
 	```
@@ -90,12 +125,12 @@ To add a new data source to a LoopBack project using the API Designer, complete 
 6. Click **New**.
 7. By default, the **Connector** setting shows **In-memory db** and the other settings are blank. Keep the default settings for now, and API Designer automatically saves the new data source.
 	>![info]
-	>The In-memory data source is built into LoopBack and is suitable only for development and initial testing. When you are ready to connect your models to a real data source such as database server, change the **Connector** setting accordingly then install the data source connector by following the instructions in [Installing LoopBack connectors](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim-connector-install.html#task_i2p_dnw_vv). Then enter the connector settings (host name, port, database name, user name, password) as appropriate for your Connector type, and click the **Save** icon ![](images/save-icon.png). Then, API Designer automatically tests the connection to the data source. If the test is successful, it displays the message **Success - Data source connection test succeeded**.
+	>The In-memory data source is built into LoopBack and is suitable only for development and initial testing. When you are ready to connect your models to a real data source such as a database server, change the **Connector** setting accordingly then install the data source connector by following the instructions in [Installing LoopBack connectors](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim-connector-install.html#task_i2p_dnw_vv). Then enter the connector settings (host name, port, database name, user name, password) as appropriate for your Connector type, and click the **Save** icon ![](images/save-icon.png). API Designer automatically tests the connection to the data source. If the test is successful, it displays the message **Success - Data source connection test succeeded**.
 8. You can test the data source connection by clicking Test Connection icon ![](images/db-test-icon.png). The message "Data source connection test succeeded" is displayed.
 9. Click **All Data Sources**. The data source will appear in the list of data sources, and the editor updates the server/datasources.json file with settings for the new data source.
 
 #### Adding a model
-To add a new model to a LoopBack project using the API Designer, complete the following steps.
+To add a new model to a LoopBack project using the API Designer, complete the following steps:
 1. Click the **Models** icon ![](images/models-icon.png).
 2. Click **Add**. The New LoopBack Model window opens.
 3. Enter ```weather``` in the **Name** text field, then click **New**.
@@ -114,11 +149,14 @@ To add a new model to a LoopBack project using the API Designer, complete the fo
 10. Click the **Save** icon ![](images/save-icon.png) to save your changes.
 11. Click **All Models** to finish editing the model.
 
-This completes the adding of a new data source and model to the **weather-data** LoopBack project.
+This completes adding a new data source and model to the **weather-data** LoopBack project.
 
 ---
 ### Test your LoopBack project
-To test your API endpoints by using the API Designer Explore tool, complete the following steps.
+>![info]
+	>You can go directly to step 2 below if you did not exit APIC designer after completing the "Add a new model and data source" section.
+	
+To test your API endpoints using the API Designer Explore tool, complete the following steps:
 1. From the command line, enter the following command:
 	```bash
 	apic edit
@@ -128,8 +166,7 @@ To test your API endpoints by using the API Designer Explore tool, complete the 
 	Express server listening on http://127.0.0.1:9000
 	```
 	Then the API Designer opens in your default web browser, initially displaying the login page if you haven't logged in recently.
-	>![info]
-	>You can go directly to step 2 below if you did not exit APIC designer after completing the "Add a new model and data source" section.
+	
 2. Start the local test servers.
 	a. In the test console at the bottom of the screen, click the **Start the servers** icon ![](images/test-icon.png):
 	![](images/start-server-1.png)
@@ -150,6 +187,7 @@ To test your API endpoints by using the API Designer Explore tool, complete the 
 	>![](images/restart-server-1.png)
 	
 4. Click the **Explore** icon ![](images/explore-icon.png) to see the API Explore tool. The sidebar shows all of the REST operations for the LoopBack models in the API. Models that are based on PersistedModel by default have a [standard set of create, read, update, and delete operations](http://loopback.io/doc/en/lb2/PersistedModel-REST-API).
+
 5. Click the operation **weather.create** in the left pane to display the endpoint.
 ![](images/explore-test-1.png)
 The center pane displays summary information about the endpoint, including its parameters, security, model instance data, and response codes. The right pane provides template code to call the endpoint using the curl command, and languages such as Ruby, Python, Java, and Node.
@@ -174,10 +212,10 @@ The center pane displays summary information about the endpoint, including its p
 	![](images/explore-test-5.png)
 ---
 ### What you accomplished in this tutorial
-In this tutorial, you completed the following.
-1. Create a new LoopBack project using the API Connect (APIC) toolkit command line.
-2. Add a new model and data source to a LoopBack project by using the API Designer in IBM API Connect toolkit.
-3. Test your API endpoints by using the API Designer Explore tool.
+In this tutorial, you completed the following:
+1. Created a new LoopBack project using either the API Connect (APIC) toolkit command line or the API Designer.
+2. Added a new model and data source to a LoopBack project by using the API Designer in IBM API Connect toolkit.
+3. Tested your API endpoints by using the API Designer Explore tool.
 
 ---
 

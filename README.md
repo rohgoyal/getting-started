@@ -1,27 +1,15 @@
-_** Note: These tutorials still need to be reviewed and tested, so please do not use or share yet._
-
 # Getting Started with IBM API Connect
 
-Welcome to API Connect! Let's get started.
+## The links below have **not** been published yet, so please do not use or share content in this repo. **[Click here to access the full experience for getting started](https://console-regional.ng.bluemix.net/docs/services/apiconnect/index.html#index)**. 
 
-# Where would you like to begin?
-
-### Create an API in Node.js
-
-### Manage a REST Service
-
-### Manage a SOAP Service
-
-### Discover APIs
-
-# All Tutorials
+# Tutorial Drafts
 
 ### /bluemix
 - [PREREQUISITE: Launch API Connect Essentials on Bluemix](bluemix/0-prereq/README.md)
-- [Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
-- [Add a New API Spec and Invoke an Existing REST Service](bluemix/1b/README.md)
-- [Getting Started Managing a SOAP Service](/bluemix/manage-soap-api/README.md)
-- [Getting Started Discovering APIs](bluemix/getting-started-discovering-apis)
+- ▶ [Import an OpenAPI2.0 spec and proxy an existing REST service](bluemix/1a/README.md)
+- ▶ [Add a New API Spec and Invoke an Existing REST Service](bluemix/1b/README.md)
+- ▶ [Getting Started Managing a SOAP Service](/bluemix/manage-soap-api/README.md)
+- ▶ [Getting Started Discovering APIs](bluemix/getting-started-discovering-apis)
 - [Exposing a SOAP Service as REST API](/bluemix/exposing-a-soap-service-as-rest/README.md)
 - [Secure an API with Client-ID and Client-Secret Keys](bluemix/2a/README.md)
 - [Secure an API with two-legged OAuth (Application flow)](bluemix/2b/README.md)
@@ -33,9 +21,9 @@ Welcome to API Connect! Let's get started.
 
 ### /toolkit
 - [PREREQUISITE: Install Node.js and API Connect on laptop](/toolkit/0-Prereq/README.md)
-- [Import Your API Spec and Proxy an Existing REST service](/toolkit/1a-import)
-- [Add a New API Spec and Invoke an Existing REST Service](/toolkit/1b)
-- [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
+- ▶ [Import Your API Spec and Proxy an Existing REST service](/toolkit/1a-import)
+- ▶ [Add a New API Spec and Invoke an Existing REST Service](/toolkit/1b)
+- ▶ [Getting Started Creating an API in Node.js](/toolkit/getting-started-creating-an-api-in-nodejs/README.md)
 - [Secure an API with Client-ID and Client-Secret Keys](/toolkit/2a/README.md)
 
 ## [Glossary](https://console.ng.bluemix.net/docs/services/apiconnect/apiconnect_overview.html#apic_glossary)
