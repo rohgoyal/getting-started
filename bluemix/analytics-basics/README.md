@@ -68,7 +68,7 @@ This dashboard has a different set of visualizations that display API status, er
 
 Visualizations are a great way to get a useful overview of data, but you also need a way to navigate into the event records that populate  the charts.
 
-1. Hover over the bottom left corner of any visualization. ****CD Comment: Is there a graphic here or landmark that you can see?  Bottom-left corner makes it difficult with a screen reader.  Maybe like "Hover over the arrow icon in the bottom-left corner of any visualization." Or "Hover over the visualization details icon that is in the lower-left corner of a visualization."  Is this possible?**** A small arrow appears.
+1. Hover over the arrow icon in the bottom-left corner of any visualization. A small arrow appears.
 2. Click the arrow to see a table of the data that is used in that visualization. 
 3. Click the **View Events** label to navigate into the individual event details for up to 100 records.
 
