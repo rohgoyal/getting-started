@@ -17,35 +17,35 @@ lastupdated: "2017-05-16"
 **Duration**: 30 mins  
 **Skill level**: Beginner  
 
-### Prerequisite
+### Prerequisites
 Before you begin, you will need to [import your API spec and proxy an existing REST service](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/1a/README.md).
 
 ### Objective
-This tutorial is to help you get started quickly with Configuring your **API Connect Developer Portal**. 
+This tutorial will help you quickly get started with configuring your **API Connect Developer Portal**. 
 
 ---
 
 ### Create your developer portal
 In this section, you will create a developer portal for a catalog.
 
+*Catalogs* are an IBM term for different environments. For example, you would create different catalogs for your testing, staging, and production enviornments. You should have a catalog called Sandbox. Feel free to use this catalog to create your developer portal, or create a new catalog and name it whatever you want.
+
 1. In your Bluemix dashboard, select your **API Connect** service to launch the API Connect dashboard.
 ![API Connect Service](images/1.1-Bluemix-Dashboard.png)
 
 2. In the API Connect dashboard, select the catalog for which you want to create a developer portal. For example, **Sandbox**.
-
-Catalogs are an IBM term for different enviornments. For example, you would create different catalogs for your testing, staging, and production enviornments. You should have a catalog called Sandbox. Feel free to use this catalog to create your developer portal, or create a new one and name it whatever you want.
 ![Catalog](images/1.2-APIC-Dashboard.png)
 
-3. In the catalog, select the **settings** tab.  
+3. In the catalog, select the **Settings** tab.  
   ![Catalog Settings](images/1.3-catalog-settings.png)
 
-4. In the Settings tab, select **portal**.  
+4. In the Settings tab, select **Portal**.  
   ![Portal configuration](images/1.4-catalog-portal.png)
 
 5. On the Portal Configuration page, select **IBM Developer Portal** from the Select Portal dropdown. 
   ![IBM Developer Portal](images/1.5-IBM-developer-portal.png) 
 
-6. Take note of your **Portal URL**. Then save your changes.  
+6. Take note of your **Portal URL**, then save your changes.  
   ![Save settings](images/1.6-save-settings.png)
   
 7. As noted in the dialog box, it typically takes a few minutes to create your developer portal. You will receive an email when it has finished. Select **OK** to acknowledge the dialog message.  
@@ -54,11 +54,11 @@ Catalogs are an IBM term for different enviornments. For example, you would crea
 ---
 
 ### Explore your developer portal
-In this section, you will get acquainted with the developer portal created above.
+In this section, you will get acquainted with the developer portal you created in the previous steps.
 
-1. After you have configured the developer portal for your catalog above, you will receive an email with a link to a one-time login. Select the link to launch the developer portal.
+1. After you have configured the developer portal for your catalog, you will receive an email with a link to a one-time login. Select the link to launch the developer portal.
 
-2. Select **Login** to login to the developer portal. 
+2. Select **Login** to log in to the developer portal. 
 ![Login](images/2.2-login.png)
 
 3. Enter a new password and click **Save**.  
@@ -88,7 +88,7 @@ In this section, you will get acquainted with the developer portal created above
 11. The Forums page is where developers can have discussions and post questions about your APIs. When you've finished reviewing the page select **Support**.  
   ![Forums](images/2.11-forums.png)
   
-12. The Support page is where you can direct developers on how they can receive support on your APIs. For example, you can refer them to your forums and FAQs. You can also provide a link which allows them open up a support ticket if needed.  
+12. The Support page is where you can direct developers on how they can receive support on your APIs. For example, you can refer them to your forums and FAQs. You can also provide a link that allows them to open a support ticket if needed.  
   ![Support](images/2.12-support.png)
 
 ### Conclusion
