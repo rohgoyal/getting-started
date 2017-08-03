@@ -27,19 +27,19 @@ In this tutorial, you will retire, archive and delete APIs.
 3. In API Manager, if you have not previously pinned the UI navigation pane then click the **Navigate to** icon ![](images/navigate-to.png).  The API Manager UI navigation pane opens. To pin the UI Navigation pane, click the **Pin menu** icon ![](images/pinned.png).
 
 
-4. Click **Sandbox** to open the Sandbox catalog.
+4. Click **Sandbox** to open the Sandbox catalog.  
 ![](images/del-sandbox-list.png)
 
 
-5. Click the three vertical dots on the line listing **Weather Provider API 1.0.0**.
+5. Click the three vertical dots on the line listing **Weather Provider API 1.0.0**.  
 ![](images/del-prod-list1.png)
 
 
-6. Select **Delete**.
+6. Select **Delete from catalog**.  
 ![](images/del-del-from-cat.png)
 
 
-7. Click **OK**.
+7. Click **OK**.  
 ![](images/del-del-dialog.png)
 
 
@@ -48,27 +48,27 @@ The product disappears from the list of products in the catalog.  It cannot be r
 
 
 ### Archiving an API Product
-1. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.
+1. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.  
 ![](images/del-prod-list2.png)
 
 
-2. Select **Retire**.
+2. Select **Retire**.  
 ![](images/del-select-retire.png)
 
 
-3. Click **OK**.
+3. Click **OK**.  
 ![](images/del-retire-dialog.png)
 
 
-4. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.
+4. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.  
 ![](images/del-prod-list3.png)
 
 
-5. Select **Archive**.
+5. Select **Archive**.  
 ![](images/del-select-archive.png)
 
 
-6. Click **OK**.
+6. Click **OK**.  
 ![](images/del-archive-dialog.png)
 
 
@@ -76,19 +76,19 @@ The product disappears from the list of products in the catalog.  It cannot be r
 The product disappears from the list of products in the catalog.  It can be recovered.
 
 
-7. Click the list view icon.
+7. Click the list view icon.  
 ![](images/del-prod-list4.png)
 
 
-8. Check **Archived**.
+8. Check **Archived**.  
 ![](images/del-select-archive.png)
 
 
-9. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.
+9. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.  
 ![](images/del-prod-list5.png)
 
 
-10. Select **Unarchive**.
+10. Select **Unarchive**.  
 ![](images/del-unarchive.png)
 
 
