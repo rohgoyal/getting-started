@@ -28,18 +28,26 @@ In this tutorial, you will retire, archive and delete APIs.
 
 
 4. Click **Sandbox** to open the Sandbox catalog.  
+
+
 ![](images/del-sandbox-list.png)
 
 
 5. Click the three vertical dots on the line listing **Weather Provider API 1.0.0**.  
+
+
 ![](images/del-prod-list1.png)
 
 
 6. Select **Delete from catalog**.  
+
+
 ![](images/del-del-from-cat.png)
 
 
 7. Click **OK**.  
+
+
 ![](images/del-del-dialog.png)
 
 
@@ -49,26 +57,38 @@ The product disappears from the list of products in the catalog.  It cannot be r
 
 ### Archiving an API Product
 1. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.  
+
+
 ![](images/del-prod-list2.png)
 
 
 2. Select **Retire**.  
+
+
 ![](images/del-select-retire.png)
 
 
 3. Click **OK**.  
+
+
 ![](images/del-retire-dialog.png)
 
 
 4. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.  
+
+
 ![](images/del-prod-list3.png)
 
 
 5. Select **Archive**.  
+
+
 ![](images/del-select-archive.png)
 
 
 6. Click **OK**.  
+
+
 ![](images/del-archive-dialog.png)
 
 
@@ -77,23 +97,32 @@ The product disappears from the list of products in the catalog.  It can be reco
 
 
 7. Click the list view icon.  
+
+
 ![](images/del-prod-list4.png)
 
 
 8. Check **Archived**.  
+
+
 ![](images/del-select-archive.png)
 
 
 9. Click the three vertical dots on the line listing **Weather Provider API 2.0.0**.  
+
+
 ![](images/del-prod-list5.png)
 
 
 10. Select **Unarchive**.  
+
+
 ![](images/del-unarchive.png)
 
 
 
 The product state changes to Retired.
+
 
 ![](images/del-prod-list6.png)
 
