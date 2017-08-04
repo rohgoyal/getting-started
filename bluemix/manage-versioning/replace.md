@@ -2,12 +2,12 @@
  
 copyright:
 years: 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-04"
  
 ---
 # Updating and Removing API Products
 **Duration**: 15 mins  
-**Skill level**: Intermediate  
+**Skill level**: Beginner  
 
 [Prerequisites](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
 
@@ -15,11 +15,9 @@ Complete the Proxy REST API tutorial.
 
 ---
 ### Objective
-In this tutorial, you will update an existing API product by replacing it with a newer one, and also by superceding it with a newer one.  You will retire and delete an existing API Product.
+In this tutorial, you will update an existing API product by replacing it with a newer one.
 
 When an API product is **replaced**, the changes take effect immediately and all application subscriptions are updated automatically.  
-
-When an API Product is **superceded**, both the older and the newer versions are simultaneously available; however no new subscriptions to the old version are allowed.  Existing subscriptions to the old version are migrated by developer action, not automatically.
 
 
 ---
