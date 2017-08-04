@@ -35,7 +35,7 @@ In this tutorial, you will supercede an existing API with a new one.
 5. Click the three vertical dots on the line listing **Weather Provider API 1.0.0**.  
 
 
-![](images/del-prod-list1.png)
+![](images/sup-prod-list1.png)
 
 
 6. Change the **Version** to 3.0.0.
