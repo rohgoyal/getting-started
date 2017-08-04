@@ -5,7 +5,7 @@ years: 2017
 lastupdated: "2017-08-01"
  
 ---
-# Updating and Removing API Products
+# Archiving and Deleting API Products
 **Duration**: 15 mins  
 **Skill level**: Intermediate  
 
