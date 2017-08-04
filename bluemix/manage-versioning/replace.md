@@ -78,39 +78,33 @@ When an API Product is **superceded**, both the older and the newer versions are
 ![](images/rep-stage-prod-2.png)
 
 
-13.	Click **Stage**.  
-
-
-![](images/rep-stage-prod-2.png)
-
-
-14.	Click **>>** to open the navigation menu, then select Dashboard.  
+13.	Click **>>** to open the navigation menu, then select Dashboard.  
 
 
 ![](images/rep-dashboard.png)
 
 
-15.	Click **Sandbox**.  
+14.	Click **Sandbox**.  
 
 
-16.	Click the three vertical dots on the **Weather Provider API Product 2.0.0 Staged** line.  
+15.	Click the three vertical dots on the **Weather Provider API Product 2.0.0 Staged** line.  
 
 
 ![](images/rep-dash-prod-list-2.png)
 
 
-17.	Select **Replace an existing product**.  
+16.	Select **Replace an existing product**.  
 
 
-![](images/rep-replace prod.png)
+![](images/rep-replace-prod.png)
 
 
-18.	Select **Weather Provider API Product 1.0.0** in the list of products presented.  Click **Next**.  
+17.	Select **Weather Provider API Product 1.0.0** in the list of products presented.  Click **Next**.  
 
 
 ![](images/rep-replace-dialog.png)
 
-19.	Select **Default plan**.  Click **Replace**.  
+18.	Select **Default plan**.  Click **Replace**.  
 
 
 ![](images/rep-replace-dialog-2.png)
