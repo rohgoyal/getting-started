@@ -64,35 +64,22 @@ In this section, you will get acquainted with the developer portal you created i
 3. Enter a new password and click **Save**.  
   ![Enter new password](images/2.3-password.png)
 
-4. Now that you've set your password, let's explore the developer portal. Select **Home** at the top of the page.  
+4. Now that you've set your password, let's explore the developer portal, starting with **Home** at the top of the page.  
   ![Home menu](images/2.4-pwsaved.png)
+  
+| Tab           | Description          | 
+|:------------- | -------------------- | 
+| _Home_      | The Home page is the welcome page to your developer portal. You can [customize the page](https://github.com/ibm-apiconnect/getting-started/tree/master/bluemix/customize-dev-portal-select-theme) to suit your needs. | 
+| _Getting Started_      | The Getting started page is used to instruct developers how to get started using your developer portal. |
+| _API Products_ | The API Products page is used by developers to explore and subscribe to the APIs that are available on your portal. | 
+| _Apps_ | The Apps page displays the applications that are using your APIs. | 
+| _Blogs_ | The Blogs page is where you can create and display blog posts about your APIs. | 
+| _Forums_ | The Forums page is where developers can have discussions and post questions about your APIs. | 
+| _Support_ | The Support page is where you can direct developers on how they can receive support on your APIs. For example, you can refer them to your forums and FAQs. You can also provide a link that allows them to open a support ticket if needed. | 
 
-5. The Home page is the welcome page to your developer portal. You can customize this page to suit your needs. When you've finished reviewing the home page, select **Getting started**.   
-  ![Getting started menu](images/2.5-home.png) 
-
-6. The Getting started page is used to instruct developers how to get started using your developer portal. When you've finished reviewing the page, select **API Products**.
-  ![API Products Menu](images/2.6-getting-started.png)
-
-7. The API Products page is used by developers to explore and subscribe to the APIs that are available on your portal. When you've finished reviewing the page, select one of the products.  
+Note: On the API Products page, you can select one of the products to view the Product page for an API and the available plans. It enables developers to subscribe to and view the API details. 
   ![API Products](images/2.7-api-products.png)
 
-8. The Product page for an API shows the available plans for the product and enables developers to subscribe to and view the API details. When you've finished reviewing the page, select **Apps**.  
-  ![API Product Plans](images/2.8-api-plan.png)
-
-9. The Apps page displays the applications that are using your APIs. When you've finished reviewing the page, select **Blogs**.  
-  ![API Product Apps](images/2.9-apps.png)
-
-10. The Blogs page is where you can create and display blog posts about your APIs. When you've finished reviewing the page select **Forums**.  
-  ![Blogs](images/2.10-blogs.png)
-  
-11. The Forums page is where developers can have discussions and post questions about your APIs. When you've finished reviewing the page select **Support**.  
-  ![Forums](images/2.11-forums.png)
-  
-12. The Support page is where you can direct developers on how they can receive support on your APIs. For example, you can refer them to your forums and FAQs. You can also provide a link that allows them to open a support ticket if needed.  
-  ![Support](images/2.12-support.png)
-
 ### Conclusion
-In this tutorial, you learned how to set up and configure your API Connect Developer Portal. 
-
-
+In this tutorial, you learned how to set up and configure your API Connect Developer Portal. You also explored the developer portal.
   
