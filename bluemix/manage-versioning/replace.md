@@ -33,53 +33,93 @@ When an API Product is **superceded**, both the older and the newer versions are
 
 4. Click **Drafts** > **APIs**.
 
-5. In the APIs panel, click **Weather Provider API** open the REST proxy API.
+5. In the APIs panel, click **Weather Provider API** open the REST proxy API.  
+
 
 ![](images/rep-api-list.png)
 
-6. Change the **Version** to 2.0.0.
 
-7. Click the disk icon to save the API changes.
+6. Change the **Version** to 2.0.0.  
+
+7. Click the disk icon to save the API changes.  
+
+
 ![](images/rep-change-version.png)
 
-8. Click **All APIs**.
+
+8. Click **All APIs**.  
+
+
 ![](images/newapi2.png)
 
-9. Click **Products**.
+
+9. Click **Products**.  
+
+
 ![](images/rep-api-list-2.png)
 
-10.	Click **Weather Provider API Product**.
+
+10.	Click **Weather Provider API Product**.  
+
+
 ![](images/rep-draft-prod-list.png)
 
-11.	Change the **Version** to 2.0.0. Enter ``Updated API`` in the **Description** field.  Click the disk icon to save the changes.
+
+
+11.	Change the **Version** to 2.0.0. Enter ``Updated API`` in the **Description** field.  Click the disk icon to save the changes.  
+
+
 ![](images/rep-update-prod.png)
 
-12.	Click **Stage**.
+
+12.	Click **Stage**.  
+
+
 ![](images/rep-stage-prod-2.png)
 
-13.	Click **Stage**.
+
+13.	Click **Stage**.  
+
+
 ![](images/rep-stage-prod-2.png)
 
-14.	Click **>>** to open the navigation menu, then select Dashboard.
+
+14.	Click **>>** to open the navigation menu, then select Dashboard.  
+
+
 ![](images/rep-dashboard.png)
 
-15.	Click **Sandbox**.
 
-16.	Click the three vertical dots on the **Weather Provider API Product 2.0.0 Staged** line.
+15.	Click **Sandbox**.  
+
+
+16.	Click the three vertical dots on the **Weather Provider API Product 2.0.0 Staged** line.  
+
+
 ![](images/rep-dash-prod-list-2.png)
 
-17.	Select **Replace an existing product**.
+
+17.	Select **Replace an existing product**.  
+
+
 ![](images/rep-replace prod.png)
 
-18.	Select **Weather Provider API Product 1.0.0** in the list of products presented.  Click **Next**.
+
+18.	Select **Weather Provider API Product 1.0.0** in the list of products presented.  Click **Next**.  
+
+
 ![](images/rep-replace-dialog.png)
 
-19.	Select **Default plan**.  Click **Replace**.
+19.	Select **Default plan**.  Click **Replace**.  
+
+
 ![](images/rep-replace-dialog-2.png)
 
 As a result of this replacement, the Weather Provider API Product 1.0.0 is retired, and the Weather Provider API Product 2.0.0
- is published.
-![](images/rep-prod-retired.png) 
+ is published.  
+
+ 
+ ![](images/rep-prod-retired.png) 
  
 
 ### What you did in this tutorial
