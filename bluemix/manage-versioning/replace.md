@@ -50,7 +50,7 @@ When an API Product is **superceded**, both the older and the newer versions are
 8. Click **All APIs**.  
 
 
-![](images/newapi2.png)
+![](images/rep-all-apis.png)
 
 
 9. Click **Products**.  
