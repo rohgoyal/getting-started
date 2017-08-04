@@ -67,10 +67,10 @@ In this section, you will get acquainted with the developer portal you created i
 4. Now that you've set your password, let's explore the developer portal, starting with **Home** at the top of the page.  
   ![Home menu](images/2.4-pwsaved.png)
   
-| Tab           | Description          | 
-|:------------- | -------------------- | 
-| _Home_      | The Home page is the welcome page to your developer portal. You can [customize the page](https://github.com/ibm-apiconnect/getting-started/tree/master/bluemix/customize-dev-portal-select-theme) to suit your needs. | 
-| _Getting Started_      | The Getting started page is used to instruct developers how to get started using your developer portal. |
+| Tab              | Description          | 
+|:---------------- | -------------------- | 
+| _Home_       | The Home page is the welcome page to your developer portal. You can [customize the page](https://github.com/ibm-apiconnect/getting-started/tree/master/bluemix/customize-dev-portal-select-theme) to suit your needs. | 
+| _Getting Started_       | The Getting started page is used to instruct developers how to get started using your developer portal. |
 | _API Products_ | The API Products page is used by developers to explore and subscribe to the APIs that are available on your portal. | 
 | _Apps_ | The Apps page displays the applications that are using your APIs. | 
 | _Blogs_ | The Blogs page is where you can create and display blog posts about your APIs. | 
