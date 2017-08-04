@@ -11,11 +11,11 @@ lastupdated: "2017-08-01"
 
 [Prerequisites](https://github.com/ibm-apiconnect/getting-started/blob/master/bluemix/0-prereq/README.md)
 
-Complete the Superceding an Existing API tutorial.
+Complete the Replacing an Existing API tutorial.
 
 ---
 ### Objective
-In this tutorial, you will retire, archive and delete APIs.
+In this tutorial, you will supercede an existing API with a new one.
 
 ---
 ### Deleting an API Product
