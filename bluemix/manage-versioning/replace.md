@@ -5,7 +5,7 @@ years: 2017
 lastupdated: "2017-08-04"
  
 ---
-# Updating and Removing API Products
+# Replascing an API Product
 **Duration**: 15 mins  
 **Skill level**: Beginner  
 
