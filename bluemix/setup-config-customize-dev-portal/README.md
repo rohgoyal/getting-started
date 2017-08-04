@@ -78,6 +78,7 @@ In this section, you will get acquainted with the developer portal you created i
 | _Support_ | The Support page is where you can direct developers on how they can receive support on your APIs. For example, you can refer them to your forums and FAQs. You can also provide a link that allows them to open a support ticket if needed. | 
 
 Note: On the API Products page, you can select one of the products to view the Product page for an API and the available plans. It enables developers to subscribe to and view the API details. 
+
   ![API Products](images/2.7-api-products.png)
 
 ### Conclusion
